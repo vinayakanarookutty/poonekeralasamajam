@@ -1,8 +1,10 @@
 import React from 'react'
 import "../css/home.css"
+import { motion } from "framer-motion";
 function Home() {
   return (
     <>
+    
   <header id="header" className="fixed-top header-transparent">  
     <div className="container flex align-items-center justify-content-between position-relative">
 
@@ -26,11 +28,23 @@ function Home() {
 
     </div>
   </header> 
+
   <section id="hero">
     <div className="hero-container" data-aos="fade-up">
-      <h1>Welcome to PKS</h1>
+    <motion.div
+      className="box"
+      initial={{ opacity: 0, scale: 0.5 }}
+      animate={{ opacity: 1, scale: 1 }}
+      transition={{
+        duration: 0.8,
+        delay: 0.5,
+        ease: [0, 0.71, 0.2, 1.01]
+      }}
+    >
+        <h1>Welcome to PKS</h1>
       <h2>Where Pune Meets Kerala : Poona Keraleeya Samaj </h2>
       <a href="#about" className="btn-get-started scrollto"><i className="bx bx-chevrons-down"></i></a>
+    </motion.div>
     </div>
   </section>
   </> 
