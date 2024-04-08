@@ -1,13 +1,22 @@
-
+import ErrorPage from "./pages/ErrorPage";
+import Home from "./pages/Home";
+import {
+  createBrowserRouter,
+  RouterProvider,
+} from "react-router-dom";
 
 function App() {
   
-
+  const router = createBrowserRouter([
+    {
+      path: "/",
+      element: <Home />,
+      errorElement: <ErrorPage/>,
+    },
+  ]);
   return (
     <>
-    <div className="h-screen">
-   
-    </div>
+   <RouterProvider router={router} />
     </>
   )
 }
