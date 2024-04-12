@@ -4,16 +4,36 @@ import { motion } from "framer-motion";
 function Home() {
   return (
     <>
-    
+      <motion.div
+      className="box"
+      initial={{ opacity: 0, scale: 0.5 }}
+      animate={{ opacity: 1, scale: 1 }}
+      transition={{
+        duration: 0.8,
+        delay: 0.5,
+        ease: [0, 0.71, 0.2, 1.01]
+      }}
+    ></motion.div>
   <header id="header" className="fixed-top header-transparent">  
     <div className="container flex align-items-center justify-content-between position-relative">
 
       <div className="logo">
         <h1 className="text-light"><a href="index.html">Poona Keraleeya Samaj</a></h1>
         <a href="index.html">
-          <img src="/assets/img/pks_logo.jpg" alt="" className="img-fluid"/></a>
+          <img src="../assets/img/pks_logo.jpg" alt="" className="img-fluid"/></a>
       </div>
-
+      <motion.div
+      className="box"
+      initial={{ opacity: 0, scale: 0.5 }}
+      animate={{ opacity: 1, scale: 1 }}
+      transition={{
+        duration: 0.8,
+        delay: 0.5,
+        ease: [0, 0.71, 0.2, 1.01]
+      }}
+    >
+      
+    </motion.div>
       <nav id="navbar" className="navbar">
         <ul>
           <li><a className="nav-link scrollto active" href="#hero">Home</a></li>
