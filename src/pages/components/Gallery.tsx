@@ -1,7 +1,9 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
+import { motion } from "framer-motion";
 
 function Portfolio() {
   const [activeFilter, setActiveFilter] = useState("*");
+  const [isButtonClicked, setIsButtonClicked] = useState(false);
 
   const portfolioItems = [
     { src: "/src/assets/img/gallery/clb1.jpg", category: "filter-app", title: "App 1" },
@@ -16,8 +18,10 @@ function Portfolio() {
     // Add more portfolio items here
   ];
 
-  const handleFilterClick = (filter) => {
-    setActiveFilter(filter);
+  const handleFilterClick = (filter:any) => {
+    const category = filter.replace(".", "");
+    setActiveFilter(category);
+    setIsButtonClicked(true); // Set button clicked to true
   };
 
   // Filter the portfolio items based on the active filter
@@ -46,14 +50,20 @@ function Portfolio() {
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4" data-aos="fade-up">
           {filteredPortfolioItems.map((item, index) => (
-            <div key={index} className="portfolio-item">
+            <motion.div
+              key={index}
+              initial={isButtonClicked ? { opacity: 0, scale: 0.5 } : { opacity: 1, scale: 1 }}
+              animate={isButtonClicked ? { opacity: 1, scale: 1 } : { opacity: 1, scale: 1 }}
+              transition={{ duration: 0.5 }}
+              className="portfolio-item"
+            >
               <div className="portfolio-wrap">
                 <img src={item.src} className="img-fluid" alt={item.title} />
                 <div className="portfolio-links">
                   <a href={item.src} data-gallery="portfolioGallery" className="portfolio-lightbox" title={item.title}><i className="bx bx-plus"></i></a>
                 </div>
               </div>
-            </div>
+            </motion.div>
           ))}
         </div>
       </div>

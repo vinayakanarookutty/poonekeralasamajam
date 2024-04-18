@@ -1,9 +1,9 @@
-import React from 'react';
 
+import "./../../css/home.css"
 
 function Team() {
   return (
-    <section id="team" className="team">
+    <section id="team" className="team h-screen">
       <div className="container">
         <div className="section-title" data-aos="fade-in" data-aos-delay="100">
           <h2>Committee Members</h2>

@@ -1,9 +1,9 @@
-import React from 'react';
+
 
 
 function Contact() {
   return (
-    <section id="contact" className="contact section-bg">
+    <section id="contact" className="contact section-bg h-screen mt-5">
       <div className="container" data-aos="fade-up">
 
         <div className="section-title">
@@ -11,7 +11,7 @@ function Contact() {
         </div>
 
         <div className="row">
-          <div className="col-lg-6">
+          <div className="row-lg-6">
             <div className="info-box mb-4">
               <i className="bx bx-map"></i>
               <h3>Our Address</h3>
@@ -19,7 +19,7 @@ function Contact() {
             </div>
           </div>
 
-          <div className="col-lg-3 col-md-6">
+          <div className="row-lg-3 col-md-6">
             <div className="info-box  mb-4">
               <i className="bx bx-envelope"></i>
               <h3>Email Us</h3>
@@ -27,7 +27,7 @@ function Contact() {
             </div>
           </div>
 
-          <div className="col-lg-3 col-md-6">
+          <div className="row-lg-3 col-md-6">
             <div className="info-box  mb-4">
               <i className="bx bx-phone-call"></i>
               <h3>Call Us</h3>

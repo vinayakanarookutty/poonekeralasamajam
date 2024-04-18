@@ -961,6 +961,8 @@
   
   .team .member .pic {
     overflow: hidden;
+    height: 200px;
+    width: 200px;
   }
   
   .team .member .member-info {
