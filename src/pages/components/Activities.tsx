@@ -7,7 +7,7 @@ function Services() {
       <div className="container">
         <div className="section-title" data-aos="fade-in" data-aos-delay="100">
           <h2>Activities</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+          <p>PKS is a powerhouse in sports and philanthropy. They host events like the Ball Badminton Tournament and support International Women's Day with aid for the needy. During crises, they step up, providing substantial help during floods, earthquakes, and the Covid-19 pandemic. Their ongoing support for medical and educational needs showcases their commitment to making a difference in people's lives.</p>
         </div>
         <div className="row">
           <div className="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
