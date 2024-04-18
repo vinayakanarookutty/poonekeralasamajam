@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { motion } from "framer-motion";
 
 function Portfolio() {
@@ -18,7 +18,7 @@ function Portfolio() {
     // Add more portfolio items here
   ];
 
-  const handleFilterClick = (filter) => {
+  const handleFilterClick = (filter:any) => {
     const category = filter.replace(".", "");
     setActiveFilter(category);
     setIsButtonClicked(true); // Set button clicked to true
