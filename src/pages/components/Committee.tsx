@@ -1,9 +1,9 @@
 import React from 'react'
 import "../../css/home.css"
-
+import { motion } from "framer-motion";
 function Testimonials() {
   return (
-    <section id="testimonials" className="testimonials section-bg mt-5 h-screen">
+    <section id="testimonials" className="testimonials section-bg mt-5 h-screen mt-5">
       <div className="container">
         <div className="section-title" data-aos="fade-in" data-aos-delay="100">
           <h2>Present Managing Committee</h2>
@@ -11,8 +11,10 @@ function Testimonials() {
         </div>
 
         <div className='flex-row justify-center gap-4'>
+        <motion.div whileHover={{ scale: 1.10 }} whileTap={{ scale: 0.8 }} >
           <div className="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
-            <div className="swiper-wrapper flex items-center gap-14">
+            <div className="swiper-wrapper flex items-center gap-8 justify-center">
+           
               <div className="swiper-slide">
                 <div className="testimonial-item">
                   <img src="src/assets/img/committee/committee/Bmadhunair.jpg" className="testimonial-img" alt="" />
@@ -20,6 +22,7 @@ function Testimonials() {
                   <h4>President &amp; 9822061992</h4>
                 </div>
               </div>
+            
 
               <div className="swiper-slide">
                 <div className="testimonial-item">
@@ -70,7 +73,9 @@ function Testimonials() {
             </div>
             <div className="swiper-pagination"></div>
           </div>
+          </motion.div>
         </div>
+        
       </div>
     </section>
   );
