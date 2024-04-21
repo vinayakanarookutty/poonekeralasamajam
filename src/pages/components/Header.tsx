@@ -34,7 +34,7 @@ function Header() {
           </div>
           <nav id="navbar" className="navbar">
             <ul>
-              <li><a className="nav-link scrollto active text-white" href="#hero">Home</a></li>
+              <li><a className="nav-link scrollto  text-white" href="#hero">Home</a></li>
               <li><a className="nav-link scrollto  text-white" href="#about">History</a></li>
               <li><a className="nav-link scrollto  text-white" href="#services">Activities</a></li>
               <li><a className="nav-link scrollto  text-white" href="#portfolio">Gallery</a></li>

@@ -30,14 +30,14 @@ function Portfolio() {
   return (
     <section id="portfolio" className="portfolio mt-4">
       <div className="container">
-        <div className="section-title" data-aos="fade-in" data-aos-delay="100">
+        <div className="section-title" data-aos="fade-up" data-aos-delay="100">
           <h2 className="text-2xl font-bold">Gallery</h2>
           <p>
             PKS has always championed sports, hosting diverse competitions like the annual Ball Badminton Tournament...
           </p>
         </div>
 
-        <div className="row" data-aos="fade-in">
+        <div className="row" data-aos="fade-up" data-aos-delay="200">
           <div className="col-lg-12 flex justify-center">
             <ul id="portfolio-flters" className="flex">
               <li onClick={() => handleFilterClick("*")} className={`cursor-pointer px-4 py-2 ${activeFilter === "*" ? 'bg-blue-500 text-white' : 'bg-gray-200 text-gray-800'} mr-2 rounded-md`}>All</li>
@@ -48,7 +48,7 @@ function Portfolio() {
           </div>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4" data-aos="fade-up">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4" data-aos="fade-up" data-aos-delay="300">
           {filteredPortfolioItems.map((item, index) => (
             <motion.div
               key={index}
