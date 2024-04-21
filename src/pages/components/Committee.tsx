@@ -1,5 +1,4 @@
 import "../../css/home.css"
-import { motion } from "framer-motion";
 function Testimonials() {
   return (
     <section id="testimonials" className="testimonials section-bg mt-5 h-screen mt-5">
@@ -10,7 +9,7 @@ function Testimonials() {
         </div>
 
         <div className='flex-row justify-center gap-4'>
-        <motion.div whileHover={{ scale: 1.10 }} whileTap={{ scale: 0.8 }} >
+        
           <div className="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
             <div className="swiper-wrapper flex items-center gap-8 justify-center">
            
@@ -72,7 +71,6 @@ function Testimonials() {
             </div>
             <div className="swiper-pagination"></div>
           </div>
-          </motion.div>
         </div>
         
       </div>

@@ -7,6 +7,7 @@ import Portfolio from './components/Gallery';
 import Testimonials from './components/Committee';
 import Team from './components/Cmembers';
 import Contact from './components/Contact';
+import Footer from './components/Footer';
 
 function Home() {
   return (
@@ -19,6 +20,8 @@ function Home() {
       <Testimonials />
       <Team />
       <Contact />
+      <Footer />
+      
     </>
   );
 }

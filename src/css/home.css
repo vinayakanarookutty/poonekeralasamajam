@@ -487,12 +487,16 @@
   # About
   --------------------------------------------------------------*/
   .about {
-    background: url("../assets/img/pks_bckgrnd.jpg") center center no-repeat;
+    /* background: url("../assets/img/pks_bckgrnd.jpg") center center no-repeat; */
+    background: #fff;
     background-size: cover;
     padding: 60px 0;
     position: relative;
+   
     
   }
+
+
   
   .about::before {
     content: "";
@@ -512,6 +516,7 @@
   
   .about .content {
     padding: 30px 30px 30px 0;
+    margin-left: 50px;
   }
   
   .about .content h3 {
@@ -519,10 +524,12 @@
     font-size: 34px;
     color: #2f4d5a;
     margin-bottom: 30px;
+    margin-left: 200px;
   }
   
   .about .content p {
-    margin-bottom: 30px;
+    margin-bottom: 300px;
+    margin-left: auto;
   }
   
   .about .content .about-btn {
@@ -538,7 +545,7 @@
   .about .content .about-btn i {
     font-size: 18px;
     position: absolute;
-    right: 18px;
+    right: 100px;
     top: 9px;
   }
   
@@ -553,7 +560,7 @@
   .about .icon-boxes .icon-box i {
     font-size: 40px;
     color: #67b0d1;
-    margin-bottom: 10px;
+    margin-bottom: 70px;
   }
   
   .about .icon-boxes .icon-box h4 {
@@ -949,6 +956,58 @@
   .testimonials .swiper-pagination .swiper-pagination-bullet-active {
     background-color: #67b0d1;
   }
+  .timeline-container {
+    width: 100%;
+    overflow-x: auto;
+  }
+  
+  .timeline {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    padding: 10px;
+  }
+  
+  .timeline-item {
+    cursor: pointer;
+    padding: 10px;
+    margin-right: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    max-width: 300px; /* Set a maximum width for each item */
+  }
+  
+  .timeline-item.active {
+    background-color: lightblue;
+  }
+  
+  .timeline-item:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .timeline-description {
+    margin-top: 10px;
+  }
+  
+  /* Media queries for responsive design */
+  @media (max-width: 768px) {
+    .timeline {
+      flex-wrap: wrap;
+    }
+  
+    .timeline-item {
+      margin-bottom: 20px;
+      width: calc(50% - 30px); /* Two items per row */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .timeline-item {
+      width: calc(100% - 30px); /* One item per row */
+    }
+  }
+  
   
   /*--------------------------------------------------------------
   # Team
