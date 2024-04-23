@@ -9,6 +9,7 @@ import Team from './components/Cmembers';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 
+
 function Home() {
   return (
     <>
