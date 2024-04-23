@@ -57,10 +57,10 @@ const Footer = () => {
       </div>
       <div className="container">
         <div className="copyright">
-          &copy; Copyright <strong><span>Squadfree</span></strong>. All Rights Reserved
+          &copy; Copyright <strong><span>Poona Keraleeya Samaj</span></strong>. All Rights Reserved
         </div>
         <div className="credits">
-          Designed by <a href="https://bootstrapmade.com/">N-OMS</a>
+          Designed And Developed By <a href="https://website.n-oms.in/">N-OMS</a>
         </div>
       </div>
     </footer>
