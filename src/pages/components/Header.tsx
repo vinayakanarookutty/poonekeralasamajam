@@ -22,15 +22,15 @@ function Header() {
       <div
         data-aos="fade-up"
         id="header"
-        style={{height:"120px"}}
+        style={{height:"105px"}}
         className={`fixed top-0 w-screen ${isScrolled ? 'header-scrolled' : 'header-transparent'}`}
       >
         <div className="container flex align-items-center justify-content-between position-relative lg:px-32 ">
           <div className="logo flex gap-2  ">
 
-              <img  style={{height:"200px",width:"100px" ,marginTop:"6%",maxWidth:"30%",maxHeight:"70px"}} src="/src/assets/img/pks_logo.png" alt="" className="heading-img pt-[200px]  " />
+              <img  style={{height:"200px",width:"100px" ,marginTop:"2%",maxWidth:"30%",maxHeight:"70px"}} src="/src/assets/img/pks_logo.png" alt="" className="heading-img pt-[200px]  " />
            
-            <h3 className="text-white ml-5 mt-3 heading  ">Poona Keraleeya Samaj</h3>
+            <h3 className="text-white ml-5 mt-[20px] heading  ">Poona Keraleeya Samaj</h3>
           </div>
           <nav id="navbar" className="navbar mt-2">
             <ul>

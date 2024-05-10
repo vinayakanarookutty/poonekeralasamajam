@@ -11,7 +11,7 @@
   background: transparent;
 }
 .heading{
-  max-width: 200px;
+  max-width: 300px;
   font-size: 25px;
   margin: 0;
   line-height: 1;
@@ -22,8 +22,8 @@
 
 }
 .heading-image{
-padding-top: 10%;
-margin-top: 20px;
+padding-top: 5%;
+margin-top: 10px;
   
 
 }

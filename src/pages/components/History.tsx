@@ -14,14 +14,14 @@ const About = () => {
     return (
         
       <section id='history' className='h-screen'>
-        <div className='h-screen'>
+        <div className='h-screen id="controls-carousel" class="relative w-full" data-carousel="static"'>
         <div className="history section-title mt-[50px] ml-1" data-aos="fade-in" data-aos-delay="100">
           <h2>The History Of Poona Keraleeya Samaj</h2>
           <p>In pre-Independence days, Pune's population, then called Poona, was around 2 to 3 lakhs, with a small number of Malayalees, mainly bachelors, employed in various Central Government establishments. They lived in areas like Rasta Peth and Kirkee due to affordable lodge-cum-eateries run by Malayalees, offering shared accommodation and meals for less than Rs. 50 per month. Many sent money orders back home to Kerala, supporting their families with their meager salaries. Entertainment or social gatherings were limited due to financial constraints. A few Malayalees conceived the idea of a Malayalee association, leading to the establishment of the 'Poona Keraleeya Samaj' around 1930 </p>
         </div>
         <ol className="flex flex-col justify-center mt-20 sm:mt-0 sm:flex-row sm:items-center h-[400px]   ">
       
-            <li className="relative mb-6 sm:mb-0">
+            <li className="relative mb-6 sm:mb-0 ">
                 <div className="flex items-center">
                     <motion.div initial={{ opacity : 0 , scale : 0 }} whileInView={{ opacity : 1 , scale : 1 }} viewport={{ once: true }} className="z-10 flex items-center justify-center w-[300px] h-22 bg-blue-100 rounded-full ring-0 ring-white dark:bg-blue-900 sm:ring-8 dark:ring-gray-900 shrink-0">
                         {/* <svg className="w-2.5 h-2.5 text-blue-800 dark:text-blue-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
@@ -37,6 +37,7 @@ const About = () => {
                     <p className="text-base font-normal text-gray-500 dark:text-gray-400 max-w-[400px]">Later, this organization split into 'East Poona Kerala Samaj' in Kirkee and 'Poona Keraleeya Samaj,' </p>
                 </div>
             </li>
+            
             <li className="relative mb-6 sm:mb-0">
                 <div className="flex items-center">
                     <motion.div initial={{ opacity : 0 , scale : 0 }} whileInView={{ opacity : 1 , scale : 1 }} transition={{ delay : 0.2 }} viewport={{ once: true }} className="z-10 flex items-center justify-center w-[300px] h-22 bg-blue-100 rounded-full ring-0 ring-white dark:bg-blue-900 sm:ring-8 dark:ring-gray-900 shrink-0">
@@ -64,6 +65,7 @@ const About = () => {
 Celebrating the 78th anniversary is a remarkable milestone, signifying resilience, growth, and the enduring spirit of our community. As we gather to commemorate this special occasion, we reflect on the rich legacy and the journey that has brought us to this momentous day</p>
                 </div>
             </li>
+            
         </ol>
         </div>
       </section>  
