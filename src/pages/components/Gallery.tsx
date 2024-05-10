@@ -1,9 +1,19 @@
-import { useState } from 'react';
+
+import { useState,useEffect } from 'react';
 import { motion } from "framer-motion";
 
 function Portfolio() {
   const [activeFilter, setActiveFilter] = useState("*");
   const [isButtonClicked, setIsButtonClicked] = useState(false);
+
+  useEffect(() => {
+    if (isButtonClicked) {
+      const timer = setTimeout(() => {
+        setIsButtonClicked(false);
+      }, 500); // Duration of animation in milliseconds
+      return () => clearTimeout(timer);
+    }
+  }, [isButtonClicked]);
 
   const portfolioItems = [
     { src: "/src/assets/img/gallery/clb1.jpg", category: "filter-app", title: "App 1" },
@@ -18,7 +28,7 @@ function Portfolio() {
     // Add more portfolio items here
   ];
 
-  const handleFilterClick = (filter:any) => {
+  const handleFilterClick = (filter:string) => {
     const category = filter.replace(".", "");
     setActiveFilter(category);
     setIsButtonClicked(true); // Set button clicked to true

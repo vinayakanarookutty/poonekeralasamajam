@@ -3,7 +3,7 @@ import React from 'react';
 const Contact: React.FC = () => {
   return (
     <section id="contact h-screen" className="contact section-bg ">
-      <div className="container h-screen" data-aos="fade-up">
+      <div id='contact' className="container h-screen" data-aos="fade-up">
         <div className="section-title">
           <h2>Contact</h2>
           <p>
@@ -24,7 +24,7 @@ const Contact: React.FC = () => {
             <div className="info-box mb-4">
               <i className="bx bx-envelope"></i>
               <h3>Email Us</h3>
-              <p>poonakeralasamaj@gmail.com​</p>
+              <p>poonakeraleeyasamaj@example.com</p>
             </div>
           </div>
 

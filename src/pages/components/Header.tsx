@@ -22,20 +22,20 @@ function Header() {
       <div
         data-aos="fade-up"
         id="header"
-        style={{height:"70px"}}
+        style={{height:"120px"}}
         className={`fixed top-0 w-screen ${isScrolled ? 'header-scrolled' : 'header-transparent'}`}
       >
         <div className="container flex align-items-center justify-content-between position-relative lg:px-32 ">
-          <div className="logo flex gap-4">
-            <a>
-              <img src="/src/assets/img/pks_logo.png" alt="" className="img-fluid" />
-            </a>
-            <h1 className="text-white font-black ml-5 mt-2 ">Poona Keraleeya Samaj</h1>
+          <div className="logo flex gap-2  ">
+
+              <img  style={{height:"200px",width:"100px" ,marginTop:"6%",maxWidth:"30%",maxHeight:"70px"}} src="/src/assets/img/pks_logo.png" alt="" className="heading-img pt-[200px]  " />
+           
+            <h3 className="text-white ml-5 mt-3 heading  ">Poona Keraleeya Samaj</h3>
           </div>
-          <nav id="navbar" className="navbar">
+          <nav id="navbar" className="navbar mt-2">
             <ul>
               <li><a className="nav-link scrollto  text-white" href="#hero">Home</a></li>
-              <li><a className="nav-link scrollto  text-white" href="#about">History</a></li>
+              <li><a className="nav-link scrollto  text-white" href="#history">History</a></li>
               <li><a className="nav-link scrollto  text-white" href="#services">Activities</a></li>
               <li><a className="nav-link scrollto  text-white" href="#portfolio">Gallery</a></li>
               <li><a className="nav-link scrollto  text-white" href="#testimonials">PKS Committee</a></li>

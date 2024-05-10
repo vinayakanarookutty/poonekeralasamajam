@@ -6,7 +6,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/pagination';
 
-import { Pagination , Autoplay , Navigation } from 'swiper/modules';
+import { Pagination , Autoplay ,  } from 'swiper/modules';
 
 function Testimonials() {
 
@@ -51,34 +51,19 @@ function Testimonials() {
       image: "/src/assets/img/c_members/Anil-George.jpg",
       name: "Anil George",
       position: "Executive Committee Member",
-      social: {
-        twitter: "",
-        fb: "",
-        inst: "",
-        linkedin: "",
-      },
+      phone: '',
     },
     {
       image: "/src/assets/img/c_members/vijayamnair-2.jpg",
       name: "Vijayam Nair",
       position: "Executive Committee Member",
-      social: {
-        twitter: "",
-        fb: "",
-        inst: "",
-        linkedin: "",
-      },
+      phone: '',
     },
     {
       image: "/src/assets/img/c_members/sarasamma-1.jpg",
       name: "Sarasamma",
       position: "General Clutural Committee Convener",
-      social: {
-        twitter: "",
-        fb: "",
-        inst: "",
-        linkedin: "",
-      },
+      phone: '',
     }
   ]
 

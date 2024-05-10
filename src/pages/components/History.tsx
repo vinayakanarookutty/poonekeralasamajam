@@ -1,7 +1,6 @@
 
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Image from "../../assets/img/pks_act.jpg"
-import React from 'react';
+
 import { motion } from 'framer-motion';
 
 const About = () => {
@@ -14,9 +13,9 @@ const About = () => {
 
     return (
         
-      <section className='h-screen'>
-        <div className='h-screen '>
-        <div className="section-title mt-[50px] ml-1" data-aos="fade-in" data-aos-delay="100">
+      <section id='history' className='h-screen'>
+        <div className='h-screen'>
+        <div className="history section-title mt-[50px] ml-1" data-aos="fade-in" data-aos-delay="100">
           <h2>The History Of Poona Keraleeya Samaj</h2>
           <p>In pre-Independence days, Pune's population, then called Poona, was around 2 to 3 lakhs, with a small number of Malayalees, mainly bachelors, employed in various Central Government establishments. They lived in areas like Rasta Peth and Kirkee due to affordable lodge-cum-eateries run by Malayalees, offering shared accommodation and meals for less than Rs. 50 per month. Many sent money orders back home to Kerala, supporting their families with their meager salaries. Entertainment or social gatherings were limited due to financial constraints. A few Malayalees conceived the idea of a Malayalee association, leading to the establishment of the 'Poona Keraleeya Samaj' around 1930 </p>
         </div>
