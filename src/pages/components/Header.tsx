@@ -23,7 +23,7 @@ function Header() {
         data-aos="fade-up"
         id="header"
         style={{height:"70px"}}
-        className={`fixed-top ${isScrolled ? 'header-scrolled' : 'header-transparent'}`}
+        className={`fixed top-0 w-screen ${isScrolled ? 'header-scrolled' : 'header-transparent'}`}
       >
         <div className="container flex align-items-center justify-content-between position-relative lg:px-32 ">
           <div className="logo flex gap-4">

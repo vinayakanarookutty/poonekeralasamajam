@@ -50,7 +50,7 @@ function Testimonials() {
     {
       image: "/src/assets/img/c_members/Anil-George.jpg",
       name: "Anil George",
-      position: "President",
+      position: "Executive Committee Member",
       social: {
         twitter: "",
         fb: "",
@@ -61,7 +61,7 @@ function Testimonials() {
     {
       image: "/src/assets/img/c_members/vijayamnair-2.jpg",
       name: "Vijayam Nair",
-      position: "Vice President",
+      position: "Executive Committee Member",
       social: {
         twitter: "",
         fb: "",
