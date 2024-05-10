@@ -3,8 +3,8 @@ import React from 'react';
 const Footer = () => {
   return (
     <footer id="footer">
-      <div className="footer-top">
-        <div className="container">
+      <div className="footer-top ">
+        <div className="container ">
           <div className="row">
             <div className="col-lg-4 col-md-6">
               <div className="footer-info">

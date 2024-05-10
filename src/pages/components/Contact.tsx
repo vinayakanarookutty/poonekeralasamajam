@@ -2,8 +2,8 @@ import React from 'react';
 
 const Contact: React.FC = () => {
   return (
-    <section id="contact" className="contact section-bg">
-      <div className="container" data-aos="fade-up">
+    <section id="contact" className="contact section-bg ">
+      <div className="container h-screen" data-aos="fade-up">
         <div className="section-title">
           <h2>Contact</h2>
           <p>
@@ -42,7 +42,7 @@ const Contact: React.FC = () => {
             <iframe
               title="Google Maps"
               className="mb-4 mb-lg-0"
-              src="https://maps.app.goo.gl/QC8wiDAXTjfs2bgRA"
+              src="https://www.google.com/maps/place/Rasta+Peth,+Pune,+Maharashtra/@18.5179678,73.864114,17z/data=!3m1!4b1!4m20!1m13!4m12!1m4!2m2!1d76.3034048!2d9.8635163!4e1!1m6!1m2!1s0x3bc2c0428a2c8e2f:0x352e877c658d3f81!2sRasta+Peth,+Pune,+Maharashtra!2m2!1d73.8671232!2d18.5176333!3m5!1s0x3bc2c0428a2c8e2f:0x352e877c658d3f81!8m2!3d18.5176333!4d73.8671232!16s%2Fm%2F0t_flwx?entry=ttu"
               frameBorder="0"
               style={{ border: 0, width: '100%', height: '384px' }}
               allowFullScreen
