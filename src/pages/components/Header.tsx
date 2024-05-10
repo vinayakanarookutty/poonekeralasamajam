@@ -25,12 +25,12 @@ function Header() {
         style={{height:"70px"}}
         className={`fixed-top ${isScrolled ? 'header-scrolled' : 'header-transparent'}`}
       >
-        <div className="container flex align-items-center justify-content-between position-relative ">
+        <div className="container flex align-items-center justify-content-between position-relative lg:px-32 ">
           <div className="logo flex gap-4">
             <a>
               <img src="/src/assets/img/pks_logo.png" alt="" className="img-fluid" />
             </a>
-            <h1 className="text-light ml-5 mt-2  ">Poona Keraleeya Samaj</h1>
+            <h1 className="text-white font-black ml-5 mt-2 ">Poona Keraleeya Samaj</h1>
           </div>
           <nav id="navbar" className="navbar">
             <ul>

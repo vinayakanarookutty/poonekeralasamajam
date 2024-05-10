@@ -8,13 +8,13 @@ const Footer = () => {
           <div className="row">
             <div className="col-lg-4 col-md-6">
               <div className="footer-info">
-                <h3>Squadfree</h3>
-                <p className="pb-3"><em>Qui repudiandae et eum dolores alias sed ea. Qui suscipit veniam excepturi quod.</em></p>
+                <h3>POONA KERALEEYA SAMAJ</h3>
+                <p className="pb-3"><em>Unifying Kerala, Enriching Community</em></p>
                 <p>
-                  A108 Adam Street <br />
-                  NY 535022, USA<br /><br />
-                  <strong>Phone:</strong> +1 5589 55488 55<br />
-                  <strong>Email:</strong> info@example.com<br />
+                Rasta Peth <br />
+                Pune, Maharashtra<br /><br />
+                  <strong>Phone:</strong> 9822061992 ,982221700 ,9850403055<br />
+                  <strong>Email:</strong> poonakeraleeyasamaj@example.com<br />
                 </p>
                 <div className="social-links mt-3">
                   <a href="#" className="twitter"><i className="bx bxl-twitter"></i></a>

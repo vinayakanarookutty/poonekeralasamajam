@@ -1,24 +1,26 @@
 
 import { motion } from 'framer-motion';
 import "../../css/home.css"
+import BgCarousel from './BgCarousel';
 
 function Hero() {
   return (
-    <section id="hero" className='h-screen'>
+    <section id="hero" className={`h-screen relative`}>
+      <BgCarousel/>
       <div className="hero-container h-screen" data-aos="fade-up">
         <motion.div
           className="box"
-          initial={{ opacity: 0, scale: 0.5 }}
-          animate={{ opacity: 1, scale: 1 }}
+          initial={{ opacity: 0, y : 100 }}
+          animate={{ opacity: 1, y: 0 }}
           transition={{
-            duration: 0.8,
+            duration: 1,
             delay: 0.5,
             ease: [0, 0.71, 0.2, 1.01],
           }}
         >
           <h1>Welcome to PKS</h1>
           <h2>Where Pune Meets Kerala : Poona Keraleeya Samaj </h2>
-          <a href="#about" className="btn-get-started scrollto"><i className="bx bx-chevrons-down"></i></a>
+          <a href="#about" className="btn-get-started scrollto "><img className='invert w-6 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2' src='/src/assets/img/down-arrow.png' /></a>
         </motion.div>
       </div>
     </section>

@@ -2,61 +2,67 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Image from "../../assets/img/pks_act.jpg"
 import React from 'react';
+import { motion } from 'framer-motion';
 
 const About = () => {
+
+    const images = [
+        '/src/assets/img/PoonemHistory1.jpg',
+        '/src/assets/img/poonemhistory2.jpg',
+        '/src/assets/img/pks_bckgrnd.jpg'
+    ];
+
     return (
         
       <section className='h-screen'>
-        <div className='h-screen'>
-        <div className="section-title mt-[100px]" data-aos="fade-in" data-aos-delay="100">
+        <div className='h-screen '>
+        <div className="section-title mt-[50px] ml-1" data-aos="fade-in" data-aos-delay="100">
           <h2>The History Of Poona Keraleeya Samaj</h2>
+          <p>In pre-Independence days, Pune's population, then called Poona, was around 2 to 3 lakhs, with a small number of Malayalees, mainly bachelors, employed in various Central Government establishments. They lived in areas like Rasta Peth and Kirkee due to affordable lodge-cum-eateries run by Malayalees, offering shared accommodation and meals for less than Rs. 50 per month. Many sent money orders back home to Kerala, supporting their families with their meager salaries. Entertainment or social gatherings were limited due to financial constraints. A few Malayalees conceived the idea of a Malayalee association, leading to the establishment of the 'Poona Keraleeya Samaj' around 1930 </p>
         </div>
-        <ol className="items-center  sm:flex h-[400px]   ">
+        <ol className="flex flex-col justify-center mt-20 sm:mt-0 sm:flex-row sm:items-center h-[400px]   ">
       
             <li className="relative mb-6 sm:mb-0">
                 <div className="flex items-center">
-                    <div className="z-10 flex items-center justify-center w-[300px] h-22 bg-blue-100 rounded-full ring-0 ring-white dark:bg-blue-900 sm:ring-8 dark:ring-gray-900 shrink-0">
+                    <motion.div initial={{ opacity : 0 , scale : 0 }} whileInView={{ opacity : 1 , scale : 1 }} viewport={{ once: true }} className="z-10 flex items-center justify-center w-[300px] h-22 bg-blue-100 rounded-full ring-0 ring-white dark:bg-blue-900 sm:ring-8 dark:ring-gray-900 shrink-0">
                         {/* <svg className="w-2.5 h-2.5 text-blue-800 dark:text-blue-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
                             <path d="M20 4a2 2 0 0 0-2-2h-2V1a1 1 0 0 0-2 0v1h-3V1a1 1 0 0 0-2 0v1H6V1a1 1 0 0 0-2 0v1H2a2 2 0 0 0-2 2v2h20V4ZM0 18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8H0v10Zm5-8h10a1 1 0 0 1 0 2H5a1 1 0 0 1 0-2Z"/>
                         </svg> */}
-                         <img src={Image} className="img-fluid"  />
-                    </div>
+                         <img src={images[0]} className="img-fluid"  />
+                    </motion.div>
                     <div className="hidden sm:flex w-full bg-gray-200 h-0.5 dark:bg-gray-700"></div>
                 </div>
                 <div className="mt-3 sm:pe-8">
-                    <h3 className="text-lg font-semibold text-gray-900 dark:text-white">Flowbite Library v1.0.0</h3>
-                    <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">Released on December 2, 2021</time>
-                    <p className="text-base font-normal text-gray-500 dark:text-gray-400">Get started with dozens of web components and interactive elements.</p>
+                    <h3 className="text-lg font-semibold text-gray-900 dark:text-white">1930</h3>
+                    <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500"> Poona Keraleeya Samaj around 1930 at 356, Rasta Peth, Pune.</time>
+                    <p className="text-base font-normal text-gray-500 dark:text-gray-400 max-w-[400px]">Later, this organization split into 'East Poona Kerala Samaj' in Kirkee and 'Poona Keraleeya Samaj,' </p>
                 </div>
             </li>
             <li className="relative mb-6 sm:mb-0">
                 <div className="flex items-center">
-                    <div className="z-10 flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full ring-0 ring-white dark:bg-blue-900 sm:ring-8 dark:ring-gray-900 shrink-0">
-                        <svg className="w-2.5 h-2.5 text-blue-800 dark:text-blue-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
-                            <path d="M20 4a2 2 0 0 0-2-2h-2V1a1 1 0 0 0-2 0v1h-3V1a1 1 0 0 0-2 0v1H6V1a1 1 0 0 0-2 0v1H2a2 2 0 0 0-2 2v2h20V4ZM0 18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8H0v10Zm5-8h10a1 1 0 0 1 0 2H5a1 1 0 0 1 0-2Z"/>
-                        </svg>
-                    </div>
+                    <motion.div initial={{ opacity : 0 , scale : 0 }} whileInView={{ opacity : 1 , scale : 1 }} transition={{ delay : 0.2 }} viewport={{ once: true }} className="z-10 flex items-center justify-center w-[300px] h-22 bg-blue-100 rounded-full ring-0 ring-white dark:bg-blue-900 sm:ring-8 dark:ring-gray-900 shrink-0">
+                    <img src={images[1]} className="img-fluid"  />
+                    </motion.div>
                     <div className="hidden sm:flex w-full bg-gray-200 h-0.5 dark:bg-gray-700"></div>
                 </div>
                 <div className="mt-3 sm:pe-8">
-                    <h3 className="text-lg font-semibold text-gray-900 dark:text-white">Flowbite Library v1.2.0</h3>
-                    <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">Released on December 23, 2021</time>
-                    <p className="text-base font-normal text-gray-500 dark:text-gray-400">Get started with dozens of web components and interactive elements.</p>
+                    <h3 className="text-lg font-semibold text-gray-900 dark:text-white">2007</h3>
+                    <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">Onam Celebration 2007</time>
+                    <p className="text-base font-normal text-gray-500 dark:text-gray-400 max-w-[400px]">The Onam celebration of 2007 remains a cherished memory, a testament to the enduring bond and cultural pride shared by the members of [Association Name].</p>
                 </div>
             </li>
             <li className="relative mb-6 sm:mb-0">
                 <div className="flex items-center">
-                    <div className="z-10 flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full ring-0 ring-white dark:bg-blue-900 sm:ring-8 dark:ring-gray-900 shrink-0">
-                        <svg className="w-2.5 h-2.5 text-blue-800 dark:text-blue-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
-                            <path d="M20 4a2 2 0 0 0-2-2h-2V1a1 1 0 0 0-2 0v1h-3V1a1 1 0 0 0-2 0v1H6V1a1 1 0 0 0-2 0v1H2a2 2 0 0 0-2 2v2h20V4ZM0 18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8H0v10Zm5-8h10a1 1 0 0 1 0 2H5a1 1 0 0 1 0-2Z"/>
-                        </svg>
-                    </div>
+                    <motion.div initial={{ opacity : 0 , scale : 0 }} whileInView={{ opacity : 1 , scale : 1 }} transition={{ delay : 0.4 }} viewport={{ once: true }} className="z-10 flex items-center justify-center w-[300px] h-22 bg-blue-100 rounded-full ring-0 ring-white dark:bg-blue-900 sm:ring-8 dark:ring-gray-900 shrink-0">
+                    <img src={images[2]} className="img-fluid"  />
+                    </motion.div>
                     <div className="hidden sm:flex w-full bg-gray-200 h-0.5 dark:bg-gray-700"></div>
                 </div>
                 <div className="mt-3 sm:pe-8">
-                    <h3 className="text-lg font-semibold text-gray-900 dark:text-white">Flowbite Library v1.3.0</h3>
-                    <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">Released on January 5, 2022</time>
-                    <p className="text-base font-normal text-gray-500 dark:text-gray-400">Get started with dozens of web components and interactive elements.</p>
+                    <h3 className="text-lg font-semibold text-gray-900 dark:text-white">2023</h3>
+                    <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">78th Anniversary Celebration</time>
+                    <p className="text-base font-normal text-gray-500 dark:text-gray-400 max-w-[400px]">
+Celebrating the 78th anniversary is a remarkable milestone, signifying resilience, growth, and the enduring spirit of our community. As we gather to commemorate this special occasion, we reflect on the rich legacy and the journey that has brought us to this momentous day</p>
                 </div>
             </li>
         </ol>

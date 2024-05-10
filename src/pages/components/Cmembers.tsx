@@ -1,15 +1,68 @@
 
-import "./../../css/home.css"
+import "./../../css/home.css";
+import MemberCard from "./CMemberCard";
 
 function Team() {
+
+  const members = [
+
+    {
+      image: "/src/assets/img/c_members/Anil-George.jpg",
+      name: "Anil George",
+      position: "President",
+      social: {
+        twitter: "",
+        fb: "",
+        inst: "",
+        linkedin: "",
+      },
+    },
+    {
+      image: "/src/assets/img/c_members/vijayamnair-2.jpg",
+      name: "Vijayam Nair",
+      position: "Vice President",
+      social: {
+        twitter: "",
+        fb: "",
+        inst: "",
+        linkedin: "",
+      },
+    },
+    {
+      image: "/src/assets/img/c_members/sarasamma-1.jpg",
+      name: "Sarasamma",
+      position: "General Clutural Committee Convener",
+      social: {
+        twitter: "",
+        fb: "",
+        inst: "",
+        linkedin: "",
+      },
+    }
+
+  ]
+
   return (
     <section id="team" className="team h-screen ">
       <div className="container ">
         <div className="section-title" data-aos="fade-in" data-aos-delay="100">
-        <h2>Present Managing Committee</h2>
+        <h2>Committee Members</h2>
         <p>The current PKS Managing Committee, led by Shri. B. Madhusudan Nair, comprises dedicated middle-aged and young members. They are actively sustaining the society's activities on a large scale. In the late 1970s, PKS had just 8 Life Members and fewer than 100 ordinary members, with fees of Rs.3/- for ordinary members and Rs.25/- for Life Members annually. Despite the Life Membership Fee now being Rs.1000/-, PKS has grown its Life Membership to 350, showcasing a commendable achievement in expanding its membership base.</p>
         </div>
         <div className="flex overflow-auto scroll-m-7 scroll-p-7" >
+
+          {
+            members.map((member, index) => (
+              <MemberCard
+                key={index}
+                image={member.image}
+                name={member.name}
+                position={member.position}
+                social={member.social}
+              />
+            ))
+          }
+{/* 
           <div className="col-lg-3 col-md-6">
             <div className="member" data-aos="fade-up">
               <div className="pic"> <img src="src/assets/img/committee/committee/Bmadhunair.jpg" className="img-fluid" alt=""/> </div>
@@ -135,7 +188,7 @@ function Team() {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
 
         </div>
       </div>

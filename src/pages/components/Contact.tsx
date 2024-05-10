@@ -42,7 +42,7 @@ const Contact: React.FC = () => {
             <iframe
               title="Google Maps"
               className="mb-4 mb-lg-0"
-              src="https://maps.app.goo.gl/69PzgqS8tk2JbEjB6"
+              src="https://maps.app.goo.gl/QC8wiDAXTjfs2bgRA"
               frameBorder="0"
               style={{ border: 0, width: '100%', height: '384px' }}
               allowFullScreen

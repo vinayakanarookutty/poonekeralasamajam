@@ -1,5 +1,87 @@
 import "../../css/home.css"
+import PCMemberCard from "./PCMemberCard";
+import { Swiper, SwiperSlide } from 'swiper/react';
+
+// Import Swiper styles
+import 'swiper/css';
+import 'swiper/css/pagination';
+
+import { Pagination , Autoplay , Navigation } from 'swiper/modules';
+
 function Testimonials() {
+
+  const members = [
+    {
+      image: "/src/assets/img/committee/committee/Bmadhunair.jpg",
+      name: "B Madhu Nair",
+      position: "President",
+      phone: '',
+    },
+    {
+      image: "/src/assets/img/committee/committee/vjy.jpg",
+      name: "K Vijayakumar",
+      position: "Vice President",
+      phone: '',
+    },
+    {
+      image: "/src/assets/img/committee/committee/Gopall.jpg",
+      name: "Gopalakrishnan Nair.D",
+      position: "General Secretary",
+      phone: '',
+    },
+    {
+      image: "/src/assets/img/committee/committee/Jagdish_Poduval.jpg",
+      name: "Jagdish Poduval",
+      position: "Joint Treasurer",
+      phone: '',
+    },
+    {
+      image: "/src/assets/img/committee/committee/sureshn.jpg",
+      name: "C. Sureshan",
+      position: "Joint Secretary",
+      phone: '',
+    },
+    {
+      image: "/src/assets/img/committee/committee/som.jpg",
+      name: "C. Soman",
+      position: "Joint Secretary",
+      phone: '',
+    },
+    {
+      image: "/src/assets/img/c_members/Anil-George.jpg",
+      name: "Anil George",
+      position: "President",
+      social: {
+        twitter: "",
+        fb: "",
+        inst: "",
+        linkedin: "",
+      },
+    },
+    {
+      image: "/src/assets/img/c_members/vijayamnair-2.jpg",
+      name: "Vijayam Nair",
+      position: "Vice President",
+      social: {
+        twitter: "",
+        fb: "",
+        inst: "",
+        linkedin: "",
+      },
+    },
+    {
+      image: "/src/assets/img/c_members/sarasamma-1.jpg",
+      name: "Sarasamma",
+      position: "General Clutural Committee Convener",
+      social: {
+        twitter: "",
+        fb: "",
+        inst: "",
+        linkedin: "",
+      },
+    }
+  ]
+
   return (
     <section id="testimonials" className="testimonials section-bg mt-5 h-screen mt-5">
       <div className="container">
@@ -8,71 +90,34 @@ function Testimonials() {
           <p>The current PKS Managing Committee, led by Shri. B. Madhusudan Nair, comprises dedicated middle-aged and young members. They are actively sustaining the society's activities on a large scale. In the late 1970s, PKS had just 8 Life Members and fewer than 100 ordinary members, with fees of Rs.3/- for ordinary members and Rs.25/- for Life Members annually. Despite the Life Membership Fee now being Rs.1000/-, PKS has grown its Life Membership to 350, showcasing a commendable achievement in expanding its membership base.</p>
         </div>
 
-        <div className='flex-row justify-center gap-4'>
-        
-          <div className="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
-            <div className="swiper-wrapper flex items-center gap-8 justify-center">
-           
-              <div className="swiper-slide">
-                <div className="testimonial-item">
-                  <img src="src/assets/img/committee/committee/Bmadhunair.jpg" className="testimonial-img" alt="" />
-                  <h3>B Madhu Nair</h3>
-                  <h4>President &amp; 9822061992</h4>
-                </div>
-              </div>
-            
+        <Swiper
+          slidesPerView={3}
+          spaceBetween={30}
+          autoplay={{
+            delay: 2500,
+            disableOnInteraction: false,
+          }}
+          pagination={{
+            clickable: true,
+          }}
+          modules={[Pagination , Autoplay]}
+          className="mySwiper"
+          navigation={true}
+        >
+          {
+            members.map((member, index) => (
+              <SwiperSlide key={index}>
+                <PCMemberCard
+                  image={member.image}
+                  name={member.name}
+                  position={member.position}
+                  phone={member.phone}
+                />
+              </SwiperSlide>
+            ))
+          }
+        </Swiper>
 
-              <div className="swiper-slide">
-                <div className="testimonial-item">
-                  <img src="src/assets/img/committee/committee/vjy.jpg" className="testimonial-img" alt="" />
-                  <h3>K Vijayakumar</h3>
-                  <h4>Vice President &amp; 9373318875</h4>
-                </div>
-              </div>
-
-              <div className="swiper-slide">
-                <div className="testimonial-item">
-                  <img src="src/assets/img/committee/committee/Gopall.jpg" className="testimonial-img" alt="" />
-                  <h3>Gopalakrishnan Nair.D</h3>
-                  <h4>General Secretary &amp; 9822271700 </h4>
-                </div>
-              </div>
-             {/* <div className="swiper-slide">
-              <div className="testimonial-item">
-                <img src="/src/assets/img/committee/MN_Nambiar.jpg" className="testimonial-img" alt="" />
-                <h3>M. N. Nambiar</h3>
-                <h4>Treasurer &amp; 9850403055 </h4>
-              </div>
-            </div> */}
-
-            <div className="swiper-slide">
-              <div className="testimonial-item">
-                <img src="src/assets/img/committee/committee/Jagdish_Poduval.jpg" className="testimonial-img" alt="" />
-                <h3>Jagdish Poduval</h3>
-                <h4>Joint Treasurer &amp; 9960266271</h4>
-              </div>
-            </div>
-
-            <div className="swiper-slide">
-              <div className="testimonial-item">
-                <img src="src/assets/img/committee/committee/sureshn.jpg" className="testimonial-img" alt="" />
-                <h3>C. Sureshan</h3>
-                <h4>Joint Secretary &amp; 9309849480</h4>
-              </div>
-            </div>
-
-            <div className="swiper-slide">
-              <div className="testimonial-item">
-                <img src="src/assets/img/committee/committee/som.jpg" className="testimonial-img" alt="" />
-                <h3>C. Soman</h3>
-                <h4>Joint Secretary &amp; 9850972250</h4>
-              </div>
-            </div>
-            </div>
-            <div className="swiper-pagination"></div>
-          </div>
-        </div>
-        
       </div>
     </section>
   );
