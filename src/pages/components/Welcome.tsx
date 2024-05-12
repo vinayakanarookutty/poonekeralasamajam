@@ -2,6 +2,7 @@
 import { motion } from 'framer-motion';
 import "../../css/home.css"
 import BgCarousel from './BgCarousel';
+import arrow from "../../assets/img/down-arrow.png"
 
 function Hero() {
   return (
@@ -20,7 +21,7 @@ function Hero() {
         >
           <h1>Welcome to PKS</h1>
           <h2>Where Pune Meets Kerala : Poona Keraleeya Samaj </h2>
-          <a href="#history" className="btn-get-started scrollto "><img className='invert w-6 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2' src='/src/assets/img/down-arrow.png' /></a>
+          <a href="#history" className="btn-get-started scrollto "><img className='invert w-6 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2' src={arrow} /></a>
         </motion.div>
       </div>
     </section>

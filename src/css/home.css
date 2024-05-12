@@ -7,6 +7,11 @@
   background: #67b0d1cc;
 }
 
+.swiper-slide {
+  border: none !important;
+  outline: none !important;
+}
+
 #header.header-transparent {
   background: transparent;
 }
@@ -28,9 +33,37 @@ margin-top: 10px;
 
 }
 
+.timeline-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.timeline-container .swiper-slide {
+  display: flex;
+  align-items: center;
+}
+
+.timeline-container .swiper-slide .timeline-item {
+  margin: 0 10px; /* Adjust margin as needed */
+}
+
 #header.header-scrolled {
-  background: rgba(55, 142, 181, 0.9);
+  
   padding: 12px;
+}
+
+.swiper-slide {
+  border: none;
+  outline: none;
+}
+
+.swiper-container-no-outline {
+  outline: none;
+}
+
+.mySwiper{
+  outline: none;
 }
 
 #header .logo h1 {
@@ -565,9 +598,7 @@ section:not(#hero) {
   top: 9px;
 }
 
-.about .content .about-btn:hover {
-  background: #7bbad7;
-}
+
 
 .about .icon-boxes .icon-box {
   margin-top: 30px;
@@ -606,6 +637,10 @@ img23{
   }
 }
 
+.swiper-container-no-outline {
+  outline: none;
+}
+
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
@@ -615,7 +650,6 @@ img23{
   overflow: hidden;
   background: #fff;
   box-shadow: 0 0 29px 0 rgba(68, 88, 144, 0.12);
-  transition: all 0.3s ease-in-out;
   border-radius: 8px;
   z-index: 1;
 }
@@ -628,7 +662,7 @@ img23{
   left: 0;
   bottom: 0;
   top: 100%;
-  transition: all 0.3s;
+
   z-index: -1;
 }
 

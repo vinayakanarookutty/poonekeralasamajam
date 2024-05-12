@@ -1,206 +1,97 @@
-
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import TimeLineItem from './TimeLineItems';
+import { Navigation, Pagination, Autoplay } from 'swiper/modules';
 
-import { motion } from 'framer-motion';
-
+// Import Swiper styles
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+import PoonemHistory1 from "../../assets/img/PoonemHistory1.jpg"
+import poonemhistory2 from "../../assets/img/poonemhistory2.jpg"
+import poonemhistory3 from "../../assets/img/PoonemHistory1.jpg"
 const About = () => {
 
-    const images = [
-        '/src/assets/img/PoonemHistory1.jpg',
-        '/src/assets/img/poonemhistory2.jpg',
-        '/src/assets/img/pks_bckgrnd.jpg'
-    ];
+    const timelineItems = [
+        {
+            image: PoonemHistory1,
+            date: 'December 2, 2021',
+            title: 'Formation of ‘PKS’',
+            desc: 'Get started with dozens of web components and interactive elements.'
+        },
+        {
+            image:poonemhistory2,
+            date: 'December 2, 2021',
+            title: 'Formation of ‘PKS’',
+            desc: 'Get started with dozens of web components and interactive elements.'
+        },
+        {
+            image: poonemhistory3,
+            date: 'December 2, 2021',
+            title: 'Formation of ‘PKS’',
+            desc: 'Get started with dozens of web components and interactive elements.'
+        },
+        {
+            image:poonemhistory2,
+            date: 'December 2, 2021',
+            title: 'Formation of ‘PKS’',
+            desc: 'Get started with dozens of web components and interactive elements.'
+        },
+        {
+            image: PoonemHistory1,
+            date: 'December 2, 2021',
+            title: 'Formation of ‘PKS’',
+            desc: 'Get started with dozens of web components and interactive elements.'
+        },
+        {
+            image: poonemhistory2,
+            date: 'December 2, 2021',
+            title: 'Formation of ‘PKS’',
+            desc: 'Get started with dozens of web components and interactive elements.'
+        }
+    ]
 
     return (
-        
-      <section id='history' className='h-screen'>
-        <div className='h-screen id="controls-carousel" class="relative w-full" data-carousel="static"'>
-        <div className="history section-title mt-[50px] ml-1" data-aos="fade-in" data-aos-delay="100">
-          <h2>The History Of Poona Keraleeya Samaj</h2>
-          <p>In pre-Independence days, Pune's population, then called Poona, was around 2 to 3 lakhs, with a small number of Malayalees, mainly bachelors, employed in various Central Government establishments. They lived in areas like Rasta Peth and Kirkee due to affordable lodge-cum-eateries run by Malayalees, offering shared accommodation and meals for less than Rs. 50 per month. Many sent money orders back home to Kerala, supporting their families with their meager salaries. Entertainment or social gatherings were limited due to financial constraints. A few Malayalees conceived the idea of a Malayalee association, leading to the establishment of the 'Poona Keraleeya Samaj' around 1930 </p>
-        </div>
-        <ol className="flex flex-col justify-center mt-20 sm:mt-0 sm:flex-row sm:items-center h-[400px]   ">
-      
-            <li className="relative mb-6 sm:mb-0 ">
-                <div className="flex items-center">
-                    <motion.div initial={{ opacity : 0 , scale : 0 }} whileInView={{ opacity : 1 , scale : 1 }} viewport={{ once: true }} className="z-10 flex items-center justify-center w-[300px] h-22 bg-blue-100 rounded-full ring-0 ring-white dark:bg-blue-900 sm:ring-8 dark:ring-gray-900 shrink-0">
-                        {/* <svg className="w-2.5 h-2.5 text-blue-800 dark:text-blue-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
-                            <path d="M20 4a2 2 0 0 0-2-2h-2V1a1 1 0 0 0-2 0v1h-3V1a1 1 0 0 0-2 0v1H6V1a1 1 0 0 0-2 0v1H2a2 2 0 0 0-2 2v2h20V4ZM0 18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8H0v10Zm5-8h10a1 1 0 0 1 0 2H5a1 1 0 0 1 0-2Z"/>
-                        </svg> */}
-                         <img src={images[0]} className="img-fluid"  />
-                    </motion.div>
-                    <div className="hidden sm:flex w-full bg-gray-200 h-0.5 dark:bg-gray-700"></div>
+        <section id='history' className='h-auto mb-40'>
+            <div className='relative w-full' data-carousel="static">
+                <div className="history section-title ml-1 px-40" data-aos="fade-in" data-aos-delay="100">
+                    <h2>The History Of Poona Keraleeya Samaj</h2>
+                    <p>In pre-Independence days, Pune's population, then called Poona, was around 2 to 3 lakhs, with a small number of Malayalees, mainly bachelors, employed in various Central Government establishments. They lived in areas like Rasta Peth and Kirkee due to affordable lodge-cum-eateries run by Malayalees, offering shared accommodation and meals for less than Rs. 50 per month. Many sent money orders back home to Kerala, supporting their families with their meager salaries. Entertainment or social gatherings were limited due to financial constraints. A few Malayalees conceived the idea of a Malayalee association, leading to the establishment of the 'Poona Keraleeya Samaj' around 1930 </p>
                 </div>
-                <div className="mt-3 sm:pe-8">
-                    <h3 className="text-lg font-semibold text-gray-900 dark:text-white">1930</h3>
-                    <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500"> Poona Keraleeya Samaj around 1930 at 356, Rasta Peth, Pune.</time>
-                    <p className="text-base font-normal text-gray-500 dark:text-gray-400 max-w-[400px]">Later, this organization split into 'East Poona Kerala Samaj' in Kirkee and 'Poona Keraleeya Samaj,' </p>
+                {/* timeline  */}
+                <div className='timeline-container sm:px-28'>
+                    <Swiper
+                        slidesPerView={2}
+                        spaceBetween={0}
+                        cssMode={true}
+                        autoplay={{
+                            delay: 2500,
+                            disableOnInteraction: false,
+                        }}
+                        mousewheel={true}
+                        keyboard={true}
+                        pagination={{
+                            type: 'progressbar',
+                        }}
+                        navigation={true}
+                        modules={[Pagination, Navigation, Autoplay]}
+                        className="mySwiper"
+                    >
+                        {timelineItems.map((item, index) => (
+                            <SwiperSlide key={index}>
+                                <TimeLineItem
+                                    image={item.image}
+                                    date={item.date}
+                                    title={item.title}
+                                    desc={item.desc}
+                                />
+                            </SwiperSlide>
+                        ))}
+                    </Swiper>
                 </div>
-            </li>
-            
-            <li className="relative mb-6 sm:mb-0">
-                <div className="flex items-center">
-                    <motion.div initial={{ opacity : 0 , scale : 0 }} whileInView={{ opacity : 1 , scale : 1 }} transition={{ delay : 0.2 }} viewport={{ once: true }} className="z-10 flex items-center justify-center w-[300px] h-22 bg-blue-100 rounded-full ring-0 ring-white dark:bg-blue-900 sm:ring-8 dark:ring-gray-900 shrink-0">
-                    <img src={images[1]} className="img-fluid"  />
-                    </motion.div>
-                    <div className="hidden sm:flex w-full bg-gray-200 h-0.5 dark:bg-gray-700"></div>
-                </div>
-                <div className="mt-3 sm:pe-8">
-                    <h3 className="text-lg font-semibold text-gray-900 dark:text-white">2007</h3>
-                    <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">Onam Celebration 2007</time>
-                    <p className="text-base font-normal text-gray-500 dark:text-gray-400 max-w-[400px]">The Onam celebration of 2007 remains a cherished memory, a testament to the enduring bond and cultural pride shared by the members of [Association Name].</p>
-                </div>
-            </li>
-            <li className="relative mb-6 sm:mb-0">
-                <div className="flex items-center">
-                    <motion.div initial={{ opacity : 0 , scale : 0 }} whileInView={{ opacity : 1 , scale : 1 }} transition={{ delay : 0.4 }} viewport={{ once: true }} className="z-10 flex items-center justify-center w-[300px] h-22 bg-blue-100 rounded-full ring-0 ring-white dark:bg-blue-900 sm:ring-8 dark:ring-gray-900 shrink-0">
-                    <img src={images[2]} className="img-fluid"  />
-                    </motion.div>
-                    <div className="hidden sm:flex w-full bg-gray-200 h-0.5 dark:bg-gray-700"></div>
-                </div>
-                <div className="mt-3 sm:pe-8">
-                    <h3 className="text-lg font-semibold text-gray-900 dark:text-white">2023</h3>
-                    <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">78th Anniversary Celebration</time>
-                    <p className="text-base font-normal text-gray-500 dark:text-gray-400 max-w-[400px]">
-Celebrating the 78th anniversary is a remarkable milestone, signifying resilience, growth, and the enduring spirit of our community. As we gather to commemorate this special occasion, we reflect on the rich legacy and the journey that has brought us to this momentous day</p>
-                </div>
-            </li>
-            
-        </ol>
-        </div>
-      </section>  
+            </div>
+        </section>
     );
 }
 
 export default About;
-
-
-
-
-
-// function About() {
-//   return (
-//     <>
-//       <section id="about" className="about">
-//         <div className="container">
-//           <div className="row no-gutters">
-//             <div className="content col-xl-5 d-flex align-items-stretch" data-aos="fade-up">
-//               <div className="content">
-//                 <ol className="items-center sm:flex">
-//                   <li className="relative mb-6 sm:mb-0">
-//                     <div className="flex items-center">
-//                       <div className="z-10 flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full ring-0 ring-white dark:bg-blue-900 sm:ring-8 dark:ring-gray-900 shrink-0">
-//                         <svg className="w-2.5 h-2.5 text-blue-800 dark:text-blue-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
-//                           <path d="M20 4a2 2 0 0 0-2-2h-2V1a1 1 0 0 0-2 0v1h-3V1a1 1 0 0 0-2 0v1H6V1a1 1 0 0 0-2 0v1H2a2 2 0 0 0-2 2v2h20V4ZM0 18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8H0v10Zm5-8h10a1 1 0 0 1 0 2H5a1 1 0 0 1 0-2Z"/>
-//                         </svg>
-//                       </div>
-//                       <div className="hidden sm:flex w-full bg-gray-200 h-0.5 dark:bg-gray-700"></div>
-//                     </div>
-//                     <div className="mt-3 sm:pe-8">
-//                       <h3 className="text-lg font-semibold text-gray-900 dark:text-white">Formation of ‘PKS’</h3>
-//                       <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">Released on December 2, 2021</time>
-//                       <p className="text-base font-normal text-gray-500 dark:text-gray-400">In early 1900 many Malyalees came to Pune. There was no common place available to them to sit together and chit-chat or to share their happiness or sorrows. This situation created a thought in the minds of a handful of them to think in terms of creating an association of  Malayalee’s with no bars on the caste</p>
-//                     </div>
-//                   </li>
-//                   <li className="relative mb-6 sm:mb-0">
-//                     <div className="flex items-center">
-//                       <div className="z-10 flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full ring-0 ring-white dark:bg-blue-900 sm:ring-8 dark:ring-gray-900 shrink-0">
-//                         <svg className="w-2.5 h-2.5 text-blue-800 dark:text-blue-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
-//                           <path d="M20 4a2 2 0 0 0-2-2h-2V1a1 1 0 0 0-2 0v1h-3V1a1 1 0 0 0-2 0v1H6V1a1 1 0 0 0-2 0v1H2a2 2 0 0 0-2 2v2h20V4ZM0 18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8H0v10Zm5-8h10a1 1 0 0 1 0 2H5a1 1 0 0 1 0-2Z"/>
-//                         </svg>
-//                       </div>
-//                       <div className="hidden sm:flex w-full bg-gray-200 h-0.5 dark:bg-gray-700"></div>
-//                     </div>
-//                     <div className="mt-3 sm:pe-8">
-//                       <h3 className="text-lg font-semibold text-gray-900 dark:text-white">Flowbite Library v1.2.0</h3>
-//                       <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">Released on December 23, 2021</time>
-//                       <p className="text-base font-normal text-gray-500 dark:text-gray-400">In pre-Independence days, the population of Pune (then known as Poona) was hardly 2 to 3 lakhs including a few thousands of Malayalees, mainly bachelors,  employed at different Central  Government establishments and  residing at different parts of Pune (Poona). If there was a  concentration (if at all it can be  called a concentration) of a few hundreds of Malayalees, it was at  places like Rasta Peth and Kirkee  (now known as Khadki)</p>
-//                     </div>
-//                   </li>
-//                   <li className="relative mb-6 sm:mb-0">
-//                     <div className="flex items-center">
-//                       <div className="z-10 flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full ring-0 ring-white dark:bg-blue-900 sm:ring-8 dark:ring-gray-900 shrink-0">
-//                         <svg className="w-2.5 h-2.5 text-blue-800 dark:text-blue-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
-//                           <path d="M20 4a2 2 0 0 0-2-2h-2V1a1 1 0 0 0-2 0v1h-3V1a1 1 0 0 0-2 0v1H6V1a1 1 0 0 0-2 0v1H2a2 2 0 0 0-2 2v2h20V4ZM0 18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8H0v10Zm5-8h10a1 1 0 0 1 0 2H5a1 1 0 0 1 0-2Z"/>
-//                         </svg>
-//                       </div>
-//                       <div className="hidden sm:flex w-full bg-gray-200 h-0.5 dark:bg-gray-700"></div>
-//                     </div>
-//                     <div className="mt-3 sm:pe-8">
-//                       <h3 className="text-lg font-semibold text-gray-900 dark:text-white">Flowbite Library v1.3.0</h3>
-//                       <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">Released on January 5, 2022</time>
-//                       <p className="text-base font-normal text-gray-500 dark:text-gray-400">There was no common place available to them to sit together and chit-chat or to share their happiness or sorrows.</p>
-//                     </div>
-//                   </li>
-//                 </ol>
-//               </div>
-//             </div>
-//           </div>
-//         </div>
-//       </section>
-//     </>
-//   );
-// }
-
-
-// export default About;
-
-
-// import React from 'react';
-
-// const About = () => {
-//     return (
-//       <>
-//         <ol className="items-center sm:flex">
-//             <li className="relative mb-2 sm:mb-0">
-//                 <div className="flex items-center">
-//                     <div className="z-10 flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full ring-0 ring-white dark:bg-blue-900 sm:ring-8 dark:ring-gray-900 shrink-0">
-//                         <svg className="w-2.5 h-2.5 text-blue-800 dark:text-blue-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
-//                             <path d="M20 4a2 2 0 0 0-2-2h-2V1a1 1 0 0 0-2 0v1h-3V1a1 1 0 0 0-2 0v1H6V1a1 1 0 0 0-2 0v1H2a2 2 0 0 0-2 2v2h20V4ZM0 18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8H0v10Zm5-8h10a1 1 0 0 1 0 2H5a1 1 0 0 1 0-2Z"/>
-//                         </svg>
-//                     </div>
-//                     <div className="hidden sm:flex w-full bg-gray-200 h-0.5 dark:bg-gray-700"></div>
-//                 </div>
-//                 <div className="mt-3 sm:pe-8">
-//                     <h3 className="text-lg font-semibold text-gray-900 dark:text-white">Flowbite Library v1.0.0</h3>
-//                     <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">Released on December 2, 2021</time>
-//                     <p className="text-base font-normal text-gray-500 dark:text-gray-400">In early 1900 many Malyalees came to Pune. There was no common place available to them to sit together and chit-chat or to share their happiness or sorrows. This situation created a thought in the minds of a handful of them to think in terms of creating an association of  Malayalee’s with no bars on the caste , social economic status or  religion and to search for a place for it so that they can all meet every day and spend some time together.  This prompted them to form the ‘POONA KERALEEYAThe ‘POONA KERALEEYA SAMAJ’ the first Malayalee Organization was born sometime in the latter part of the year 1930 at 356, Rasta Peth, a small 2-room tenement opposite KEM Hospital, Pune. Poona Keraleeya Samaj was registered with the Charity Commissioner, Pune Region, as a Charitable and Social Organization in the year 1944</p>
-//                 </div>
-//             </li>
-//             <li className="relative mb-6 sm:mb-0">
-//                 <div className="flex items-center">
-//                     <div className="z-10 flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full ring-0 ring-white dark:bg-blue-900 sm:ring-8 dark:ring-gray-900 shrink-0">
-//                         <svg className="w-2.5 h-2.5 text-blue-800 dark:text-blue-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
-//                             <path d="M20 4a2 2 0 0 0-2-2h-2V1a1 1 0 0 0-2 0v1h-3V1a1 1 0 0 0-2 0v1H6V1a1 1 0 0 0-2 0v1H2a2 2 0 0 0-2 2v2h20V4ZM0 18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8H0v10Zm5-8h10a1 1 0 0 1 0 2H5a1 1 0 0 1 0-2Z"/>
-//                         </svg>
-//                     </div>
-//                     <div className="hidden sm:flex w-full bg-gray-200 h-0.5 dark:bg-gray-700"></div>
-//                 </div>
-//                 <div className="mt-3 sm:pe-8">
-//                     <h3 className="text-lg font-semibold text-gray-900 dark:text-white">Flowbite Library v1.2.0</h3>
-//                     <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">Released on December 23, 2021</time>
-//                     <p className="text-base font-normal text-gray-500 dark:text-gray-400">In pre-Independence days, the population of Pune (then known as Poona) was hardly 2 to 3 lakhs including a few thousands of Malayalees, mainly bachelors,  employed at different Central  Government establishments and  residing at different parts of Pune (Poona). If there was a  concentration (if at all it can be  called a concentration) of a few hundreds of Malayalees, it was at  places like Rasta Peth and Kirkee  (now known as Khadki). The  reason for this concentration of  Malayalees at these places was  that there were a few lodge-cum- eateries run by Malayalees  providing food and shared accommodation at an affordable  cost of less than Rs.50/- per  month/per person.At that time,  the monthly salary received by a  Central Government employee was  less than Rs.100/-. The  parents and siblings of many of  such Pune (Poona) Malayalees at  that time depended upon whatever  their sons or daughters  or brothers or sisters were able to  remit every month through Money  Orders to their native  villages in Kerala after meeting  their expenses at Pune from their  meager salary earnings. Because of  this burden on their shoulders, it was beyond their capacity to  spend any amount of money for  going to a cinema or any other  such entertainment.</p>
-//                 </div>
-//             </li>
-//             <li className="relative mb-6 sm:mb-0">
-//                 <div className="flex items-center">
-//                     <div className="z-10 flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full ring-0 ring-white dark:bg-blue-900 sm:ring-8 dark:ring-gray-900 shrink-0">
-//                         <svg className="w-2.5 h-2.5 text-blue-800 dark:text-blue-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
-//                             <path d="M20 4a2 2 0 0 0-2-2h-2V1a1 1 0 0 0-2 0v1h-3V1a1 1 0 0 0-2 0v1H6V1a1 1 0 0 0-2 0v1H2a2 2 0 0 0-2 2v2h20V4ZM0 18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8H0v10Zm5-8h10a1 1 0 0 1 0 2H5a1 1 0 0 1 0-2Z"/>
-//                         </svg>
-//                     </div>
-//                     <div className="hidden sm:flex w-full bg-gray-200 h-0.5 dark:bg-gray-700"></div>
-//                 </div>
-//                 <div className="mt-3 sm:pe-8">
-//                     <h3 className="text-lg font-semibold text-gray-900 dark:text-white">Flowbite Library v1.3.0</h3>
-//                     <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">Released on January 5, 2022</time>
-//                     <p className="text-base font-normal text-gray-500 dark:text-gray-400">There was no common place available to them to sit together and chit-chat or to share their happiness or sorrows. This situation created a thought in the minds of a handful of them to think in terms of creating an association of  Malayalees with no bars on the caste , social economic status or  religion and to search for a place for it so that they can all meet every day and spend some time together.  This prompted them to form the ‘POONA KERALEEYA SAMAJ’.  Thus, the first Malayalee Organization – Poona Keraleeya Samaj – was born sometime in the latter part of the year 1930 at 356, Rasta Peth, a small 2-room tenement opposite KEM Hospital, Pune.</p>
-//                 </div>
-//             </li>
-//         </ol>
-//       </>
-//     );
-// }
-
-// export default About;
-

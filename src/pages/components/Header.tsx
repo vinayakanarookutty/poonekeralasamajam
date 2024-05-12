@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import "../../css/home.css";
-
+import pksLogo from '../../assets/img/pks_logo.png';
 function Header() {
   const [isScrolled, setIsScrolled] = useState(false);
 
@@ -17,6 +17,9 @@ function Header() {
     };
   }, []);
 
+  // Import the image
+
+
   return (
     <>
       <div
@@ -27,19 +30,18 @@ function Header() {
       >
         <div className="container flex align-items-center justify-content-between position-relative lg:px-32 ">
           <div className="logo flex gap-2  ">
-
-              <img  style={{height:"200px",width:"100px" ,marginTop:"2%",maxWidth:"30%",maxHeight:"70px"}} src="/src/assets/img/pks_logo.png" alt="" className="heading-img pt-[200px]  " />
-           
+              {/* Use the imported image variable */}
+              <img style={{height:"200px", width:"100px", marginTop:"2%", maxWidth:"30%", maxHeight:"70px"}} src={pksLogo} alt="PKS Logo" className="heading-img pt-[200px]" />
             <h3 className="text-white ml-5 mt-[20px] heading  ">Poona Keraleeya Samaj</h3>
           </div>
           <nav id="navbar" className="navbar mt-2">
             <ul>
-              <li><a className="nav-link scrollto  text-white" href="#hero">Home</a></li>
-              <li><a className="nav-link scrollto  text-white" href="#history">History</a></li>
-              <li><a className="nav-link scrollto  text-white" href="#services">Activities</a></li>
-              <li><a className="nav-link scrollto  text-white" href="#portfolio">Gallery</a></li>
-              <li><a className="nav-link scrollto  text-white" href="#testimonials">PKS Committee</a></li>
-              <li><a className="nav-link scrollto  text-white" href="#contact">Contact</a></li>
+              <li><a className="nav-link scrollto text-white" href="#hero">Home</a></li>
+              <li><a className="nav-link scrollto text-white" href="#history">History</a></li>
+              <li><a className="nav-link scrollto text-white" href="#services">Activities</a></li>
+              <li><a className="nav-link scrollto text-white" href="#portfolio">Gallery</a></li>
+              <li><a className="nav-link scrollto text-white" href="#testimonials">PKS Committee</a></li>
+              <li><a className="nav-link scrollto text-white" href="#contact">Contact</a></li>
             </ul>
             <i className="bi bi-list mobile-nav-toggle"></i>
           </nav>

@@ -1,4 +1,4 @@
-import "../../css/home.css"
+import "../../css/home.css";
 import PCMemberCard from "./PCMemberCard";
 import { Swiper, SwiperSlide } from 'swiper/react';
 
@@ -6,66 +6,76 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/pagination';
 
-import { Pagination , Autoplay ,  } from 'swiper/modules';
+import { Pagination, Autoplay } from 'swiper/modules';
+
+// Import images
+import BmadhunairImage from '../../assets/img/committee/committee/Bmadhunair.jpg';
+import VijyImage from '../../assets/img/committee/committee/vjy.jpg';
+import GopallImage from '../../assets/img/committee/committee/Gopall.jpg';
+import Jagdish_PoduvalImage from '../../assets/img/committee/committee/Jagdish_Poduval.jpg';
+import SureshnImage from '../../assets/img/committee/committee/sureshn.jpg';
+import SomImage from '../../assets/img/committee/committee/som.jpg';
+import Anil_GeorgeImage from '../../assets/img/c_members/Anil-George.jpg';
+import Vijayamnair_2Image from '../../assets/img/c_members/vijayamnair-2.jpg';
+import SarasammaImage from '../../assets/img/c_members/sarasamma-1.jpg';
 
 function Testimonials() {
-
   const members = [
     {
-      image: "/src/assets/img/committee/committee/Bmadhunair.jpg",
+      image: BmadhunairImage,
       name: "B Madhu Nair",
       position: "President",
       phone: '',
     },
     {
-      image: "/src/assets/img/committee/committee/vjy.jpg",
+      image: VijyImage,
       name: "K Vijayakumar",
       position: "Vice President",
       phone: '',
     },
     {
-      image: "/src/assets/img/committee/committee/Gopall.jpg",
+      image: GopallImage,
       name: "Gopalakrishnan Nair.D",
       position: "General Secretary",
       phone: '',
     },
     {
-      image: "/src/assets/img/committee/committee/Jagdish_Poduval.jpg",
+      image: Jagdish_PoduvalImage,
       name: "Jagdish Poduval",
       position: "Joint Treasurer",
       phone: '',
     },
     {
-      image: "/src/assets/img/committee/committee/sureshn.jpg",
+      image: SureshnImage,
       name: "C. Sureshan",
       position: "Joint Secretary",
       phone: '',
     },
     {
-      image: "/src/assets/img/committee/committee/som.jpg",
+      image: SomImage,
       name: "C. Soman",
       position: "Joint Secretary",
       phone: '',
     },
     {
-      image: "/src/assets/img/c_members/Anil-George.jpg",
+      image: Anil_GeorgeImage,
       name: "Anil George",
       position: "Executive Committee Member",
       phone: '',
     },
     {
-      image: "/src/assets/img/c_members/vijayamnair-2.jpg",
+      image: Vijayamnair_2Image,
       name: "Vijayam Nair",
       position: "Executive Committee Member",
       phone: '',
     },
     {
-      image: "/src/assets/img/c_members/sarasamma-1.jpg",
+      image: SarasammaImage,
       name: "Sarasamma",
       position: "General Clutural Committee Convener",
       phone: '',
     }
-  ]
+  ];
 
   return (
     <section id="testimonials" className="testimonials section-bg mt-5 h-screen mt-5">
@@ -85,9 +95,9 @@ function Testimonials() {
           pagination={{
             clickable: true,
           }}
-          modules={[Pagination , Autoplay]}
+          modules={[Pagination, Autoplay]}
           className="mySwiper"
-          navigation={true}
+        
         >
           {
             members.map((member, index) => (

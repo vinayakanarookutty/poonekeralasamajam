@@ -1,6 +1,11 @@
-
-import { useState,useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { motion } from "framer-motion";
+import clb1Image from '../../assets/img/gallery/clb1.jpg';
+import clbImage from '../../assets/img/gallery/clb.jpg';
+import clb2Image from '../../assets/img/gallery/clb2.jpg';
+import clb3Image from '../../assets/img/gallery/clb3.jpg';
+import onamImage from '../../assets/img/gallery/onam.jpg';
+import prize_disImage from '../../assets/img/gallery/prize_dis.jpg';
 
 function Portfolio() {
   const [activeFilter, setActiveFilter] = useState("*");
@@ -15,16 +20,18 @@ function Portfolio() {
     }
   }, [isButtonClicked]);
 
+  // Import images
+
   const portfolioItems = [
-    { src: "/src/assets/img/gallery/clb1.jpg", category: "filter-app", title: "App 1" },
-    { src: "/src/assets/img/gallery/clb.jpg", category: "filter-web", title: "Web 3" },
-    { src: "/src/assets/img/gallery/clb1.jpg", category: "filter-app", title: "App 2" },
-    { src: "/src/assets/img/gallery/clb2.jpg", category: "filter-card", title: "Card 2" },
-    { src: "/src/assets/img/gallery/clb3.jpg", category: "filter-web", title: "Web 2" },
-    { src: "/src/assets/img/gallery/onam.jpg", category: "filter-app", title: "App 3" },
-    { src: "/src/assets/img/gallery/clb1.jpg", category: "filter-card", title: "Card 1" },
-    { src: "/src/assets/img/gallery/prize_dis.jpg", category: "filter-card", title: "Card 3" },
-    { src: "/src/assets/img/gallery/clb1.jpg", category: "filter-web", title: "Web 3" },
+    { src: clb1Image, category: "filter-app", title: "App 1" },
+    { src: clbImage, category: "filter-web", title: "Web 3" },
+    { src: clb1Image, category: "filter-app", title: "App 2" },
+    { src: clb2Image, category: "filter-card", title: "Card 2" },
+    { src: clb3Image, category: "filter-web", title: "Web 2" },
+    { src: onamImage, category: "filter-app", title: "App 3" },
+    { src: clb1Image, category: "filter-card", title: "Card 1" },
+    { src: prize_disImage, category: "filter-card", title: "Card 3" },
+    { src: clb1Image, category: "filter-web", title: "Web 3" },
     // Add more portfolio items here
   ];
 
