@@ -10,7 +10,10 @@ import 'swiper/css/pagination';
 import PoonemHistory1 from "../../assets/img/PoonemHistory1.jpg"
 import poonemhistory2 from "../../assets/img/poonemhistory2.jpg"
 import poonemhistory3 from "../../assets/img/PoonemHistory1.jpg"
+import { useEffect, useState } from 'react';
 const About = () => {
+
+    const [ timelineNavigation, setTimelineNavigation ] = useState(true);
 
     const timelineItems = [
         {
@@ -51,15 +54,25 @@ const About = () => {
         }
     ]
 
+
+    useEffect(()=>{
+
+        if(window.innerWidth < 430){
+            setTimelineNavigation(false);
+        }
+
+
+    },[])
+
     return (
         <section id='history' className='h-auto mb-40'>
             <div className='relative w-full' data-carousel="static">
-                <div className="history section-title ml-1 px-40" data-aos="fade-in" data-aos-delay="100">
+                <div className="history section-title ml-1 md:px-20 lg:px-32 xl:px-40" data-aos="fade-in" data-aos-delay="100">
                     <h2>The History Of Poona Keraleeya Samaj</h2>
                     <p>In pre-Independence days, Pune's population, then called Poona, was around 2 to 3 lakhs, with a small number of Malayalees, mainly bachelors, employed in various Central Government establishments. They lived in areas like Rasta Peth and Kirkee due to affordable lodge-cum-eateries run by Malayalees, offering shared accommodation and meals for less than Rs. 50 per month. Many sent money orders back home to Kerala, supporting their families with their meager salaries. Entertainment or social gatherings were limited due to financial constraints. A few Malayalees conceived the idea of a Malayalee association, leading to the establishment of the 'Poona Keraleeya Samaj' around 1930 </p>
                 </div>
                 {/* timeline  */}
-                <div className='timeline-container sm:px-28'>
+                <div className='timeline-container px-2 sm:px-28'>
                     <Swiper
                         slidesPerView={2}
                         spaceBetween={0}
@@ -73,9 +86,9 @@ const About = () => {
                         pagination={{
                             type: 'progressbar',
                         }}
-                        navigation={true}
+                        navigation={timelineNavigation}
                         modules={[Pagination, Navigation, Autoplay]}
-                        className="mySwiper"
+                        className="mySwiper xl:px-20"
                     >
                         {timelineItems.map((item, index) => (
                             <SwiperSlide key={index}>
