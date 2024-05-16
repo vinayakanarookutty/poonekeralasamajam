@@ -7,12 +7,14 @@ import Portfolio from './components/Gallery';
 import Testimonials from './components/Committee';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import NewHeader from './components/NewHeader';
 
 
 function Home() {
   return (
     <>
-      <Header />
+      {/* <Header /> */}
+      <NewHeader />
       <Hero />
       <About />
       <Services />
