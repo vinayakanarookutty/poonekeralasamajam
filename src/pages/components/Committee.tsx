@@ -78,7 +78,7 @@ function Testimonials() {
   ];
 
   return (
-    <section id="testimonials" className="testimonials section-bg mt-5 h-screen mt-5">
+    <section id="testimonials" className="testimonials section-bg mt-5 max-h-screen ">
       <div className="container">
         <div className="section-title" data-aos="fade-in" data-aos-delay="100">
           <h2>Present Managing Committee</h2>
