@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import { motion } from "framer-motion";
+import { Link } from 'react-router-dom';
 import clb1Image from '../../assets/img/gallery/clb1.jpg';
 import clbImage from '../../assets/img/gallery/clb.jpg';
 import clb2Image from '../../assets/img/gallery/clb2.jpg';
@@ -82,6 +83,9 @@ function Portfolio() {
               </div>
             </motion.div>
           ))}
+        </div>
+        <div className="text-right">
+          <Link to="/gallery" className="btn btn-primary">See More</Link>
         </div>
       </div>
     </section>
