@@ -35,7 +35,7 @@ function Portfolio() {
     // Add more portfolio items here
   ];
 
-  const handleFilterClick = (filter:string) => {
+  const handleFilterClick = (filter: string) => {
     const category = filter.replace(".", "");
     setActiveFilter(category);
     setIsButtonClicked(true); // Set button clicked to true
@@ -54,9 +54,9 @@ function Portfolio() {
           </p>
         </div>
 
-        <div className="row" data-aos="fade-up" data-aos-delay="200">
-          <div className="col-lg-12 flex justify-center">
-            <ul id="portfolio-flters" className="flex">
+        <div className='w-full flex justify-center mb-10'>
+          <div className="row" data-aos="fade-up" data-aos-delay="200">
+            <ul id="portfolio-flters" className="flex p-3 text-xs md:text-sm">
               <li onClick={() => handleFilterClick("*")} className={`cursor-pointer px-4 py-2 ${activeFilter === "*" ? 'bg-blue-500 text-white' : 'bg-gray-200 text-gray-800'} mr-2 rounded-md`}>All</li>
               <li onClick={() => handleFilterClick(".filter-app")} className={`cursor-pointer px-4 py-2 ${activeFilter === ".filter-app" ? 'bg-blue-500 text-white' : 'bg-gray-200 text-gray-800'} mr-2 rounded-md`}>Arts</li>
               <li onClick={() => handleFilterClick(".filter-card")} className={`cursor-pointer px-4 py-2 ${activeFilter === ".filter-card" ? 'bg-blue-500 text-white' : 'bg-gray-200 text-gray-800'} mr-2 rounded-md`}>Sports</li>
