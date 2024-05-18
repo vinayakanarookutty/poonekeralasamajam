@@ -2,8 +2,8 @@ import React from 'react';
 
 const Contact: React.FC = () => {
   return (
-    <section id="contact h-screen" className="contact section-bg ">
-      <div id='contact' className="container h-screen" data-aos="fade-up">
+    <section id="contact" className="contact section-bg ">
+      <div id='contact' className="container min-h-screen" data-aos="fade-up">
         <div className="section-title">
           <h2>Contact</h2>
           <p>

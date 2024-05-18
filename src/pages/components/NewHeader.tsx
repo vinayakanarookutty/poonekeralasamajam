@@ -75,7 +75,7 @@ const NewHeader: React.FC = () => {
                                 ? { opacity: 1, y: '0%', transition: { duration: 0.2 } }
                                 : { opacity: 0, y: '100%', transition: { duration: 0.2 } }
                         }
-                        className={`bg-white w-full h-[100%] mt-20 rounded-md py-5 md:py-10 lg:bg-transparent`}
+                        className={`bg-white w-full h-[85%] mt-20 rounded-md py-5 md:py-10 lg:bg-transparent`}
                     >
                         {/* links */}
                         <div className="grid">
