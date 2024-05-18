@@ -66,7 +66,7 @@ const NewHeader: React.FC = () => {
                 <motion.div
                     animate={isOpen ? { opacity: 1 } : { opacity: 0 }}
                     transition={{ duration: 0.2 }}
-                    className="fixed w-screen h-screen bg-[#3088bae5] top-0 left-0 p-3 lg:hidden"
+                    className={`${isOpen ? 'pointer-events-auto' : 'pointer-events-none'} fixed w-screen h-screen bg-[#3088bae5] top-0 left-0 p-3 lg:hidden`}
                 >
                     {/* white container */}
                     <motion.div
