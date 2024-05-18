@@ -1,10 +1,11 @@
 import  { useEffect } from 'react';
 import AOS from 'aos';
-import 'aos/dist/aos.css'; // Import AOS CSS
+import { Link } from 'react-router-dom';
+import 'aos/dist/aos.css'; 
 
 function Services() {
   useEffect(() => {
-    AOS.init(); // Initialize AOS
+    AOS.init(); 
   }, []);
 
   return (
@@ -43,6 +44,9 @@ function Services() {
               <p className="description">PKS is also providing financial help of approx… Rs.40000 plus every year to the needy people of Pune and other places for medical treatment and educational purposes.</p>
             </div>
           </div>
+        </div>
+        <div className="text-right">
+          <Link to="/more" className="btn btn-primary">See More</Link>
         </div>
       </div>
     </section>
