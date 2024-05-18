@@ -7,9 +7,11 @@ import { Navigation, Pagination, Autoplay } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
-import PoonemHistory1 from "../../assets/img/PoonemHistory1.jpg"
-import poonemhistory2 from "../../assets/img/poonemhistory2.jpg"
-import poonemhistory3 from "../../assets/img/PoonemHistory1.jpg"
+import pooneHistory1 from "../../assets/img/History/PoonemHistory1.jpg"
+import pooneHistory2 from "../../assets/img/History/poonehistory2001.jpg"
+import pooneHistory3 from "../../assets/img/History/poonemhistory2.jpg"
+import pooneHistory4 from "../../assets/img/History/annualday2008.jpg"
+import pooneHistory5 from "../../assets/img/pks_bckgrnd.jpg"
 import { useEffect, useState } from 'react';
 const About = () => {
 
@@ -17,41 +19,41 @@ const About = () => {
 
     const timelineItems = [
         {
-            image: PoonemHistory1,
-            date: 'December 2, 2021',
+            image: pooneHistory1,
+            date: '1964',
             title: 'Formation of ‘PKS’',
-            desc: 'Get started with dozens of web components and interactive elements.'
+            desc: "In the past, Central Government employees in Pune earned less than Rs.100 per month. Many Malayalees in Pune sent money home to Kerala, leaving little for entertainment. Lacking a common place to socialize, some decided to form the 'Poona Keraleeya Samaj' in late 1930 at 356, Rasta Peth. Later, the group split into 'East Poona Kerala Samaj' in Kirkee and 'Poona Keraleeya Samaj' at Rasta Peth. In 1944, Poona Keraleeya Samaj was registered as a charitable and social organization"
         },
         {
-            image:poonemhistory2,
-            date: 'December 2, 2021',
-            title: 'Formation of ‘PKS’',
-            desc: 'Get started with dozens of web components and interactive elements.'
+            image:pooneHistory2,
+            date: '2001',
+            title: '2001 event Felicitation of Padmashree Mohanlal',
+            desc: "In 2001, the Poona Keraleeya Samaj organized a grand felicitation event to honor the renowned actor Padmashree Mohanlal. This celebration recognized Mohanlal's outstanding contributions to Indian cinema and his exceptional talent. The event was a significant occasion for the Malayalee community in Pune, providing an opportunity to celebrate one of their most illustrious cultural icons. The gathering was marked by heartfelt speeches, cultural performances, and a deep sense of pride and admiration for Mohanlal's achievements"
         },
         {
-            image: poonemhistory3,
-            date: 'December 2, 2021',
-            title: 'Formation of ‘PKS’',
-            desc: 'Get started with dozens of web components and interactive elements.'
+            image:pooneHistory3,
+            date: '2007',
+            title: '2007 Onam Celebration',
+            desc: "In 2007, the Poona Keraleeya Samaj organized a vibrant Onam celebration, bringing together the Malayalee community in Pune for a day of cultural festivity and joy. The event featured traditional Onam rituals, a grand feast (Onam Sadhya), and a variety of cultural performances including music, dance, and traditional games. The celebration showcased the rich heritage and customs of Kerala, fostering a sense of unity and nostalgia among the attendees. It was a memorable occasion filled with laughter, camaraderie, and the shared joy of the harvest festival"
         },
         {
-            image:poonemhistory2,
-            date: 'December 2, 2021',
-            title: 'Formation of ‘PKS’',
-            desc: 'Get started with dozens of web components and interactive elements.'
+            image:pooneHistory4,
+            date: '2008',
+            title: '2008 Anniversary And Onam Celebration',
+            desc: "In 2008, the Poona Keraleeya Samaj hosted a grand event combining their Annual Day and Onam celebration, emphasizing both the community’s achievements and cultural heritage. The Annual Day segment recognized notable contributions from members, celebrated milestones, and highlighted the Samaj’s initiatives and successes over the past year. This was followed by the vibrant Onam festivities, featuring traditional dances, music, skits, and a sumptuous Onam Sadhya feast. The event was a joyful fusion of reflection and celebration, strengthening community bonds and honoring Kerala’s rich cultural traditions"
         },
         {
-            image: PoonemHistory1,
-            date: 'December 2, 2021',
-            title: 'Formation of ‘PKS’',
-            desc: 'Get started with dozens of web components and interactive elements.'
+            image:pooneHistory5,
+            date: '2022',
+            title: '2022 Anniversary And Onam Celebration',
+            desc: "In 2022, the Poona Keraleeya Samaj's Annual Day and Onam celebration was a grand affair, marked by the presence of distinguished guests, including cine artist Arjun Radhakrishnan and Health Minister Shailaja. The Annual Day segment honored the community's achievements and showcased notable contributions from its members over the past year. The Onam festivities were equally vibrant, featuring traditional dances, music, skits, and the delectable Onam Sadhya feast. The presence of the esteemed guests added to the event's prestige, making it a memorable occasion that celebrated both community accomplishments and the rich cultural heritage of Kerala.s"
         },
         {
-            image: poonemhistory2,
-            date: 'December 2, 2021',
-            title: 'Formation of ‘PKS’',
-            desc: 'Get started with dozens of web components and interactive elements.'
-        }
+            image:pooneHistory5,
+            date: '2023',
+            title: '2023 Womens Day Celebration',
+            desc: "In 2022, the Poona Keraleeya Samaj's Annual Day and Onam celebration was a grand affair, marked by the presence of distinguished guests, including cine artist Arjun Radhakrishnan and Health Minister Shailaja. The Annual Day segment honored the community's achievements and showcased notable contributions from its members over the past year. The Onam festivities were equally vibrant, featuring traditional dances, music, skits, and the delectable Onam Sadhya feast. The presence of the esteemed guests added to the event's prestige, making it a memorable occasion that celebrated both community accomplishments and the rich cultural heritage of Kerala.s"
+        },
     ]
 
 
@@ -65,7 +67,7 @@ const About = () => {
     },[])
 
     return (
-        <section id='history' className='h-auto mb-40'>
+        <section id='history' className='h-auto '>
             <div className='relative w-full' data-carousel="static">
                 <div className="history section-title ml-1 md:px-20 lg:px-32 xl:px-40" data-aos="fade-in" data-aos-delay="100">
                     <h2>The History Of Poona Keraleeya Samaj</h2>
@@ -88,7 +90,7 @@ const About = () => {
                         }}
                         navigation={timelineNavigation}
                         modules={[Pagination, Navigation, Autoplay]}
-                        className="mySwiper xl:px-20 w-[80%]"
+                        className="mySwiper xl:px-20 w-[90%]"
                     >
                         {timelineItems.map((item, index) => (
                             <SwiperSlide key={index}>
