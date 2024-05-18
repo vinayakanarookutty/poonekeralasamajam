@@ -72,9 +72,9 @@ const About = () => {
                     <p>In pre-Independence days, Pune's population, then called Poona, was around 2 to 3 lakhs, with a small number of Malayalees, mainly bachelors, employed in various Central Government establishments. They lived in areas like Rasta Peth and Kirkee due to affordable lodge-cum-eateries run by Malayalees, offering shared accommodation and meals for less than Rs. 50 per month. Many sent money orders back home to Kerala, supporting their families with their meager salaries. Entertainment or social gatherings were limited due to financial constraints. A few Malayalees conceived the idea of a Malayalee association, leading to the establishment of the 'Poona Keraleeya Samaj' around 1930 </p>
                 </div>
                 {/* timeline  */}
-                <div className='timeline-container px-2 sm:px-28'>
+                <div className='timeline-container px-2 sm:h-15'>
                     <Swiper
-                        slidesPerView={2}
+                        slidesPerView={1}
                         spaceBetween={0}
                         cssMode={true}
                         autoplay={{
@@ -88,7 +88,7 @@ const About = () => {
                         }}
                         navigation={timelineNavigation}
                         modules={[Pagination, Navigation, Autoplay]}
-                        className="mySwiper xl:px-20"
+                        className="mySwiper xl:px-20 w-[80%]"
                     >
                         {timelineItems.map((item, index) => (
                             <SwiperSlide key={index}>

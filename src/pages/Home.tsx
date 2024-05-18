@@ -1,5 +1,4 @@
 import '../css/home.css';
-import Header from './components/Header';
 import Hero from './components/Welcome';
 import About from './components/History';
 import Services from './components/Activities';
