@@ -12,7 +12,7 @@ const TimeLineItem: React.FC<TimeLineItemProps> = ({ image, date, title, desc })
     return (
         <div className='grid place-items-center relative mt-4  '>
             {/* <div className='h-2 w-full pl-10 bg-[#3b82f6] absolute z-[-1]'></div> */}
-            <div className='w-[300px] md:w-[300px] lg:w-[400px] xl:w-[600px] overflow-hidden rounded'>
+            <div className='w-[300px] md:w-[300px] lg:w-[400px] xl:w-[700px] overflow-hidden rounded'>
                 <img className='object-cover w-full rounded ' src={image} alt="Timeline Item" />
             </div>
 

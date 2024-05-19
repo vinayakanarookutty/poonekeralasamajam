@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
@@ -71,118 +71,7 @@ function MoreActivities() {
               </p>
             </div>
           </div>
-          <div className="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
-            <div className="icon-box">
-              <div className="icon"><i className="bx bx-tachometer"></i></div>
-              <h4 className="title"><a href="#">Philanthropic Activities</a></h4>
-              <p className="description">
-                PKS is a leading force in philanthropy, offering substantial aid during crises.
-                It provided Rs 5 lakhs in support to Kerala during the 2018 and 2019 floods,
-                and during the challenging Covid-19 pandemic. It also extended significant
-                assistance during earthquakes in Gujarat and Latur (Maharashtra). Additionally,
-                PKS supplied hundreds of tankers of drinking water to drought-affected villages
-                in Maharashtra.
-              </p>
-            </div>
-          </div>
-          <div className="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
-            <div className="icon-box">
-              <div className="icon"><i className="bx bx-tachometer"></i></div>
-              <h4 className="title"><a href="#">Philanthropic Activities</a></h4>
-              <p className="description">
-                PKS is a leading force in philanthropy, offering substantial aid during crises.
-                It provided Rs 5 lakhs in support to Kerala during the 2018 and 2019 floods,
-                and during the challenging Covid-19 pandemic. It also extended significant
-                assistance during earthquakes in Gujarat and Latur (Maharashtra). Additionally,
-                PKS supplied hundreds of tankers of drinking water to drought-affected villages
-                in Maharashtra.
-              </p>
-            </div>
-          </div>
-          <div className="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
-            <div className="icon-box">
-              <div className="icon"><i className="bx bx-tachometer"></i></div>
-              <h4 className="title"><a href="#">Philanthropic Activities</a></h4>
-              <p className="description">
-                PKS is a leading force in philanthropy, offering substantial aid during crises.
-                It provided Rs 5 lakhs in support to Kerala during the 2018 and 2019 floods,
-                and during the challenging Covid-19 pandemic. It also extended significant
-                assistance during earthquakes in Gujarat and Latur (Maharashtra). Additionally,
-                PKS supplied hundreds of tankers of drinking water to drought-affected villages
-                in Maharashtra.
-              </p>
-            </div>
-          </div>
-          <div className="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
-            <div className="icon-box">
-              <div className="icon"><i className="bx bx-tachometer"></i></div>
-              <h4 className="title"><a href="#">Philanthropic Activities</a></h4>
-              <p className="description">
-                PKS is a leading force in philanthropy, offering substantial aid during crises.
-                It provided Rs 5 lakhs in support to Kerala during the 2018 and 2019 floods,
-                and during the challenging Covid-19 pandemic. It also extended significant
-                assistance during earthquakes in Gujarat and Latur (Maharashtra). Additionally,
-                PKS supplied hundreds of tankers of drinking water to drought-affected villages
-                in Maharashtra.
-              </p>
-            </div>
-          </div>
-          <div className="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
-            <div className="icon-box">
-              <div className="icon"><i className="bx bx-tachometer"></i></div>
-              <h4 className="title"><a href="#">Philanthropic Activities</a></h4>
-              <p className="description">
-                PKS is a leading force in philanthropy, offering substantial aid during crises.
-                It provided Rs 5 lakhs in support to Kerala during the 2018 and 2019 floods,
-                and during the challenging Covid-19 pandemic. It also extended significant
-                assistance during earthquakes in Gujarat and Latur (Maharashtra). Additionally,
-                PKS supplied hundreds of tankers of drinking water to drought-affected villages
-                in Maharashtra.
-              </p>
-            </div>
-          </div>
-          <div className="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
-            <div className="icon-box">
-              <div className="icon"><i className="bx bx-tachometer"></i></div>
-              <h4 className="title"><a href="#">Philanthropic Activities</a></h4>
-              <p className="description">
-                PKS is a leading force in philanthropy, offering substantial aid during crises.
-                It provided Rs 5 lakhs in support to Kerala during the 2018 and 2019 floods,
-                and during the challenging Covid-19 pandemic. It also extended significant
-                assistance during earthquakes in Gujarat and Latur (Maharashtra). Additionally,
-                PKS supplied hundreds of tankers of drinking water to drought-affected villages
-                in Maharashtra.
-              </p>
-            </div>
-          </div>
-          <div className="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
-            <div className="icon-box">
-              <div className="icon"><i className="bx bx-tachometer"></i></div>
-              <h4 className="title"><a href="#">Philanthropic Activities</a></h4>
-              <p className="description">
-                PKS is a leading force in philanthropy, offering substantial aid during crises.
-                It provided Rs 5 lakhs in support to Kerala during the 2018 and 2019 floods,
-                and during the challenging Covid-19 pandemic. It also extended significant
-                assistance during earthquakes in Gujarat and Latur (Maharashtra). Additionally,
-                PKS supplied hundreds of tankers of drinking water to drought-affected villages
-                in Maharashtra.
-              </p>
-            </div>
-          </div>
-          <div className="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
-            <div className="icon-box">
-              <div className="icon"><i className="bx bx-tachometer"></i></div>
-              <h4 className="title"><a href="#">Philanthropic Activities</a></h4>
-              <p className="description">
-                PKS is a leading force in philanthropy, offering substantial aid during crises.
-                It provided Rs 5 lakhs in support to Kerala during the 2018 and 2019 floods,
-                and during the challenging Covid-19 pandemic. It also extended significant
-                assistance during earthquakes in Gujarat and Latur (Maharashtra). Additionally,
-                PKS supplied hundreds of tankers of drinking water to drought-affected villages
-                in Maharashtra.
-              </p>
-            </div>
-          </div>
+         
         </div>
       </div>
     </section>
