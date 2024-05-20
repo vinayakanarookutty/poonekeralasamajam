@@ -61,7 +61,7 @@ const NewHeader: React.FC = () => {
 
 
                 {/* hamburger icon */}
-                <HamburgerIcon className="z-[100] lg:hidden" isOpen={isOpen} toggleOpen={toggleOpen} />
+                <HamburgerIcon bg="white" className="z-[100] lg:hidden" isOpen={isOpen} toggleOpen={toggleOpen} />
                 {/* backdrop + mobile nav */}
                 <motion.div
                     animate={isOpen ? { opacity: 1 } : { opacity: 0 }}

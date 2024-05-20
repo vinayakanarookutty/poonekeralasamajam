@@ -5,9 +5,10 @@ interface HamburgerIconProps {
   isOpen: boolean;
   toggleOpen: () => void;
   className : string;
+  bg : string;
 }
 
-const HamburgerIcon: React.FC<HamburgerIconProps> = ({ isOpen, toggleOpen , className }) => {
+const HamburgerIcon: React.FC<HamburgerIconProps> = ({ isOpen, toggleOpen , className , bg}) => {
   const topLineVariants = {
     open: {
       rotate: 45,
@@ -48,20 +49,20 @@ const HamburgerIcon: React.FC<HamburgerIconProps> = ({ isOpen, toggleOpen , clas
   return (
     <motion.div
       onClick={toggleOpen}
-      className={`grid gap-1.5 group cursor-pointer relative ${className}`}
+      className={`grid gap-1.5 group cursor-pointer relative w-fit ${className}`}
     >
       <motion.div
-        className="bg-white h-1 w-10 rounded-full"
+        className={`bg-${bg} h-1 w-10 rounded-full`}
         variants={topLineVariants}
         animate={isOpen ? "open" : "closed"}
       />
       <motion.div
-        className="bg-white h-1 w-10 rounded-full"
+        className={`bg-${bg} h-1 w-10 rounded-full`}
         variants={middleLineVariants}
         animate={isOpen ? "open" : "closed"}
       />
       <motion.div
-        className="bg-white h-1 w-10 rounded-full"
+        className={`bg-${bg} h-1 w-10 rounded-full`}
         variants={bottomLineVariants}
         animate={isOpen ? "open" : "closed"}
       />
