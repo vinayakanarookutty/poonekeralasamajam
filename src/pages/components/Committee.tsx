@@ -1,6 +1,7 @@
 import "../../css/home.css";
 import PCMemberCard from "./PCMemberCard";
 import { Swiper, SwiperSlide } from 'swiper/react';
+import { Link } from 'react-router-dom';
 
 // Import Swiper styles
 import 'swiper/css';
@@ -18,6 +19,17 @@ import SomImage from '../../assets/img/committee/committee/som.jpg';
 import Anil_GeorgeImage from '../../assets/img/c_members/Anil-George.jpg';
 import Vijayamnair_2Image from '../../assets/img/c_members/vijayamnair-2.jpg';
 import SarasammaImage from '../../assets/img/c_members/sarasamma-1.jpg';
+import VineetaNair from '../../assets/img/committee/committee/VineetaNair.jpg';
+import PDavis from '../../assets/img/committee/committee/PDavis.jpg';
+import VijayPoduval from '../../assets/img/committee/committee/Vijay Poduval.jpg';
+import BRNair from '../../assets/img/committee/committee/B.R.Nair.jpg';
+import KurianThomas from '../../assets/img/committee/committee/KurianThomas.jpg';
+import VijayNair from '../../assets/img/committee/committee/VijayNair.jpg';
+import SusheelaNair from '../../assets/img/committee/committee/SusheelaNair.jpg';
+import SUMenon from '../../assets/img/committee/committee/SUMenon_.jpg';
+import MaheshPoduval from '../../assets/img/committee/committee/MaheshPoduval_.jpg';
+import PreetaNair from '../../assets/img/committee/committee/PreetaNair_.jpg';
+import MohandasNair from '../../assets/img/committee/committee/mohandasnair_.jpg';
 
 function Testimonials() {
   const members = [
@@ -74,6 +86,72 @@ function Testimonials() {
       name: "Sarasamma",
       position: "General Clutural Committee Convener",
       phone: '',
+    },
+    {
+      image: VineetaNair,
+      name: "Vineeta Nair",
+      position: "Ladies Wing Convener",
+      phone: '',
+    },
+    {
+      image: PDavis,
+      name: "P. Davis",
+      position: "Executive Committee Member",
+      phone: '',
+    },
+    {
+      image: VijayPoduval,
+      name: "Vijay Poduval",
+      position: "Executive Committee Member",
+      phone: '',
+    },
+    {
+      image: BRNair,
+      name: "B. R. Nair",
+      position: "Arts Committee Convener",
+      phone: '',
+    },
+    {
+      image: KurianThomas,
+      name: "Kurian Thomas(Prince)",
+      position: "Executive Committee Member",
+      phone: '',
+    },
+    {
+      image: VijayNair,
+      name: "Vijay Nair",
+      position: "Youth Wing Convener",
+      phone: '',
+    },
+    {
+      image: SusheelaNair,
+      name: "Susheela Nair",
+      position: "Social Welfare Convener",
+      phone: '',
+    },
+    {
+      image: SUMenon,
+      name: "S. U. Menon  ",
+      position: "P R O",
+      phone: '',
+    },
+    {
+      image: MaheshPoduval,
+      name: "Mahesh Poduval",
+      position: "Sports Committee Convener",
+      phone: '',
+    },
+    {
+      image: PreetaNair,
+      name: "Preeta  Nair",
+      position: "Executive Committee Member",
+      phone: '',
+    },
+    {
+      image: MohandasNair,
+      name: "Mohandas Nair",
+      position: "Executive Committee Member",
+      phone: '',
     }
   ];
 
@@ -113,6 +191,9 @@ function Testimonials() {
           }
         </Swiper>
 
+      </div>
+      <div className="text-right">
+          <Link to="/committee" className="btn btn-primary">View details</Link>
       </div>
     </section>
   );
