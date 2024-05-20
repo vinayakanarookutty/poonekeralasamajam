@@ -57,6 +57,27 @@ margin-top: 10px;
   background-color: red; /* Replace blue with your desired color */
 }
 
+
+
+.swiper {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+  height: 300px;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+}
+
+
 .swiper-slide {
   border: none;
   outline: none;
@@ -69,6 +90,23 @@ margin-top: 10px;
 .mySwiper{
   outline: none;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 #header .logo h1 {
   font-size: 24px;
@@ -844,6 +882,67 @@ img23{
   bottom: 0;
 }
 
+/* MoreGallery */
+
+.container23 {
+  width: 100%;
+  padding: 20px;
+}
+
+.heading23 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.filter-buttons23 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.filter-buttons23 button {
+  margin: 0 10px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.filter-buttons23 .active {
+  background-color: #007bff;
+  color: white;
+  border: none;
+}
+
+.swiper_container23 {
+  width: 100%;
+  max-width: 800px;
+  margin: auto;
+}
+
+.swiper-slide23 img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.slider-controler23 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.swiper-button-prev23, .swiper-button-next23 {
+  color: #007bff;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.swiper-button-prev23 svg, .swiper-button-next23 svg {
+  width: 24px;
+  height: 24px;
+}
+
+
+/* MoreGallery */
 
 /*--------------------------------------------------------------
 # Portfolio Details

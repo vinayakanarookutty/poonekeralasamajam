@@ -61,7 +61,7 @@ function MoreActivities() {
               </p>
             </div>
           </div>
-          <div className="col-md-6 col-lg-3 d-flex mb-5 mb-lg-0">
+          <div className="col-md-6 col-lg-3 d-flex mb-5 mb-lg-0 ">
             <div className="icon-box">
               <div className="icon"><i className="bx bx-world"></i></div>
               <h4 className="title"><a href="#">Charity</a></h4>
@@ -71,6 +71,94 @@ function MoreActivities() {
               </p>
             </div>
           </div>
+
+          
+         
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <div className="row mt-5">
+          <div className="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+            <div className="icon-box">
+              <div className="icon"><i className="bx bxl-dribbble"></i></div>
+              <h4 className="title"><a href="#">Educational Initiatives</a></h4>
+              <p className="description">
+              PKS offers scholarships to meritorious students from economically weaker sections to support their higher education. This initiative aims to empower the youth and contribute to their academic growth.
+              The Samaj provides tutoring and mentoring services to school children, helping them with their studies and offering guidance for their future careers.
+              </p>
+            </div>
+          </div>
+          <div className="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+            <div className="icon-box">
+              <div className="icon"><i className="bx bx-file"></i></div>
+              <h4 className="title"><a href="#">Health and Wellness</a></h4>
+              <p className="description">
+              PKS organizes regular health camps in collaboration with local hospitals and healthcare professionals, providing free medical check-ups, eye camps, and dental care services to the community.
+              To promote a healthy lifestyle, PKS conducts yoga and wellness programs, encouraging physical fitness and mental well-being among its members.
+              </p>
+            </div>
+          </div>
+          <div className="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+            <div className="icon-box">
+              <div className="icon"><i className="bx bx-tachometer"></i></div>
+              <h4 className="title"><a href="#">Environmental Initiatives</a></h4>
+              <p className="description">
+              PKS actively participates in environmental conservation by organizing tree plantation drives, contributing to a greener and healthier environment.
+              The Samaj conducts clean-up campaigns in local areas, promoting cleanliness and environmental awareness among the community members.
+              </p>
+            </div>
+          </div>
+          <div className="col-md-6 col-lg-3 d-flex mb-5 mb-lg-0">
+            <div className="icon-box">
+              <div className="icon"><i className="bx bx-world"></i></div>
+              <h4 className="title"><a href="#">Social and Community Engagement</a></h4>
+              <p className="description">
+              PKS provides support to senior citizens through various initiatives, including organizing social gatherings, health check-ups, and providing essential services to improve their quality of life.
+              The Samaj runs various youth engagement programs, including leadership workshops, career counseling sessions, and sports competitions, aimed at nurturing the talents and potential of young members.
+              </p>
+            </div>
+
+            
+          </div>
+
+
+          <div className="col-md-6 col-lg-3 d-flex mb-5 mb-lg-0 mt-5">
+            <div className="icon-box">
+              <div className="icon"><i className="bx bx-world"></i></div>
+              <h4 className="title"><a href="#">Crisis and Disaster Relief</a></h4>
+              <p className="description">
+              PKS conducts workshops on disaster preparedness and management, educating the community on how to respond effectively during emergencies.
+              The Samaj trains volunteers to assist during crises, ensuring a prompt and efficient response to natural disasters and other emergencies.
+              </p>
+            </div>
+
+            
+          </div>
+
+          
          
         </div>
       </div>
