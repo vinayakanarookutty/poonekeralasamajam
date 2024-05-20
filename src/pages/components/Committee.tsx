@@ -1,6 +1,7 @@
 import "../../css/home.css";
 import PCMemberCard from "./PCMemberCard";
 import { Swiper, SwiperSlide } from 'swiper/react';
+import { Link } from 'react-router-dom';
 
 // Import Swiper styles
 import 'swiper/css';
@@ -190,6 +191,9 @@ function Testimonials() {
           }
         </Swiper>
 
+      </div>
+      <div className="text-right">
+          <Link to="/committee" className="btn btn-primary">View details</Link>
       </div>
     </section>
   );

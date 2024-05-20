@@ -882,68 +882,6 @@ img23{
   bottom: 0;
 }
 
-/* MoreGallery */
-
-.container23 {
-  width: 100%;
-  padding: 20px;
-}
-
-.heading23 {
-  text-align: center;
-  margin-bottom: 20px;
-}
-
-.filter-buttons23 {
-  text-align: center;
-  margin-bottom: 20px;
-}
-
-.filter-buttons23 button {
-  margin: 0 10px;
-  padding: 10px 20px;
-  cursor: pointer;
-}
-
-.filter-buttons23 .active {
-  background-color: #007bff;
-  color: white;
-  border: none;
-}
-
-.swiper_container23 {
-  width: 100%;
-  max-width: 800px;
-  margin: auto;
-}
-
-.swiper-slide23 img {
-  width: 100%;
-  height: auto;
-  border-radius: 10px;
-}
-
-.slider-controler23 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 20px;
-}
-
-.swiper-button-prev23, .swiper-button-next23 {
-  color: #007bff;
-  font-size: 24px;
-  cursor: pointer;
-}
-
-.swiper-button-prev23 svg, .swiper-button-next23 svg {
-  width: 24px;
-  height: 24px;
-}
-
-
-/* MoreGallery */
-
 /*--------------------------------------------------------------
 # Portfolio Details
 --------------------------------------------------------------*/
@@ -1170,7 +1108,7 @@ img23{
 
 .team .member .pic {
   overflow: hidden;
-  height: 400px;
+  height: 200px;
   aspect-ratio: 1/1;
   border-radius: 7px;
 }
@@ -1185,7 +1123,7 @@ img23{
   color: #2f4d5a;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
   max-height: 95px;
-  width: 80%;
+  width: 50%;
   overflow: hidden;
   transition: max-height 0.5s ease-in-out;
 }
