@@ -24,7 +24,7 @@ const Contact: React.FC = () => {
             <div className="info-box mb-4">
               <i className="bx bx-envelope"></i>
               <h3>Email Us</h3>
-              <p>poonakeraleeyasamaj@example.com</p>
+              <p>poonakeralasamaj@gmail.com</p>
             </div>
           </div>
 

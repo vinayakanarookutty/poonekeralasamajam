@@ -13,11 +13,11 @@ const Footer = () => {
                 <p>
                 Rasta Peth <br />
                 Pune, Maharashtra<br /><br />
-                  <p>Phone:</p> 9822061992 ,982221700 ,9850403055<br />
+                  <p>Phone:</p><p style={{fontFamily:"sans-serif"}}>9822061992 ,982221700 ,9850403055</p> <br />
                   <strong>Email:</strong> poonakeraleeyasamaj@example.com<br />
                 </p>
                 <div className="social-links mt-3">
-                  <a href="#" className="youtube"><i className="bx bxl-youtube"></i></a>
+                  <a href="https://youtu.be/imA0GxQBRO4?si=H0s5Kfei9iturEkD " className="youtube"><i className="bx bxl-youtube"></i></a>
               
                 </div>
               </div>

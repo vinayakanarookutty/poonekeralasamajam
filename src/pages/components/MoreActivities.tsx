@@ -1,6 +1,7 @@
 import { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import { Link } from 'react-router-dom';
 
 function MoreActivities() {
   useEffect(() => {
@@ -20,6 +21,7 @@ function MoreActivities() {
             support for medical and educational needs showcases their commitment to
             making a difference in people's lives.
           </p>
+          
         </div>
         <div className="row">
           <div className="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
@@ -34,6 +36,7 @@ function MoreActivities() {
                 continues its tradition with a grand Annual Sports Meet during Onam, blending
                 celebration and athleticism seamlessly.
               </p>
+              <Link to='/activities'><button  className='pl-[70%]'>See more</button></Link>
             </div>
           </div>
           <div className="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
@@ -45,6 +48,7 @@ function MoreActivities() {
                 been helping the poor with clothes and other needy items, besides wheelchairs
                 to the ‘divyang’ persons.
               </p>
+
             </div>
           </div>
           <div className="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">

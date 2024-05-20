@@ -57,6 +57,7 @@ const About = () => {
             title: '2023 Womens Day Celebration',
             desc: "The Poona Keraleeya Samaj organized a special Women's Day celebration, graced by the esteemed presence of cine artist Sreelatha Namboothiri. The event highlighted the empowerment and achievements of women within the community through inspiring speeches and cultural performances. As part of their commitment to social welfare, the Samaj also conducted charitable activities, distributing wheelchairs, clothing, and other essential resources to those in need. This celebration not only honored women's contributions but also reinforced the Samaj's dedication to community service and support"
         },
+      
     ]
 
 
