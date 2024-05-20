@@ -3,6 +3,7 @@ import ErrorPage from './pages/ErrorPage';
 import Home from './pages/Home';
 import MoreActivities from './pages/components/MoreActivities';
 import MoreGallery from './pages/components/MoreGallery';
+import MoreCommittee from './pages/components/MoreCommittee';
 
 function App() {
   const router = createBrowserRouter([
@@ -18,6 +19,10 @@ function App() {
     {
       path: '/gallery',
       element: <MoreGallery />,
+    },
+    {
+      path: '/committee',
+      element: <MoreCommittee />,
     },
   ]);
 
