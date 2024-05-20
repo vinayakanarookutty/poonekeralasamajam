@@ -22,6 +22,7 @@ function MoreGallery() {
     },
     {
       imgelink: onamImage,
+      
     },
     {
       imgelink: prize_disImage,
