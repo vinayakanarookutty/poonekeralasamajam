@@ -52,7 +52,7 @@ const MoreGalleryNavItem: React.FC<MoreGalleryNavItemProps> = ({
         key={link.text}
         initial={{ opacity: 0, y: 100 }}
         whileInView={{ opacity: 1, y: 0 }}
-        className="flex items-center justify-between font-semibold hover:text-sky-400 p-4 hover:bg-[#0000001a] w-full "
+        className="flex items-center justify-between font-semibold hover:text-sky-400 p-4 hover:bg-[#0000001a] w-full rounded-xl"
       >
         <div
           className="cursor-pointer "

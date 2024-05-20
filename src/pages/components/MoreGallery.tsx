@@ -124,7 +124,7 @@ const MoreGallery: React.FC = () => {
         </motion.div>
 
         {/* Desktop menu */}
-        <div className='hidden fixed top-1/2 -translate-y-1/2 lg:left-3 lg:w-[150px] xl:left-10 xl:w-[300px] rounded-md lg:grid gap-2 z-[48]'>
+        <div className=' bg-slate-200 border-slate-600 hidden fixed top-1/2 -translate-y-1/2 lg:left-3 lg:w-[150px] xl:left-10 xl:w-[300px] rounded-xl lg:grid z-[48]'>
           {
             navLinks.map((link) => (
               <MoreGalleryNavItem key={link.text} link={link} toggleOpen={toggleOpen} setActiveCategory={setActiveCategory} />
