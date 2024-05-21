@@ -7,6 +7,7 @@ import { useCycle, motion } from 'framer-motion';
 interface NavLink {
     url: string;
     text: string;
+    onClick?: () => void;
 }
 
 const navLinks: NavLink[] = [
@@ -15,13 +16,19 @@ const navLinks: NavLink[] = [
     { url: '#services', text: 'Activities' },
     { url: '#portfolio', text: 'Gallery' },
     { url: '#testimonials', text: 'PKS Committee' },
+    { url: '#notification', text: 'Notification' },
     { url: '#contact', text: 'Contact' },
 ];
 
 const NewHeader: React.FC = () => {
     const [isOpen, toggleOpen] = useCycle(false, true);
     const [isScrolled, setIsScrolled] = useState(false);
+    const [notificationState, setNotificationState] = useState(false);
 
+    const handleNotificationClick = () => {
+        setNotificationState(!notificationState);
+        console.log("Notification link clicked!", notificationState);
+    };
     useEffect(() => {
         const handleScroll = () => {
             const scrolled = window.scrollY > 0;
@@ -53,7 +60,9 @@ const NewHeader: React.FC = () => {
                 {/* desktop nav */}
                 <nav className="hidden lg:flex gap-x-3">
                     {navLinks.map((link) => (
-                        <a key={link.url} className=" text-white font-bold hover:bg-[#b8f6ff2c] py-2 px-3 h-min text-nowrap grid place-items-center" href={link.url}>
+                        <a 
+                        onClick={link.text === 'Notification' ? handleNotificationClick : undefined}
+                        key={link.url} className=" text-white font-bold hover:bg-[#b8f6ff2c] py-2 px-3 h-min text-nowrap grid place-items-center" href={link.url}>
                             {link.text}
                         </a>
                     ))}
@@ -96,6 +105,7 @@ const NewHeader: React.FC = () => {
                 </motion.div>
 
             </div>
+            
         </motion.header>
     );
 };

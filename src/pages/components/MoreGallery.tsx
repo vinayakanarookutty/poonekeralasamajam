@@ -7,8 +7,7 @@ import onamImage from '../../assets/img/gallery/onam.jpg';
 import prize_disImage from '../../assets/img/gallery/prize_dis.jpg';
 import { Breadcrumb } from "flowbite-react";
 import { HiHome } from "react-icons/hi";
-import { Accordion } from "flowbite-react";
-import { ListGroup } from "flowbite-react";
+import Image from "../../assets/img/madras-high-court-handsketch-watercolor-600nw-2351270087.jpg"
 function MoreGallery() {
   const data = [
     {
@@ -62,7 +61,7 @@ function MoreGallery() {
       <Breadcrumb.Item href="#">Gallery</Breadcrumb.Item>
       </Breadcrumb>
     </div>
-      <div className="grid  py-10 min-h-screen place-items-center w-screen overflow-x-hidden relative">
+      <div  className="grid  py-10 min-h-screen place-items-center w-screen overflow-x-hidden relative">
         {/* header  */}
     
         <div className="section-title grid justify-center">

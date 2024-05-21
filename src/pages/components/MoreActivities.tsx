@@ -2,6 +2,8 @@ import { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { Link } from 'react-router-dom';
+import NewHeader from './NewHeader';
+import Image from "../../assets/img/madras-high-court-handsketch-watercolor-600nw-2351270087.jpg"
 
 function MoreActivities() {
   useEffect(() => {
@@ -9,9 +11,12 @@ function MoreActivities() {
   }, []);
 
   return (
-    <section id="services" className="services">
+    <>
+  
+    
+    <section  id="services" className="services">
       <div className="container">
-        <div className="section-title">
+        <div  style={{ backgroundImage: `url(${Image})` }} className="section-title">
           <h2>Activities</h2>
           <p>
             PKS is a powerhouse in sports and philanthropy. They host events like
@@ -167,6 +172,7 @@ function MoreActivities() {
         </div>
       </div>
     </section>
+    </>
   );
 }
 
