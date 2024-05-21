@@ -91,7 +91,7 @@ function Portfolio() {
           ))}
         </div>
         <div className="text-right">
-          <Link to="/gallery" className="btn btn-primary">See More</Link>
+          <Link to="/Betweengallery" className="btn btn-primary">See More</Link>
         </div>
       </div>
     </section>
