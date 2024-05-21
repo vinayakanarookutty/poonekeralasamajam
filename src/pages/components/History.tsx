@@ -14,6 +14,7 @@ import pooneHistory4 from "../../assets/img/History/annualday2008.jpg"
 import pooneHistory5 from "../../assets/img/pks_bckgrnd.jpg"
 import pooneHistory6 from "../../assets/img/History/womensday2023.jpg"
 import { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
 
 const About = () => {
     
@@ -108,6 +109,9 @@ const About = () => {
                     </div>
                 </div>
             </div>
+            <div className="text-right">
+          <Link to="/history" className="btn btn-primary">See More</Link>
+        </div>
         </section>
     );
 }
