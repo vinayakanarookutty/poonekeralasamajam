@@ -1,6 +1,9 @@
 import { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import { Link } from 'react-router-dom';
+import NewHeader from './NewHeader';
+import Image from "../../assets/img/madras-high-court-handsketch-watercolor-600nw-2351270087.jpg"
 
 function MoreActivities() {
   useEffect(() => {
@@ -8,9 +11,12 @@ function MoreActivities() {
   }, []);
 
   return (
-    <section id="services" className="services">
+    <>
+  
+    
+    <section  id="services" className="services">
       <div className="container">
-        <div className="section-title">
+        <div  style={{ backgroundImage: `url(${Image})` }} className="section-title">
           <h2>Activities</h2>
           <p>
             PKS is a powerhouse in sports and philanthropy. They host events like
@@ -20,6 +26,7 @@ function MoreActivities() {
             support for medical and educational needs showcases their commitment to
             making a difference in people's lives.
           </p>
+          
         </div>
         <div className="row">
           <div className="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
@@ -34,6 +41,7 @@ function MoreActivities() {
                 continues its tradition with a grand Annual Sports Meet during Onam, blending
                 celebration and athleticism seamlessly.
               </p>
+              <Link to='/activities'><button  className='pl-[70%]'>See more</button></Link>
             </div>
           </div>
           <div className="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
@@ -45,6 +53,7 @@ function MoreActivities() {
                 been helping the poor with clothes and other needy items, besides wheelchairs
                 to the ‘divyang’ persons.
               </p>
+
             </div>
           </div>
           <div className="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
@@ -163,6 +172,7 @@ function MoreActivities() {
         </div>
       </div>
     </section>
+    </>
   );
 }
 

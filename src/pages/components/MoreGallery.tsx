@@ -5,7 +5,9 @@ import clb2Image from '../../assets/img/gallery/clb2.jpg';
 import clb3Image from '../../assets/img/gallery/clb3.jpg';
 import onamImage from '../../assets/img/gallery/onam.jpg';
 import prize_disImage from '../../assets/img/gallery/prize_dis.jpg';
-
+import { Breadcrumb } from "flowbite-react";
+import { HiHome } from "react-icons/hi";
+import Image from "../../assets/img/madras-high-court-handsketch-watercolor-600nw-2351270087.jpg"
 function MoreGallery() {
   const data = [
     {
@@ -22,6 +24,7 @@ function MoreGallery() {
     },
     {
       imgelink: onamImage,
+      
     },
     {
       imgelink: prize_disImage,
@@ -50,12 +53,22 @@ function MoreGallery() {
 
   return (
     <>
-      <div className="grid  py-10 min-h-screen place-items-center w-screen overflow-x-hidden relative">
+    <div className='absolute mt-5 ml-10'>
+      <Breadcrumb aria-label="Default breadcrumb example">
+      <Breadcrumb.Item href="#" icon={HiHome}>
+        Home
+      </Breadcrumb.Item>
+      <Breadcrumb.Item href="#">Gallery</Breadcrumb.Item>
+      </Breadcrumb>
+    </div>
+      <div  className="grid  py-10 min-h-screen place-items-center w-screen overflow-x-hidden relative">
         {/* header  */}
+    
         <div className="section-title grid justify-center">
           {/* title  */}
           <h2 className="text-2xl font-bold">Gallery</h2>
           {/* search  */}
+    
           <form className=' w-[350px] focus-within:ring-2 ring-sky-400 h-min bg-slate-300 grid grid-cols-[1fr,1rem] rounded-full pr-5'>
               {/* serch input  */}
               <input className="focus:outline-none bg-transparent w-full py-3 pr-3 pl-5 text-sm" placeholder="Search Mockups, Logos..." required />
@@ -68,6 +81,7 @@ function MoreGallery() {
                 </div>
               </button>
           </form>
+        
         </div>
 
         {/* active image  */}
@@ -92,7 +106,10 @@ function MoreGallery() {
             </div>
           ))}
         </div>
-      </div>
+        
+</div>        
+
+    
     </>
   );
 }
