@@ -14,6 +14,7 @@
     "@coreui/react": "^5.0.0",
     "aos": "^2.3.4",
     "bootstrap": "^5.3.3",
+    "flowbite": "^2.3.0",
     "flowbite-react": "^0.9.0",
     "framer-motion": "^11.1.9",
     "ionicons": "^7.4.0",
