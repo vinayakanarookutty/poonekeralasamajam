@@ -1,10 +1,9 @@
-import NewHeader from "../components/NewHeader";
 import "../css/notifications.css";
 import NotificationCards from "../components/NotificationCards";
 // import Footer from "../components/Footer";
 // import for data
 import notifications_data from "../data/notifications.json";
-import Footer from "../components/Footer";
+
 
 function Notifications() {
     const data = notifications_data.notification;
@@ -13,7 +12,7 @@ function Notifications() {
     return (
         <>
             {/* Header */}
-            <NewHeader />
+            {/* <NewHeader /> */}
             <div className="notifications-container  pt-5">
                 {/* Headings */}
                 <div className="notification-heading">
@@ -37,7 +36,7 @@ function Notifications() {
                 </div>
             </div>
             {/* <Footer /> */}
-            <Footer />
+            {/* <Footer /> */}
         </>
     );
 }
