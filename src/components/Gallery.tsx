@@ -1,12 +1,12 @@
 import { useState, useEffect } from 'react';
 import { motion } from "framer-motion";
 import { Link } from 'react-router-dom';
-import clb1Image from '../../assets/img/gallery/clb1.jpg';
-import clbImage from '../../assets/img/gallery/clb.jpg';
-import clb2Image from '../../assets/img/gallery/clb2.jpg';
-import clb3Image from '../../assets/img/gallery/clb3.jpg';
-import onamImage from '../../assets/img/gallery/onam.jpg';
-import prize_disImage from '../../assets/img/gallery/prize_dis.jpg';
+import clb1Image from '../assets/img/gallery/clb1.jpg';
+import clbImage from '../assets/img/gallery/clb.jpg';
+import clb2Image from '../assets/img/gallery/clb2.jpg';
+import clb3Image from '../assets/img/gallery/clb3.jpg';
+import onamImage from '../assets/img/gallery/onam.jpg';
+import prize_disImage from '../assets/img/gallery/prize_dis.jpg';
 
 function Portfolio() {
   const [activeFilter, setActiveFilter] = useState("*");

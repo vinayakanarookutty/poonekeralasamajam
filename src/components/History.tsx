@@ -7,12 +7,12 @@ import { Navigation, Pagination, Autoplay } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
-import pooneHistory1 from "../../assets/img/History/PoonemHistory1.jpg"
-import pooneHistory2 from "../../assets/img/History/poonehistory2001.jpg"
-import pooneHistory3 from "../../assets/img/History/poonemhistory2.jpg"
-import pooneHistory4 from "../../assets/img/History/annualday2008.jpg"
-import pooneHistory5 from "../../assets/img/pks_bckgrnd.jpg"
-import pooneHistory6 from "../../assets/img/History/womensday2023.jpg"
+import pooneHistory1 from "../assets/img/History/PoonemHistory1.jpg"
+import pooneHistory2 from "../assets/img/History/poonehistory2001.jpg"
+import pooneHistory3 from "../assets/img/History/poonemhistory2.jpg"
+import pooneHistory4 from "../assets/img/History/annualday2008.jpg"
+import pooneHistory5 from "../assets/img/pks_bckgrnd.jpg"
+import pooneHistory6 from "../assets/img/History/womensday2023.jpg"
 import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 

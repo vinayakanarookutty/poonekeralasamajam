@@ -1,4 +1,4 @@
-import "../../css/home.css";
+import "../css/home.css";
 import PCMemberCard from "./PCMemberCard";
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Link } from 'react-router-dom';
@@ -10,26 +10,26 @@ import 'swiper/css/pagination';
 import { Pagination, Autoplay } from 'swiper/modules';
 
 // Import images
-import BmadhunairImage from '../../assets/img/committee/committee/Bmadhunair.jpg';
-import VijyImage from '../../assets/img/committee/committee/vjy.jpg';
-import GopallImage from '../../assets/img/committee/committee/Gopall.jpg';
-import Jagdish_PoduvalImage from '../../assets/img/committee/committee/Jagdish_Poduval.jpg';
-import SureshnImage from '../../assets/img/committee/committee/sureshn.jpg';
-import SomImage from '../../assets/img/committee/committee/som.jpg';
-import Anil_GeorgeImage from '../../assets/img/c_members/Anil-George.jpg';
-import Vijayamnair_2Image from '../../assets/img/c_members/vijayamnair-2.jpg';
-import SarasammaImage from '../../assets/img/c_members/sarasamma-1.jpg';
-import VineetaNair from '../../assets/img/committee/committee/VineetaNair.jpg';
-import PDavis from '../../assets/img/committee/committee/PDavis.jpg';
-import VijayPoduval from '../../assets/img/committee/committee/Vijay Poduval.jpg';
-import BRNair from '../../assets/img/committee/committee/B.R.Nair.jpg';
-import KurianThomas from '../../assets/img/committee/committee/KurianThomas.jpg';
-import VijayNair from '../../assets/img/committee/committee/VijayNair.jpg';
-import SusheelaNair from '../../assets/img/committee/committee/SusheelaNair.jpg';
-import SUMenon from '../../assets/img/committee/committee/SUMenon_.jpg';
-import MaheshPoduval from '../../assets/img/committee/committee/MaheshPoduval_.jpg';
-import PreetaNair from '../../assets/img/committee/committee/PreetaNair_.jpg';
-import MohandasNair from '../../assets/img/committee/committee/mohandasnair_.jpg';
+import BmadhunairImage from '../assets/img/committee/committee/Bmadhunair.jpg';
+import VijyImage from '../assets/img/committee/committee/vjy.jpg';
+import GopallImage from '../assets/img/committee/committee/Gopall.jpg';
+import Jagdish_PoduvalImage from '../assets/img/committee/committee/Jagdish_Poduval.jpg';
+import SureshnImage from '../assets/img/committee/committee/sureshn.jpg';
+import SomImage from '../assets/img/committee/committee/som.jpg';
+import Anil_GeorgeImage from '../assets/img/c_members/Anil-George.jpg';
+import Vijayamnair_2Image from '../assets/img/c_members/vijayamnair-2.jpg';
+import SarasammaImage from '../assets/img/c_members/sarasamma-1.jpg';
+import VineetaNair from '../assets/img/committee/committee/VineetaNair.jpg';
+import PDavis from '../assets/img/committee/committee/PDavis.jpg';
+import VijayPoduval from '../assets/img/committee/committee/Vijay Poduval.jpg';
+import BRNair from '../assets/img/committee/committee/B.R.Nair.jpg';
+import KurianThomas from '../assets/img/committee/committee/KurianThomas.jpg';
+import VijayNair from '../assets/img/committee/committee/VijayNair.jpg';
+import SusheelaNair from '../assets/img/committee/committee/SusheelaNair.jpg';
+import SUMenon from '../assets/img/committee/committee/SUMenon_.jpg';
+import MaheshPoduval from '../assets/img/committee/committee/MaheshPoduval_.jpg';
+import PreetaNair from '../assets/img/committee/committee/PreetaNair_.jpg';
+import MohandasNair from '../assets/img/committee/committee/mohandasnair_.jpg';
 
 function Testimonials() {
   const members = [
