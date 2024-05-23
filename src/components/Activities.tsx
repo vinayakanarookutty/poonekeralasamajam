@@ -3,6 +3,7 @@ import AOS from 'aos';
 import { Link } from 'react-router-dom';
 import 'aos/dist/aos.css'; 
 
+
 function Services() {
   useEffect(() => {
     AOS.init(); 
@@ -10,6 +11,7 @@ function Services() {
 
   return (
     <section id="services" className="services" >
+      
       <div className="container">
         <div className="section-title" >
           <h2>Activities</h2>

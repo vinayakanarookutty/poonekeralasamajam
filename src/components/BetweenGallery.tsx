@@ -48,8 +48,8 @@ const cardData = [
 
 const BetweenGallery: React.FC = () => {
   return (
-    <section className="container37">
-      <div className="card__container">
+    <section className="container37 h-screen ">
+      <div className="card__container mt-[15%]">
         <Swiper
           spaceBetween={50}
           slidesPerView={3}
@@ -76,12 +76,7 @@ const BetweenGallery: React.FC = () => {
           ))}
         </Swiper>
 
-        <div className="swiper-button-next">
-          <i className="ri-arrow-right-s-line"></i>
-        </div>
-        <div className="swiper-button-prev">
-          <i className="ri-arrow-left-s-line"></i>
-        </div>
+        
 
         <div className="swiper-pagination"></div>
       </div>

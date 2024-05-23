@@ -32,11 +32,11 @@ const Member: React.FC<MemberProps> = ({ imgSrc, name, title, delay }) => {
 const MoreCommittee: React.FC = () => {
   return (
     <section id="team" className="team">
-      <div className="container">
+      <div className="container ">
         <div className="section-title" data-aos="fade-in" data-aos-delay="100">
           <h2>Committee Members</h2>
         </div>
-        <div className="row">
+        <div className="row lg:pl-[10%] sm:pl-[25%]">
           <Member
             imgSrc="src/assets/img/committee/committee/Bmadhunair.jpg"
             name="B Madhu Nair"
