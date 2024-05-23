@@ -29,7 +29,7 @@ const Member: React.FC<MemberProps> = ({ imgSrc, name, title, delay }) => {
   );
 };
 
-const CommitteeMembers: React.FC = () => {
+const MoreCommittee: React.FC = () => {
   return (
     <section id="team" className="team">
       <div className="container">
@@ -163,4 +163,4 @@ const CommitteeMembers: React.FC = () => {
   );
 };
 
-export default CommitteeMembers;
+export default MoreCommittee;

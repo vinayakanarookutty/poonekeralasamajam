@@ -1,8 +1,8 @@
 
 import { motion } from 'framer-motion';
-import "../../css/home.css"
+import "../css/home.css"
 import BgCarousel from './BgCarousel';
-import arrow from "../../assets/img/down-arrow.png"
+import arrow from "../assets/img/down-arrow.png"
 
 function Hero() {
   return (
