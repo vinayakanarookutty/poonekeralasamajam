@@ -15,7 +15,7 @@ const navLinks: NavLink[] = [
     { url: "#services", text: "Activities" },
     { url: "#portfolio", text: "Gallery" },
     { url: "#testimonials", text: "PKS Committee" },
-    { url: "#notification", text: "Notification" },
+    { url: "/notifications", text: "Notification" },
     { url: "#contact", text: "Contact" },
 ];
 

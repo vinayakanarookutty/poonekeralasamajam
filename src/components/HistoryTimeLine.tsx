@@ -17,7 +17,6 @@ function HistoryTimeLine() {
             support for medical and educational needs showcases their commitment to
             making a difference in people's lives.
           </p>
-          
         </div>
     <div className="timeline_container left-container">
     <img src={timelineImage2} alt='google'></img>
