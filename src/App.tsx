@@ -7,6 +7,7 @@ import ActivitiesDetails from "./components/ActivitiesDetails";
 import HistoryTimeLine from "./components/HistoryTimeLine";
 import BetweenGallery from "./components/BetweenGallery";
 import MoreCommittee from "./components/MoreCommittee";
+import Notifications from "./pages/Notifications";
 
 function App() {
     const router = createBrowserRouter([
@@ -38,6 +39,10 @@ function App() {
         {
             path: "/BetweenGallery",
             element: <BetweenGallery />,
+        },
+        {
+            path: "/notifications",
+            element: <Notifications />,
         },
     ]);
 
