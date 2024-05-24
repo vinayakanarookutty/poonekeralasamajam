@@ -12,6 +12,46 @@
   background: #67b0d1cc;
 }
 
+.flash-news {
+  background-color: #67b0d1cc;
+  font-family: "Poppins", sans-serif;
+  color: #333;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  font-weight: bold;
+  overflow: hidden; /* Hide overflowing content */
+  position: relative; /* Required for absolute positioning of marquee content */
+}
+
+.flash-news h2 {
+  margin-top: 0;
+  font-size: 18px;
+}
+
+
+
+
+.marquee {
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.marquee-content {
+  display: inline-block;
+  padding-left: 100%;
+  animation: marquee 20s linear infinite;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(-100%, 0);
+  }
+}
 .swiper-slide {
   border: none !important;
   outline: none !important;
