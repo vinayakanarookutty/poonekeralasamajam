@@ -1,13 +1,16 @@
 
 import { motion } from 'framer-motion';
-import "../css/home.css"
+import "../css/home.css"; 
+
 import BgCarousel from './BgCarousel';
 import arrow from "../assets/img/down-arrow.png"
+import FlashNews from './FlashNews';
 
 function Hero() {
   return (
     <section id="hero" className={`h-screen relative`}>
       <BgCarousel/>
+      <FlashNews/>
       <div className="hero-container h-screen" data-aos="fade-up">
         <motion.div
           className="box"
