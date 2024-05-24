@@ -1,7 +1,6 @@
 import React from 'react';
 import Marquee from './Marquee';
-
-import "../../css/home.css";
+import "../css/home.css"; 
 
 const FlashNews: React.FC = () => {
     return (
