@@ -8,33 +8,22 @@ const cardData = [
   {
     name: "Arts",
     description: "Passionate about development and design, I carry out projects at the request of users.",
-    imgSrc: "src/assets/img/gallery/prize_dis.jpg"
+    imgSrc: "src/assets/img/gallery/prize_dis.jpg",
+    href: "/gallery"
   },
   {
     name: "Sports",
     description: "Passionate about development and design, I carry out projects at the request of users.",
-    imgSrc: "src/assets/img/gallery/prize_dis.jpg"
+    imgSrc: "src/assets/img/gallery/prize_dis.jpg",
+    href: "/gallery"
   },
   {
     name: "Celebration",
     description: "Passionate about development and design, I carry out projects at the request of users.",
-    imgSrc: "src/assets/img/gallery/prize_dis.jpg"
+    imgSrc: "src/assets/img/gallery/prize_dis.jpg",
+    href: "/gallery"
   },  
-  {
-    name: "Arts",
-    description: "Passionate about development and design, I carry out projects at the request of users.",
-    imgSrc: "src/assets/img/gallery/prize_dis.jpg"
-  },
-  {
-    name: "Sports",
-    description: "Passionate about development and design, I carry out projects at the request of users.",
-    imgSrc: "src/assets/img/gallery/prize_dis.jpg"
-  },
-  {
-    name: "Celebration",
-    description: "Passionate about development and design, I carry out projects at the request of users.",
-    imgSrc: "src/assets/img/gallery/prize_dis.jpg"
-  },  
+ 
  
 ];
 const data = cardData;

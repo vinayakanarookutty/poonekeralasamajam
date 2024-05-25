@@ -12,6 +12,7 @@ const BgCarousel: React.FC = () => {
     const images = [bg1, bg2, bg3, bg4];
 
     return (
+        
         <Swiper autoplay={{
             delay: 2500,
             disableOnInteraction: false,
@@ -20,9 +21,17 @@ const BgCarousel: React.FC = () => {
         >
            {images.map((image, index) => (
     <SwiperSlide key={index}>
-        <div className=" h-screen  w-screen overflow-hidden max-h-screen ">
+        <div className="flex">
+        <div className=" h-screen  w-full overflow-hidden max-h-screen ">
             <div className="h-full w-full bg-[#378db540] absolute top-0 left-0 z-50"></div>
             <img src={image} alt={`img_${index}`} className="h-screen md:w-screen md:h-screen object-cover brightness-60" />
+         
+        </div>
+
+        <div>
+       
+        
+        </div>
         </div>
     </SwiperSlide>
 ))}

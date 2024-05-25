@@ -15,6 +15,9 @@ const navLinks: NavLink[] = [
     { url: "#services", text: "Activities" },
     { url: "#portfolio", text: "Gallery" },
     { url: "#testimonials", text: "PKS Committee" },
+   
+    { url: "/noti", text: "Notification" },
+
     { url: "/events", text: "Events" },
     { url: "#contact", text: "Contact" },
 ];
@@ -43,9 +46,7 @@ const NewHeader: React.FC = () => {
 
     return (
         <motion.header
-            className={`${
-                isScrolled ? "bg-[#3088bae5]" : "bg-transparent"
-            } transition-all duration-500 fixed top-0 left-0 w-screen z-50 flex justify-between items-center py-3 px-5 xl:justify-center xl:gap-x-[20%] `}
+            className={`bg-[#3088bae5] transition-all duration-500 fixed top-0 left-0 w-screen z-50 flex justify-between items-center py-3 px-5 xl:justify-center xl:gap-x-[20%] `}
         >
             {/* left */}
             <div>

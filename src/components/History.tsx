@@ -92,7 +92,7 @@ const About = () => {
                                 type: 'progressbar',
                             }}
                             navigation={timelineNavigation}
-                            modules={[Pagination, Navigation]}
+                            modules={[Pagination, Navigation,Autoplay]}
                             className="mySwiper xl:px-20 w-[90%]"
                         >
                             {timelineItems.map((item, index) => (
