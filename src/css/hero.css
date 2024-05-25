@@ -1,7 +1,7 @@
 .hero-container {
     height: 85vh;
     display: flex;
-    background: url(https://img.veenaworld.com/wp-content/uploads/2018/10/pune-city-kalpataru.jpg?imwidth=1400);
+    background: url(../assets/Backgrounds/pune-city-kalpataru.avif);
     background-repeat: no-repeat;
     background-size: cover;
 }
