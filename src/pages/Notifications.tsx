@@ -12,29 +12,35 @@ function Notifications() {
 
     return (
         <>
-            {/* Header */}
-            <NewHeader />
             <div className="notifications-container  pt-5">
                 {/* Headings */}
-                <div className="notification-heading">
-                    <p className="notification-title"> Notifications</p>
-                    <p className="notification-subheading">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Quisquam ullam quidem, delectus sed possimus tenetur,
-                        expedita, id corrupti aliquid dolorem facilis totam
-                        repellendus asperiores veritatis! Quia vitae placeat
-                        suscipit expedita.
-                    </p>
+                <div className="notification-heading justify-between w-75">
+                    <p className="notification-title">Events</p>
+                    <div>
+                        <input
+                            type="text"
+                            style={{
+                                letterSpacing: "3px",
+                                borderRadius: "20px",
+                                width: " 350px",
+                            }}
+                            placeholder="Search for any events"
+                            className="block w-full rounded-md border-0 py-1.5 pl-7 pr-20 text-gray-900 ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+                        />
+                    </div>
                 </div>
 
                 {/* Content */}
-                <div className="d-flex justify-content-center align-items-center">
+                <div className="" >
+                    <h1 className="notification-title">Upcoming Events</h1>
+                </div>
+                {/* <div className="d-flex justify-content-center align-items-center">
                     <div className="notification-content ">
                         {data.map((items) => (
                             <NotificationCards items={items} />
                         ))}
                     </div>
-                </div>
+                </div> */}
             </div>
             {/* <Footer /> */}
             <Footer />

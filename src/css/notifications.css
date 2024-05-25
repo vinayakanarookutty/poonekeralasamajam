@@ -1,23 +1,24 @@
 .notifications-container {
     text-align: center;
-    margin-top: 120px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background: #e0fbfc;
     /* background-image: radial-gradient(circle, #80debb, #50cbc0, #16b6c3, #00a0c2, #0089ba); */
 }
 
 .notification-heading {
-    background: url(../assets/img/section-title-bg.png) no-repeat;
-    background-position: center top;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    flex-direction: column;
 }
 
 .notification-title {
     font-size: 32px;
     font-weight: 600;
     color: #2f4d5a;
-    letter-spacing: 2.5px;
+    letter-spacing: 3.5px;
 }
 
 .notification-subheading {
