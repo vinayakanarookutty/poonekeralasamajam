@@ -18,7 +18,7 @@ const navLinks: NavLink[] = [
    
     { url: "/noti", text: "Notification" },
 
-    { url: "/notifications", text: "Events" },
+    { url: "/events", text: "Events" },
     { url: "#contact", text: "Contact" },
 ];
 
