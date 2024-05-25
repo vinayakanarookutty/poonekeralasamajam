@@ -1,8 +1,23 @@
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
+/* .container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
 }
+.section {
+  background-color: #f0f0f0;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+.section h2 {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 10px;
+}
+.notifications {
+  max-height: 200px;
+  overflow-y: auto;
+} */
 
 #header {
   transition: all 0.5s;
@@ -13,19 +28,20 @@
 }
 
 .flash-news {
-  background-color: #67b0d1cc;
+  background-color: #3088bae5;
   font-family: "Poppins", sans-serif;
   color: #333;
   padding: 10px;
-  border-radius: 5px;
+ 
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  margin-bottom: 20px;
+
   font-weight: bold;
   overflow: hidden; /* Hide overflowing content */
   position: relative; /* Required for absolute positioning of marquee content */
 }
 
 .flash-news h2 {
+ 
   margin-top: 0;
   font-size: 18px;
 }
