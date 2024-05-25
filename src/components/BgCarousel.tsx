@@ -22,7 +22,7 @@ const BgCarousel: React.FC = () => {
            {images.map((image, index) => (
     <SwiperSlide key={index}>
         <div className="flex">
-        <div className=" h-[600px]  w-full overflow-hidden max-h-screen ">
+        <div className=" h-screen  w-full overflow-hidden max-h-screen ">
             <div className="h-full w-full bg-[#378db540] absolute top-0 left-0 z-50"></div>
             <img src={image} alt={`img_${index}`} className="h-screen md:w-screen md:h-screen object-cover brightness-60" />
          
