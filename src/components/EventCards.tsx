@@ -1,17 +1,16 @@
 import { Card } from "flowbite-react";
-import "../css/notifications.css";
+import "../css/events.css";
 // import for Modals
 import { Button, Modal } from "flowbite-react";
 import { useState } from "react";
 
-function NotificationCards({ items }) {
+function EventCards({ items }) {
     const [openModal, setOpenModal] = useState(false);
 
-    console.log(items);
-
+    
     return (
         <>
-            <div className="d-flex px-5 justify-content-center align-items-center ">
+            <div className="d-flex px-4 justify-content-center align-items-center notification-card-container">
                 <Card
                     className="notification-cards"
                     imgSrc={`${items.img}`}
@@ -62,4 +61,4 @@ function NotificationCards({ items }) {
     );
 }
 
-export default NotificationCards;
+export default EventCards;

@@ -1,6 +1,6 @@
 import React from 'react'
 import { Card } from "flowbite-react";
-import "../css/notifications.css";
+import "../css/events.css";
 function ThumbnailCard({ items }) {
   return (
     <>
