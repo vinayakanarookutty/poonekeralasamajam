@@ -1,0 +1,38 @@
+.hero-container {
+    height: 85vh;
+    display: flex;
+    background: url(../assets/Backgrounds/pune-city-kalpataru.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero-content {
+    display: flex;
+    justify-content: start;
+    margin: 200px 0 0 270px;
+}
+
+.hero-info-heading {
+    color:  #083f4f;
+    font-size: 42px;
+    font-weight: 800;
+    display: flex;
+    width: 700px;
+    letter-spacing: 4px;
+    text-transform: capitalize;
+}
+
+.hero-info-subheading,
+.hero-info-para {
+    color:  #083f4f;
+    font-size: 28px;
+    font-weight: 500;
+    display: flex;
+    width: 700px;
+    margin-top: 20px;
+}
+
+.hero-info-para {
+    font-size: 22px;
+    text-align: justify;
+}
