@@ -9,7 +9,7 @@ interface MemberProps {
 
 const Member: React.FC<MemberProps> = ({ imgSrc, name, title, delay }) => {
   return (
-    <div className="col-lg-4 col-md-6">
+    <div style={{backgroundColor: '#6ce4ff'}} className="col-lg-4 col-md-6">
       <div className="member" data-aos="fade-up" data-aos-delay={delay}>
         <div className="pic">
           <img src={imgSrc} className="img-fluid" alt={name} />
@@ -31,7 +31,7 @@ const Member: React.FC<MemberProps> = ({ imgSrc, name, title, delay }) => {
 
 const MoreCommittee: React.FC = () => {
   return (
-    <section id="team" className="team">
+    <section style={{backgroundColor: '#6ce4ff'}} id="team" className="team">
       <div className="container ">
         <div className="section-title" data-aos="fade-in" data-aos-delay="100">
           <h2>Committee Members</h2>
