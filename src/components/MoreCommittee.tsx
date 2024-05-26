@@ -9,7 +9,7 @@ interface MemberProps {
 
 const Member: React.FC<MemberProps> = ({ imgSrc, name, title, delay }) => {
   return (
-    <div style={{backgroundColor: '#6ce4ff'}} className="col-lg-4 col-md-6">
+    <div className="col-lg-4 col-md-6">
       <div className="member" data-aos="fade-up" data-aos-delay={delay}>
         <div className="pic">
           <img src={imgSrc} className="img-fluid" alt={name} />
@@ -31,7 +31,7 @@ const Member: React.FC<MemberProps> = ({ imgSrc, name, title, delay }) => {
 
 const MoreCommittee: React.FC = () => {
   return (
-    <section style={{backgroundColor: '#6ce4ff'}} id="team" className="team">
+    <section id="team" className="team">
       <div className="container ">
         <div className="section-title" data-aos="fade-in" data-aos-delay="100">
           <h2>Committee Members</h2>
@@ -59,7 +59,7 @@ const MoreCommittee: React.FC = () => {
             imgSrc="src/assets/img/committee/committee/vjy.jpg"
             name="K Vijayakumar"
             title="Vice President"
-            delay={0}
+            delay={80}
           />
           <Member
             imgSrc="src/assets/img/committee/committee/som.jpg"
@@ -77,7 +77,7 @@ const MoreCommittee: React.FC = () => {
             imgSrc="src/assets/img/committee/committee/Jagdish_Poduval.jpg"
             name="Jagdish Poduval"
             title="Joint Treasurer"
-            delay={80}
+            delay={100}
           />
           <Member
             imgSrc="src/assets/img/c_members/sarasamma-1.jpg"
@@ -95,7 +95,7 @@ const MoreCommittee: React.FC = () => {
             imgSrc="src/assets/img/committee/committee/SusheelaNair.jpg"
             name="Susheela Nair"
             title="Social Welfare Convener"
-            delay={100}
+            delay={140}
           />
           <Member
             imgSrc="src/assets/img/committee/committee/SUMenon_.jpg"
@@ -113,7 +113,7 @@ const MoreCommittee: React.FC = () => {
             imgSrc="src/assets/img/committee/committee/VijayNair.jpg"
             name="Vijay Nair"
             title="Youth Wing Convener"
-            delay={140}
+            delay={200}
           />
           <Member
             imgSrc="src/assets/img/committee/committee/VineetaNair.jpg"
@@ -131,7 +131,7 @@ const MoreCommittee: React.FC = () => {
             imgSrc="src/assets/img/c_members/vijayamnair-2.jpg"
             name="Vijayam A. Nair"
             title="Executive Committee Member"
-            delay={200}
+            delay={250}
           />
           <Member
             imgSrc="src/assets/img/c_members/Anil-George.jpg"
@@ -149,7 +149,7 @@ const MoreCommittee: React.FC = () => {
             imgSrc="src/assets/img/committee/committee/KurianThomas.jpg"
             name="Kurian Thomas(Prince)"
             title="Executive Committee Convener"
-            delay={250}
+            delay={300}
           />
           <Member
             imgSrc="src/assets/img/committee/committee/mohandasnair_.jpg"

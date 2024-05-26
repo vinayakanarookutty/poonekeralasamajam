@@ -11,7 +11,7 @@ function MoreActivities() {
   }, []);
 
   return (
-    <div style={{ backgroundColor: '#6ce4ff', minHeight: '100vh', padding: '20px' }}>
+    <div style={{ backgroundColor: 'white', minHeight: '100vh', padding: '20px' }}>
       <section id="services" className="services">
         <div className="container">
           <div  className="section-title">
