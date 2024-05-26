@@ -45,8 +45,8 @@ const cardData = [
 
 const BetweenGallery: React.FC = () => {
   return (
-    <div style={{ backgroundColor: '#6ce4ff', minHeight: '100vh', padding: '20px' }}>
-      <section style={{backgroundColor: '#6ce4ff'}}  className="notifications-container">
+    <div style={{ backgroundColor: 'white', minHeight: '100vh', padding: '20px' }}>
+      <section style={{backgroundColor: 'white'}}  className="notifications-container">
         {/* <div  className="section-title"> */}
           <h2 className='bgallerytitle'>Welcome to PKS Gallery</h2>
         {/* </div> */}
