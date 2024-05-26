@@ -1,11 +1,11 @@
 import React from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
-import "../css/home.css";
+
 import "../css/notification.css"
 import Image from "../assets/img/madras-high-court-handsketch-watercolor-600nw-2351270087.jpg"
 import ThumbnailCard from './ThumbnailCard';
-import "../css/events.css"
+
 const cardData = [
   {
     name: "Arts",

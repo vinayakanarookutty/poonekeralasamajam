@@ -13,7 +13,7 @@
 }
 
 .hero-info-heading {
-    color:  #083f4f;
+    color:  #67b0d1cc;
     font-size: 42px;
     font-weight: 800;
     display: flex;
@@ -24,7 +24,7 @@
 
 .hero-info-subheading,
 .hero-info-para {
-    color:  #083f4f;
+    color: #67b0d1cc;
     font-size: 28px;
     font-weight: 500;
     display: flex;

@@ -8,13 +8,15 @@ import Contact from '../components/Contact';
 import Footer from '../components/Footer';
 import NewHeader from '../components/NewHeader';
 import Hero from '../components/Hero';
+import Header from '../components/Header';
 
 
 function Home() {
   return (
     <>
       {/* <Header /> */}
-      <NewHeader />
+      <Header/>
+      {/* <NewHeader /> */}
       <Hero />
       <About />
       <Services />

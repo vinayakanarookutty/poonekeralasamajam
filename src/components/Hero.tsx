@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 function Hero() {
     return (
         <>
-            <div className="hero-container">
+            <div className="hero-container h-screen">
                 <div className="hero-content">
                     <motion.div
                         initial={{ scale: 0.7 }}
