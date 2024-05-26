@@ -11,6 +11,7 @@ import { Pagination, Autoplay } from 'swiper/modules';
 
 // Import images
 import BmadhunairImage from '../assets/img/committee/committee/Bmadhunair.jpg';
+import MNNambiarImage from '../assets/img/committee/committee/MNNambiar.jpeg';
 import VijyImage from '../assets/img/committee/committee/vjy.jpg';
 import GopallImage from '../assets/img/committee/committee/Gopall.jpg';
 import Jagdish_PoduvalImage from '../assets/img/committee/committee/Jagdish_Poduval.jpg';
@@ -38,6 +39,12 @@ function Testimonials() {
       name: "B. Madhu Nair",
       position: "President",
       phone: '9822061992',
+    },
+    {
+      image: MNNambiarImage,
+      name: "M. N. Nambiar",
+      position: "Tresurer",
+      phone: '9850403055',
     },
     {
       image: GopallImage,
@@ -159,7 +166,7 @@ function Testimonials() {
   return (
     <section id="testimonials" className="testimonials section-bg mt-5 max-h-screen ">
       <div className="container">
-        <div className="section-title" data-aos="fade-in" data-aos-delay="100">
+        <div className="section-title" data-aos="fade-up" data-aos-delay="100">
           <h2>Present Managing Committee</h2>
           <p>The current PKS Managing Committee, led by Shri. B. Madhusudan Nair, comprises dedicated middle-aged and young members. They are actively sustaining the society's activities on a large scale. In the late 1970s, PKS had just 8 Life Members and fewer than 100 ordinary members, with fees of Rs.3/- for ordinary members and Rs.25/- for Life Members annually. Despite the Life Membership Fee now being Rs.1000/-, PKS has grown its Life Membership to 350, showcasing a commendable achievement in expanding its membership base.</p>
         </div>

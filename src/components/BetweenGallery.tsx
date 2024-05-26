@@ -1,9 +1,7 @@
 import React from 'react';
-import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 
-import "../css/notification.css"
-import Image from "../assets/img/madras-high-court-handsketch-watercolor-600nw-2351270087.jpg"
+import "../css/notification.css";
 import ThumbnailCard from './ThumbnailCard';
 
 const cardData = [
@@ -42,26 +40,25 @@ const cardData = [
     description: "Passionate about development and design, I carry out projects at the request of users.",
     imgSrc: "src/assets/img/gallery/prize_dis.jpg",
     href: "/gallery"
-  },  
- 
- 
+  },
 ];
-const data = cardData;
 
 const BetweenGallery: React.FC = () => {
   return (
-    <section className="notifications-container ">
-      <div   className="section-title">
-          <h2>Thumbnails</h2>
-        </div>
+    <div style={{ backgroundColor: '#6ce4ff', minHeight: '100vh', padding: '20px' }}>
+      <section style={{backgroundColor: '#6ce4ff'}}  className="notifications-container">
+        {/* <div  className="section-title"> */}
+          <h2 className='bgallerytitle'>Welcome to PKS Gallery</h2>
+        {/* </div> */}
         <div className="d-flex justify-content-center align-items-center">
-                    <div className="notification-content ">
-                        {data.map((items) => (
-                            <ThumbnailCard items={items} />
-                        ))}
-                    </div>
-                </div>
-    </section>
+          <div className="notification-content">
+            {cardData.map((items, index) => (
+              <ThumbnailCard key={index} items={items} />
+            ))}
+          </div>
+        </div>
+      </section>
+    </div>
   );
 };
 

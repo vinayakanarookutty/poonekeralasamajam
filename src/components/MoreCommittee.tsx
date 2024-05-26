@@ -44,6 +44,12 @@ const MoreCommittee: React.FC = () => {
             delay={0}
           />
           <Member
+            imgSrc="src/assets/img/committee/committee/MNNambiar.jpeg"
+            name="M. N. Nambiar"
+            title="Treasurer"
+            delay={0}
+          />
+          <Member
             imgSrc="src/assets/img/committee/committee/Gopall.jpg"
             name="Gopalakrishnan Nair"
             title="General Secretary"
