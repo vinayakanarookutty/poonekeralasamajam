@@ -11,10 +11,8 @@ function MoreActivities() {
   }, []);
 
   return (
-    <>
-  
-    
-    <section  id="services" className="services">
+    <> 
+     <section  id="services" className="services">
       <div className="container">
         <div  style={{ backgroundImage: `url(${Image})` }} className="section-title">
           <h2>Activities</h2>
@@ -26,8 +24,7 @@ function MoreActivities() {
             support for medical and educational needs showcases their commitment to
             making a difference in people's lives.
           </p>
-          
-        </div>
+          </div>
         <div className="row">
           <div className="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
             <div className="icon-box">
