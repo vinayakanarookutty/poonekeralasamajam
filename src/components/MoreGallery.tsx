@@ -1,13 +1,13 @@
 import React from 'react';
-import clb1Image from '../../assets/img/gallery/clb1.jpg';
-import clbImage from '../../assets/img/gallery/clb.jpg';
-import clb2Image from '../../assets/img/gallery/clb2.jpg';
-import clb3Image from '../../assets/img/gallery/clb3.jpg';
-import onamImage from '../../assets/img/gallery/onam.jpg';
-import prize_disImage from '../../assets/img/gallery/prize_dis.jpg';
+import clb1Image from '../assets/img/gallery/clb1.jpg';
+import clbImage from '../assets/img/gallery/clb.jpg';
+import clb2Image from '../assets/img/gallery/clb2.jpg';
+import clb3Image from '../assets/img/gallery/clb3.jpg';
+import onamImage from '../assets/img/gallery/onam.jpg';
+import prize_disImage from '../assets/img/gallery/prize_dis.jpg';
 import { Breadcrumb } from "flowbite-react";
 import { HiHome } from "react-icons/hi";
-import Image from "../../assets/img/madras-high-court-handsketch-watercolor-600nw-2351270087.jpg"
+// import Image from "../../assets/img/madras-high-court-handsketch-watercolor-600nw-2351270087.jpg"
 function MoreGallery() {
   const data = [
     {
