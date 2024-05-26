@@ -656,6 +656,16 @@
 #hero {
   position: relative;
 }
+.btnfirst {
+  cursor: pointer;
+  border: 1px solid white;
+  background-color: transparent;
+  height: 50px;
+  width: 200px;
+  color: white;
+  font-size: 1.5em;
+  box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
+}
 
 #hero .hero-container {
   position: absolute;
@@ -665,7 +675,7 @@
   left: 0;
   right: 0;
   display: flex;
-  justify-content: center;
+ 
   align-items: left;
   flex-direction: column;
   text-align: left;

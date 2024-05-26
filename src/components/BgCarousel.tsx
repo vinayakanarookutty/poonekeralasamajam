@@ -3,12 +3,15 @@ import bg1 from "../assets/img/bg_carousel/bg1.jpg";
 import bg2 from "../assets/img/bg_carousel/bg2.jpg";
 import bg3 from "../assets/img/bg_carousel/bg3.jpg";
 import bg4 from "../assets/img/bg_carousel/bg4.jpg";
+import bgMain from "../assets/img/History/womensday2023.jpg"
 import "swiper/css";
+import back from "../assets/photo.jpg"
+import main from "../assets/womensday2024.png"
 
 import { Autoplay } from "swiper/modules";
 
 const BgCarousel: React.FC = () => {
-    const images = [bg1, bg2, bg3, bg4];
+    const images = [main,back];
 
     return (
         <Swiper

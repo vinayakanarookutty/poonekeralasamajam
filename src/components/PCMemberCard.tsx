@@ -16,7 +16,7 @@ const PCMemberCard: React.FC<PCMemberCardProps> = ({ image, name, position, phon
       <p className="font-bold text-sm md:text-xl text-center">{name}</p>
       <div className="text-center text-slate-500 text-sm">
         <p>{position} </p>
-        <p> {phone}</p>
+        <p style={{fontFamily:"serif"}}> {phone}</p>
       </div>
     </div>
   );
