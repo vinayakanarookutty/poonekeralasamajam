@@ -1,5 +1,6 @@
 import React from 'react'
 import NotificationTable from '../components/NotificationTable';
+import NewHeader from '../components/NewHeader';
 
 function Noti() {
   const data = [
@@ -57,6 +58,7 @@ function Noti() {
 
   return (
     <div className='h-screen'>
+      <NewHeader/>
           <div  style={{ backgroundImage: `url(${Image})`,marginTop:"2%" }} className="section-title">
           <h2>Notifications</h2>
           <p>

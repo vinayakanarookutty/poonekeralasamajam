@@ -15,14 +15,14 @@ function Hero() {
                         }}
                         className="hero-info"
                     >
-                        <h1 className="hero-info-heading">
+                        <h1 className="hero-info-heading text-white">
                             Poona Keraliya Samaj
                         </h1>
-                        <p className="hero-info-subheading">
+                        <p className="hero-info-subheading text-white">
                             Where kerala meets Pune
                         </p>
 
-                        <p className="hero-info-para">
+                        <p className="hero-info-para text-white">
                             The Poona Keraliya Samaj is a vibrant cultural and
                             social organization based in Pune, Maharashtra,
                             dedicated to fostering a sense of community among

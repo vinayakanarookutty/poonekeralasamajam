@@ -625,9 +625,9 @@
   right: 0;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: left;
   flex-direction: column;
-  text-align: center;
+  text-align: left;
 }
 
 #hero h1 {
