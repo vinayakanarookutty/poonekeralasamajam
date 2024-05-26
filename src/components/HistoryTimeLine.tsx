@@ -6,7 +6,7 @@ import Image from "../assets/img/madras-high-court-handsketch-watercolor-600nw-2
 function HistoryTimeLine() {
   
   return (
-    <div className= "history_timeline">
+    <div  className= "history_timeline" >
       <div  style={{ backgroundImage: `url(${Image})` }} className="section-title">
           <h2>History TimeLine</h2>
           <p>

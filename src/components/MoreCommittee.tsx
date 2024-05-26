@@ -9,7 +9,7 @@ interface MemberProps {
 
 const Member: React.FC<MemberProps> = ({ imgSrc, name, title, delay }) => {
   return (
-    <div className="col-lg-4 col-md-6">
+    <div style={{backgroundColor: '#6ce4ff'}} className="col-lg-4 col-md-6">
       <div className="member" data-aos="fade-up" data-aos-delay={delay}>
         <div className="pic">
           <img src={imgSrc} className="img-fluid" alt={name} />
@@ -31,7 +31,7 @@ const Member: React.FC<MemberProps> = ({ imgSrc, name, title, delay }) => {
 
 const MoreCommittee: React.FC = () => {
   return (
-    <section id="team" className="team">
+    <section style={{backgroundColor: '#6ce4ff'}} id="team" className="team">
       <div className="container ">
         <div className="section-title" data-aos="fade-in" data-aos-delay="100">
           <h2>Committee Members</h2>
@@ -39,8 +39,20 @@ const MoreCommittee: React.FC = () => {
         <div className="row lg:pl-[10%] sm:pl-[25%]">
           <Member
             imgSrc="src/assets/img/committee/committee/Bmadhunair.jpg"
-            name="B Madhu Nair"
+            name="B. Madhu Nair"
             title="President"
+            delay={0}
+          />
+          <Member
+            imgSrc="src/assets/img/committee/committee/MNNambiar.jpeg"
+            name="M. N. Nambiar"
+            title="Treasurer"
+            delay={0}
+          />
+          <Member
+            imgSrc="src/assets/img/committee/committee/Gopall.jpg"
+            name="Gopalakrishnan Nair"
+            title="General Secretary"
             delay={0}
           />
           <Member
@@ -50,15 +62,9 @@ const MoreCommittee: React.FC = () => {
             delay={0}
           />
           <Member
-            imgSrc="src/assets/img/committee/committee/Gopall.jpg"
-            name="Gopalakrishnan Nair .D"
-            title="General Secretary"
-            delay={0}
-          />
-          <Member
-            imgSrc="src/assets/img/committee/committee/Jagdish_Poduval.jpg"
-            name="Jagdish Poduval"
-            title="Joint Treasurer"
+            imgSrc="src/assets/img/committee/committee/som.jpg"
+            name="C. Soman"
+            title="Joint Secretary"
             delay={80}
           />
           <Member
@@ -68,93 +74,93 @@ const MoreCommittee: React.FC = () => {
             delay={80}
           />
           <Member
-            imgSrc="src/assets/img/committee/committee/som.jpg"
-            name="C. Soman"
-            title="Joint Secretary"
+            imgSrc="src/assets/img/committee/committee/Jagdish_Poduval.jpg"
+            name="Jagdish Poduval"
+            title="Joint Treasurer"
             delay={80}
           />
           <Member
-            imgSrc="src/assets/img/c_members/Anil-George.jpg"
-            name="Anil George"
-            title="Executive Committee Member"
-            delay={100}
-          />         
-          <Member
-            imgSrc="src/assets/img/c_members/vijayamnair-2.jpg"
-            name="Vijayam Nair"
-            title="Executive Committee Member"
-            delay={100}
-          />
-          <Member
             imgSrc="src/assets/img/c_members/sarasamma-1.jpg"
-            name="Sarasamma"
+            name="Sarasamma Vijaykumar"
             title="General Cultural Committee Convener"
             delay={100}
-          />
-          <Member
-            imgSrc="src/assets/img/committee/committee/VineetaNair.jpg"
-            name="Vineeta Nair"
-            title="Ladies Wing Convener"
-            delay={140}
-          />
-          <Member
-            imgSrc="src/assets/img/committee/committee/PDavis.jpg"
-            name="P. Davis"
-            title="Executive Committee Member"
-            delay={140}
-          />
-          <Member
-            imgSrc="src/assets/img/committee/committee/Vijay Poduval.jpg"
-            name="Vijay Poduval"
-            title="Executive Committee Member"
-            delay={140}
           />
           <Member
             imgSrc="src/assets/img/committee/committee/B.R.Nair.jpg"
             name="B. R. Nair"
             title="Arts Committee Convener"
-            delay={200}
-          />
-          <Member
-            imgSrc="src/assets/img/committee/committee/KurianThomas.jpg"
-            name="Kurian Thomas(Prince)"
-            title="Executive Committee Convener"
-            delay={200}
-          />
-          <Member
-            imgSrc="src/assets/img/committee/committee/VijayNair.jpg"
-            name="Vijay Nair"
-            title="Youth Wing Convener"
-            delay={200}
+            delay={100}
           />
           <Member
             imgSrc="src/assets/img/committee/committee/SusheelaNair.jpg"
             name="Susheela Nair"
             title="Social Welfare Convener"
-            delay={250}
+            delay={100}
           />
           <Member
             imgSrc="src/assets/img/committee/committee/SUMenon_.jpg"
             name="S. U. Menon"
             title="P R O"
-            delay={250}
+            delay={140}
           />
           <Member
             imgSrc="src/assets/img/committee/committee/MaheshPoduval_.jpg"
-            name="Sarasamma"
-            title="Cultural Committee Convener"
+            name="Mahesh Poduval"
+            title="Sports Committee Convener"
+            delay={140}
+          />
+          <Member
+            imgSrc="src/assets/img/committee/committee/VijayNair.jpg"
+            name="Vijay Nair"
+            title="Youth Wing Convener"
+            delay={140}
+          />
+          <Member
+            imgSrc="src/assets/img/committee/committee/VineetaNair.jpg"
+            name="Vineeta A. Nair"
+            title="Ladies Wing Convener"
+            delay={200}
+          />
+          <Member
+            imgSrc="src/assets/img/committee/committee/Vijay Poduval.jpg"
+            name="Vijay Poduval"
+            title="Executive Committee Member"
+            delay={200}
+          />
+          <Member
+            imgSrc="src/assets/img/c_members/vijayamnair-2.jpg"
+            name="Vijayam A. Nair"
+            title="Executive Committee Member"
+            delay={200}
+          />
+          <Member
+            imgSrc="src/assets/img/c_members/Anil-George.jpg"
+            name="Anil George"
+            title="Executive Committee Member"
             delay={250}
           />
           <Member
             imgSrc="src/assets/img/committee/committee/PreetaNair_.jpg"
             name="Preeta Nair"
             title="Executive Committe Member"
-            delay={300}
+            delay={250}
+          />         
+          <Member
+            imgSrc="src/assets/img/committee/committee/KurianThomas.jpg"
+            name="Kurian Thomas(Prince)"
+            title="Executive Committee Convener"
+            delay={250}
           />
           <Member
             imgSrc="src/assets/img/committee/committee/mohandasnair_.jpg"
             name="Mohandas Nair"
             title="Executive Committe Member"
+            delay={300}
+          />
+          <Member
+            imgSrc="src/assets/img/committee/committee/PDavis.jpg"
+            name="P. Davis"
+            title="Executive Committee Member"
             delay={300}
           />
         </div>
