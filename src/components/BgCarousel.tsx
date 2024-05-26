@@ -6,12 +6,13 @@ import bg4 from "../assets/img/bg_carousel/bg4.jpg";
 import bgMain from "../assets/img/History/womensday2023.jpg"
 import "swiper/css";
 import back from "../assets/photo.jpg"
-import main from "../assets/womensday2024.png"
+import main from "../assets/womensday2023_latest.png"
+import bock from "../assets/womensday2023_final.png"
 
 import { Autoplay } from "swiper/modules";
 
 const BgCarousel: React.FC = () => {
-    const images = [main,back];
+    const images = [bock];
 
     return (
         <Swiper
