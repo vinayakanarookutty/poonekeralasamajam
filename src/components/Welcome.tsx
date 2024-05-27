@@ -26,7 +26,7 @@ function Welcome() {
                 
                     <h1>Welcome to PKS</h1>
                     <h2 style={{fontSize:"22px",paddingLeft:"5px",textTransform:"uppercase"}}>Where Pune Meets Kerala : Poona Keraleeya Samaj </h2>
-                    <h2 style={{maxWidth:"50%", boxShadow:"50%",textShadow:"50%" }}>Poona Keraleeya Samaj was registered with the Charity Commissioner, Pune Region, as a Charitable and Social Organization in the year 1944</h2>
+                    <h2 style={{maxWidth:"50%", boxShadow:"50%",textShadow:"50%" }}>A Charitable Social Organisation since 1944</h2>
                     <button style={{fontWeight:"600"}} className="btnfirst absolute text-#0d3c5c ">Contact US</button>
                     {/* <a href="#history" className="btn-get-started scrollto mt-3">
                         <img

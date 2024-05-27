@@ -1,14 +1,11 @@
-<<<<<<< HEAD:src/pages/components/HistoryTimeLine.tsx
 import React from 'react';
-import "../../css/home.css";
-import timelineImage from '../../assets/img/amazon.png';
-import timelineImage2 from '../../assets/img/google.jpg';
-import pooneHistory1 from "../../assets/img/History/PoonemHistory1.jpg"
-import pooneHistory2 from "../../assets/img/History/poonehistory2001.jpg"
-import pooneHistory3 from "../../assets/img/History/poonemhistory2.jpg"
-import pooneHistory4 from "../../assets/img/History/annualday2008.jpg"
-import pooneHistory5 from "../../assets/img/pks_bckgrnd.jpg"
-import pooneHistory6 from "../../assets/img/History/womensday2023.jpg"
+import "../css/home.css";
+import pooneHistory1 from "../assets/img/History/PoonemHistory1.jpg"
+import pooneHistory2 from "../assets/img/History/poonehistory2001.jpg"
+import pooneHistory3 from "../assets/img/History/poonemhistory2.jpg"
+import pooneHistory4 from "../assets/img/History/annualday2008.jpg"
+import pooneHistory5 from "../assets/img/pks_bckgrnd.jpg"
+import pooneHistory6 from "../assets/img/History/womensday2023.jpg"
 
 function HistoryTimeLine() {
   
@@ -47,7 +44,7 @@ function HistoryTimeLine() {
     <div className="timeline_container right-container">
      
       <div className="text-box">
-        <h2> Event Felicitation of Padmashree Mohanlal</h2>
+        <h2> Event Felicitation of Padmashree Mohanlal</h2>
         <small>2001</small>
         <p>The Poona Keraleeya Samaj organized a grand felicitation event to honor the renowned actor Padmashree Mohanlal. 
           This celebration recognized Mohanlal's outstanding contributions to Indian cinema and his exceptional talent.
@@ -138,87 +135,4 @@ function HistoryTimeLine() {
   )
 }
 
-=======
-import React from 'react';
-import "../css/home.css";
-import timelineImage from '../assets/img/amazon.png';
-import timelineImage2 from '../assets/img/google.jpg';
-import Image from "../assets/img/madras-high-court-handsketch-watercolor-600nw-2351270087.jpg"
-function HistoryTimeLine() {
-  
-  return (
-    <div  className= "history_timeline" >
-      <div  style={{ backgroundImage: `url(${Image})` }} className="section-title">
-          <h2>History TimeLine</h2>
-          <p>
-            PKS is a powerhouse in sports and philanthropy. They host events like
-            the Ball Badminton Tournament and support International Women's Day with
-            aid for the needy. During crises, they step up, providing substantial
-            help during floods, earthquakes, and the Covid-19 pandemic. Their ongoing
-            support for medical and educational needs showcases their commitment to
-            making a difference in people's lives.
-          </p>
-        </div>
-    <div className="timeline_container left-container">
-    <img src={timelineImage2} alt='google'></img>
-      <div className="text-box bg-#207893">
-        <h2> Alphabet Inc.</h2>
-        <small>2018-2019</small>
-        <p>The success of every websites depends on search engine optimisation and digital </p>
-      <span className='left-container-arrow'></span>
-      </div>
-    </div>
-    <div className="timeline_container right-container">
-    <img src={timelineImage} alt='amazon'></img>
-      <div className="text-box">
-        <h2> Amazon Com.</h2>
-        <small>2018-2019</small>
-        <p>The success of every websites depends on search engine optimisation and digital </p>
-        <span className='right-container-arrow'></span>
-      </div>
-    </div>
-    <div className="timeline_container left-container">
-    <img src={timelineImage2} alt='google'></img>
-      <div className="text-box">
-        <h2> Alphabet Inc.</h2>
-        <small>2018-2019</small>
-        <p>The success of every websites depends on search engine optimisation and digital </p>
-        <span className='left-container-arrow'></span>
-      </div>
-    </div>
-    
-    <div className="timeline_container right-container">
-    <img src={timelineImage} alt='google'></img>
-      <div className="text-box">
-        <h2> Amazon Inc.</h2>
-        <small>2018-2019</small>
-        <p>The success of every websites depends on search engine optimisation and digital </p>
-        <span className='right-container-arrow'></span>
-      </div>
-    </div>
-    <div className="timeline_container left-container">
-    <img src={timelineImage2} alt='google'></img>
-      <div className="text-box">
-        <h2> Alphabet Inc.</h2>
-        <small>2018-2019</small>
-        <p>The success of every websites depends on search engine optimisation and digital </p>
-        <span className='left-container-arrow'></span>
-      </div>
-    </div>
-    
-    <div className="timeline_container right-container">
-    <img src={timelineImage} alt='google'></img>
-      <div className="text-box">
-        <h2> Amazon Inc.</h2>
-        <small>2018-2019</small>
-        <p>The success of every websites depends on search engine optimisation and digital </p>
-        <span className='right-container-arrow'></span>
-      </div>
-    </div>
-   </div>
-   
-  )
-}
-
->>>>>>> bea1680ec6e5266dfcccf2c66dde1a8bf2d0068f:src/components/HistoryTimeLine.tsx
 export default HistoryTimeLine;
