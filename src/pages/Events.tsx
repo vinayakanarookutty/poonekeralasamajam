@@ -16,8 +16,8 @@ function Events() {
 
     return (
         <>
-            <NewHeader />
-            <div className="event-container">
+            {/* <NewHeader /> */}
+            <div className="event-container bg-white">
                 <div className=" mt-5 d-flex justify-start w-75">
                     <BreadCrump items={["Events"]} />
                 </div>
