@@ -3,8 +3,17 @@ import "../css/events.css";
 // import for Modals
 import { Button, Modal } from "flowbite-react";
 import { useState } from "react";
+interface EventItem {
+    img: string;
+    title: string;
+    description: string;
+    dated: string;
+}
 
-function EventCards({ items }) {
+interface EventCardsProps {
+    items: EventItem;
+}
+function EventCards({ items }: EventCardsProps) {
     const [openModal, setOpenModal] = useState(false);
 
     

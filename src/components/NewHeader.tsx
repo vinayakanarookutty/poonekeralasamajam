@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, {  useState } from "react";
 import pksLogo from "../assets/img/pks_logo.png";
 import HamburgerIcon from "./Hamburger";
 import { useCycle, motion } from "framer-motion";
@@ -25,25 +25,25 @@ const navLinks: NavLink[] = [
 
 const NewHeader: React.FC = () => {
     const [isOpen, toggleOpen] = useCycle(false, true);
-    const [isScrolled, setIsScrolled] = useState(false);
+    
     const [notificationState, setNotificationState] = useState(false);
 
     const handleNotificationClick = () => {
         setNotificationState(!notificationState);
         console.log("Notification link clicked!", notificationState);
     };
-    useEffect(() => {
-        const handleScroll = () => {
-            const scrolled = window.scrollY > 0;
-            setIsScrolled(scrolled);
-        };
+    // useEffect(() => {
+    //     const handleScroll = () => {
+    //         const scrolled = window.scrollY > 0;
+    //         setIsScrolled(scrolled);
+    //     };
 
-        window.addEventListener("scroll", handleScroll);
+    //     window.addEventListener("scroll", handleScroll);
 
-        return () => {
-            window.removeEventListener("scroll", handleScroll);
-        };
-    }, []);
+    //     return () => {
+    //         window.removeEventListener("scroll", handleScroll);
+    //     };
+    // }, []);
 
     return (
         <>

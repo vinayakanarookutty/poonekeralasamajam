@@ -4,44 +4,29 @@ import 'swiper/css';
 import "../css/notification.css";
 import ThumbnailCard from './ThumbnailCard';
 import BreadCrump from './ui/BreadCrump';
-
+import img1 from "../assets/img/gallery/prize_dis.jpg"
+import img2 from "../assets/img/gallery/prize_dis.jpg"
+import img3 from "../assets/img/gallery/prize_dis.jpg"
 const cardData = [
   {
     name: "Arts",
     description: "Passionate about development and design, I carry out projects at the request of users.",
-    imgSrc: "src/assets/img/gallery/prize_dis.jpg",
+    imgSrc: {img1},
     href: "/more-gallery"
   },
   {
     name: "Sports",
     description: "Passionate about development and design, I carry out projects at the request of users.",
-    imgSrc: "src/assets/img/gallery/prize_dis.jpg",
+    imgSrc: {img2},
     href: "/more-gallery"
   },
   {
     name: "Celebration",
     description: "Passionate about development and design, I carry out projects at the request of users.",
-    imgSrc: "src/assets/img/gallery/prize_dis.jpg",
+    imgSrc: {img3},
     href: "/more-gallery"
   },  
-  {
-    name: "Arts",
-    description: "Passionate about development and design, I carry out projects at the request of users.",
-    imgSrc: "src/assets/img/gallery/prize_dis.jpg",
-    href: "/more-gallery"
-  },
-  {
-    name: "Sports",
-    description: "Passionate about development and design, I carry out projects at the request of users.",
-    imgSrc: "src/assets/img/gallery/prize_dis.jpg",
-    href: "/more-gallery"
-  },
-  {
-    name: "Celebration",
-    description: "Passionate about development and design, I carry out projects at the request of users.",
-    imgSrc: "src/assets/img/gallery/prize_dis.jpg",
-    href: "/more-gallery"
-  },
+  
 ];
 
 const BetweenGallery: React.FC = () => {
