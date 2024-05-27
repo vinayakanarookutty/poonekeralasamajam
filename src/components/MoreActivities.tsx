@@ -2,6 +2,7 @@ import { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { Link } from 'react-router-dom';
+import BreadCrump from './ui/BreadCrump';
 // import NewHeader from './NewHeader';
 import Image from "../assets/img/madras-high-court-handsketch-watercolor-600nw-2351270087.jpg"
 
@@ -12,6 +13,9 @@ function MoreActivities() {
 
   return (
     <div style={{ backgroundColor: 'white', minHeight: '100vh', padding: '20px' }}>
+      <div className="flex justify-start mt-5 " style={{paddingLeft:"7%"}}>
+        <BreadCrump items={["More-Activities"]} />
+      </div>
       <section id="services" className="services">
         <div className="container">
           <div style={{ backgroundImage: `url(${Image})`,backgroundPosition:"top",opacity:".9"}}   className="section-title">

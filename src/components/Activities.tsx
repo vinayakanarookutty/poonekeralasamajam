@@ -48,7 +48,7 @@ function Services() {
           </div>
         </div>
         <div className="text-right">
-          <Link to="/more" className="btn btn-primary">See More</Link>
+          <Link to="/more-activities" className="btn btn-primary">See More</Link>
         </div>
       </div>
     </section>

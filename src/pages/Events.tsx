@@ -5,6 +5,7 @@ import NewHeader from "../components/NewHeader";
 import Footer from "../components/Footer";
 import EventCards from "../components/EventCards";
 import { useState } from "react";
+import BreadCrump from "../components/ui/BreadCrump";
 
 function Events() {
     const [search, setSearch] = useState("");
@@ -17,6 +18,9 @@ function Events() {
         <>
             <NewHeader />
             <div className="event-container">
+                <div className=" mt-5 d-flex justify-start w-75">
+                    <BreadCrump items={["Events"]} />
+                </div>
                 <div className="event-header">
                     <p>Events </p>
                     <TextInput
