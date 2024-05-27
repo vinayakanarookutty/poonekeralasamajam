@@ -2,7 +2,6 @@ import { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { Link } from 'react-router-dom';
-import NewHeader from './NewHeader';
 import Image from "../../assets/img/madras-high-court-handsketch-watercolor-600nw-2351270087.jpg"
 
 function MoreActivities() {

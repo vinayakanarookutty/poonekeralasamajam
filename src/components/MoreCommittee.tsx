@@ -1,7 +1,27 @@
 import React from 'react';
 import BreadCrump from './ui/BreadCrump';
 import img1 from "../assets/img/committee/committee/Bmadhunair.jpg"
-import img2 from "../assets/img/committee/committee/MNNambiar.jpeg"
+import img2 from "../assets/img/committee/committee/Gopall.jpg"
+import img3 from "../assets/img/committee/committee/MNNambiar.jpeg"
+import img4 from "../assets/img/committee/committee/kvijayakumar-1.jpg"
+import img5 from "../assets/img/committee/committee/som.jpg"
+import img6 from "../assets/img/committee/committee/sureshn.jpg"
+import img7 from "../assets/img/committee/committee/Jagdish_Poduval.jpg"
+import img8 from "../assets/img/c_members/sarasamma-1.jpg"
+import img9 from "../assets/img/committee/committee/B.R.Nair.jpg"
+import img10 from "../assets/img/committee/committee/SusheelaNair.jpg"
+import img11 from "../assets/img/committee/committee/SUMenon_.jpg"
+import img12 from "../assets/img/committee/committee/MaheshPoduval_.jpg"
+import img13 from "../assets/img/committee/committee/VijayNair.jpg"
+import img14 from "../assets/img/committee/committee/VineetaNair.jpg"
+import img15 from "../assets/img/committee/committee/Vijay Poduval.jpg"
+import img16 from "../assets/img/c_members/vijayamnair-2.jpg"
+import img17 from "../assets/img/c_members/Anil-George.jpg"
+import img18 from "../assets/img/committee/committee/PreetaNair_.jpg"
+import img19 from "../assets/img/committee/committee/KurianThomas.jpg"
+import img20 from "../assets/img/committee/committee/mohandasnair_.jpg"
+
+
 interface MemberProps {
   imgSrc: string;
   name: string;
@@ -51,114 +71,114 @@ const MoreCommittee: React.FC = () => {
           />
           <Member
             imgSrc={img2}
-            name="M. N. Nambiar"
-            title="Treasurer"
-            delay={0}
-          />
-          <Member
-            imgSrc="src/assets/img/committee/committee/Gopall.jpg"
             name="Gopalakrishnan Nair"
             title="General Secretary"
             delay={0}
           />
           <Member
-            imgSrc="src/assets/img/committee/committee/vjy.jpg"
+            imgSrc={img3}
+            name="M. N. Nambiar"
+            title="Treasurer"
+            delay={0}
+          />
+          <Member
+            imgSrc={img4}
             name="K Vijayakumar"
             title="Vice President"
             delay={80}
           />
           <Member
-            imgSrc="src/assets/img/committee/committee/som.jpg"
+            imgSrc={img5}
             name="C. Soman"
             title="Joint Secretary"
             delay={80}
           />
           <Member
-            imgSrc="src/assets/img/committee/committee/sureshn.jpg"
+            imgSrc={img6}
             name="C. Sureshan"
             title="Joint Secretary"
             delay={80}
           />
           <Member
-            imgSrc="src/assets/img/committee/committee/Jagdish_Poduval.jpg"
+            imgSrc={img7}
             name="Jagdish Poduval"
             title="Joint Treasurer"
             delay={100}
           />
           <Member
-            imgSrc="src/assets/img/c_members/sarasamma-1.jpg"
+            imgSrc={img8}
             name="Sarasamma Vijaykumar"
             title="General Cultural Committee Convener"
             delay={100}
           />
           <Member
-            imgSrc="src/assets/img/committee/committee/B.R.Nair.jpg"
+            imgSrc={img9}
             name="B. R. Nair"
             title="Arts Committee Convener"
             delay={100}
           />
           <Member
-            imgSrc="src/assets/img/committee/committee/SusheelaNair.jpg"
+            imgSrc={img10}
             name="Susheela Nair"
             title="Social Welfare Convener"
             delay={140}
           />
           <Member
-            imgSrc="src/assets/img/committee/committee/SUMenon_.jpg"
+            imgSrc={img11}
             name="S. U. Menon"
             title="P R O"
             delay={140}
           />
           <Member
-            imgSrc="src/assets/img/committee/committee/MaheshPoduval_.jpg"
+            imgSrc={img12}
             name="Mahesh Poduval"
             title="Sports Committee Convener"
             delay={140}
           />
           <Member
-            imgSrc="src/assets/img/committee/committee/VijayNair.jpg"
+            imgSrc={img13}
             name="Vijay Nair"
             title="Youth Wing Convener"
             delay={200}
           />
           <Member
-            imgSrc="src/assets/img/committee/committee/VineetaNair.jpg"
+            imgSrc={img14}
             name="Vineeta A. Nair"
             title="Ladies Wing Convener"
             delay={200}
           />
           <Member
-            imgSrc="src/assets/img/committee/committee/Vijay Poduval.jpg"
+            imgSrc={img15}
             name="Vijay Poduval"
             title="Executive Committee Member"
             delay={200}
           />
           <Member
-            imgSrc="src/assets/img/c_members/vijayamnair-2.jpg"
+            imgSrc={img16}
             name="Vijayam A. Nair"
             title="Executive Committee Member"
             delay={250}
           />
           <Member
-            imgSrc="src/assets/img/c_members/Anil-George.jpg"
+            imgSrc={img17}
             name="Anil George"
             title="Executive Committee Member"
             delay={250}
           />
           <Member
-            imgSrc="src/assets/img/committee/committee/PreetaNair_.jpg"
+            imgSrc={img18}
             name="Preeta Nair"
             title="Executive Committe Member"
             delay={250}
           />         
           <Member
-            imgSrc="src/assets/img/committee/committee/KurianThomas.jpg"
+            imgSrc={img19}
             name="Kurian Thomas(Prince)"
             title="Executive Committee Convener"
             delay={300}
           />
           <Member
-            imgSrc="src/assets/img/committee/committee/mohandasnair_.jpg"
+            imgSrc={img20}
             name="Mohandas Nair"
             title="Executive Committe Member"
             delay={300}

@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import pksLogo from "../assets/img/pks_logo.png";
 import HamburgerIcon from "./Hamburger";
 import { useCycle, motion } from "framer-motion";
+import { Link } from "react-router-dom";
 
 interface NavLink {
     url: string;
@@ -115,6 +116,7 @@ const Header: React.FC = () => {
                             {/* links */}
                             <div className="grid">
                                 {navLinks.map((link) => (
+                                    <Link to={link.url}>
                                     <motion.a
                                         onClick={() => toggleOpen()}
                                         key={link.url}
@@ -125,6 +127,7 @@ const Header: React.FC = () => {
                                     >
                                         {link.text}
                                     </motion.a>
+                                    </Link>
                                 ))}
                             </div>
                         </motion.div>

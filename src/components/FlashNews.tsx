@@ -1,5 +1,5 @@
 import React from 'react';
-import Marquee from './Marquee';
+// import Marquee from './Marquee';
 import "../css/home.css"; 
 
 const FlashNews: React.FC = () => {
@@ -12,8 +12,8 @@ const FlashNews: React.FC = () => {
                     </center>
                 </div>
                 <div className="body">
-                    <Marquee>
-                    </Marquee>
+                    {/* <Marquee>
+                    </Marquee> */}
                 </div>
             </div>
         </div>

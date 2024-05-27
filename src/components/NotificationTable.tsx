@@ -1,86 +1,100 @@
-import React, { useState, useMemo } from 'react';
-import { useTable, useGlobalFilter } from 'react-table';
-import { Container, Table, Form, InputGroup } from 'react-bootstrap';
-import 'bootstrap/dist/css/bootstrap.min.css';
+// import  {  useMemo } from 'react';
 
-function GlobalFilter({ globalFilter, setGlobalFilter }) {
-  return (
-    <InputGroup className="mb-3">
-      <Form.Control
-        value={globalFilter || ''}
-        onChange={e => setGlobalFilter(e.target.value || undefined)}
-        placeholder="Search..."
-        aria-label="Search"
-      />
-    </InputGroup>
-  );
-}
+// import { Container, Table, Form, InputGroup } from 'react-bootstrap';
+// import 'bootstrap/dist/css/bootstrap.min.css';
 
-function NotificationTable({ data }) {
-  const columns = useMemo(
-    () => [
-      {
-        Header: 'Title',
-        accessor: 'title',
-      },
-      {
-        Header: 'Message',
-        accessor: 'message',
-      },
-      {
-        Header: 'Date',
-        accessor: 'date',
-      },
-    ],
-    []
-  );
+// interface DataItem {
+//   title: string;
+//   message: string;
+//   date: string;
+//   // Add more properties if necessary
+// }
 
-  const {
-    getTableProps,
-    getTableBodyProps,
-    headerGroups,
-    rows,
-    prepareRow,
-    state,
-    setGlobalFilter,
-  } = useTable(
-    {
-      columns,
-      data,
-    },
-    useGlobalFilter
-  );
+// interface NotificationTableProps {
+//   data: DataItem[]; // Specify the type of data as an array of DataItem objects
+// }
+// interface GlobalFilterProps {
+//   globalFilter: string;
+//   setGlobalFilter: (value: string | undefined) => void;
+// }
+// function GlobalFilter({ globalFilter, setGlobalFilter }: GlobalFilterProps) {
+//   return (
+//     <InputGroup className="mb-3">
+//       <Form.Control
+//         value={globalFilter || ''}
+//         onChange={e => setGlobalFilter(e.target.value || undefined)}
+//         placeholder="Search..."
+//         aria-label="Search"
+//       />
+//     </InputGroup>
+//   );
+// }
 
-  const { globalFilter } = state;
+// function NotificationTable({ data }: NotificationTableProps) {
+//   const columns = useMemo(
+//     () => [
+//       {
+//         Header: 'Title',
+//         accessor: 'title',
+//       },
+//       {
+//         Header: 'Message',
+//         accessor: 'message',
+//       },
+//       {
+//         Header: 'Date',
+//         accessor: 'date',
+//       },
+//     ],
+//     []
+//   );
 
-  return (
-    <Container>
-      <GlobalFilter  globalFilter={globalFilter} setGlobalFilter={setGlobalFilter} />
-      <Table striped bordered hover {...getTableProps()}>
-        <thead>
-          {headerGroups.map(headerGroup => (
-            <tr {...headerGroup.getHeaderGroupProps()}>
-              {headerGroup.headers.map(column => (
-                <th {...column.getHeaderProps()}>{column.render('Header')}</th>
-              ))}
-            </tr>
-          ))}
-        </thead>
-        <tbody {...getTableBodyProps()}>
-          {rows.map(row => {
-            prepareRow(row);
-            return (
-              <tr {...row.getRowProps()}>
-                {row.cells.map(cell => (
-                  <td {...cell.getCellProps()}>{cell.render('Cell')}</td>
-                ))}
-              </tr>
-            );
-          })}
-        </tbody>
-      </Table>
-    </Container>
-  );
-}
+//   const {
+//     getTableProps,
+//     getTableBodyProps,
+//     headerGroups,
+//     rows,
+//     prepareRow,
+//     state,
+//     setGlobalFilter,
+//   } = useTable(
+//     {
+//       columns,
+//       data,
+//     },
+//     useGlobalFilter
+//   );
 
-export default NotificationTable;
+//   const { globalFilter } = state;
+
+//   return (
+//     <Container>
+//       <GlobalFilter  globalFilter={globalFilter} setGlobalFilter={setGlobalFilter} />
+//       <Table striped bordered hover {...getTableProps()}>
+//         <thead>
+//           {headerGroups.map(headerGroup => (
+//             <tr {...headerGroup.getHeaderGroupProps()}>
+//               {headerGroup.headers.map(column => (
+//                 <th {...column.getHeaderProps()}>{column.render('Header')}</th>
+//               ))}
+//             </tr>
+//           ))}
+//         </thead>
+//         <tbody {...getTableBodyProps()}>
+//           {rows.map(row => {
+//             prepareRow(row);
+//             return (
+//               <tr {...row.getRowProps()}>
+//                 {row.cells.map(cell => (
+//                   <td {...cell.getCellProps()}>{cell.render('Cell')}</td>
+//                 ))}
+//               </tr>
+//             );
+//           })}
+//         </tbody>
+//       </Table>
+//     </Container>
+//   );
+// }
+
+// export default NotificationTable;

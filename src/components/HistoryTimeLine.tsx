@@ -1,4 +1,3 @@
-import React from 'react';
 import "../css/home.css";
 import pooneHistory1 from "../assets/img/History/PoonemHistory1.jpg"
 import pooneHistory2 from "../assets/img/History/poonehistory2001.jpg"

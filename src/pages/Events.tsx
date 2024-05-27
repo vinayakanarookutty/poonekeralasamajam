@@ -1,7 +1,6 @@
 import { TextInput } from "flowbite-react";
 import "../css/events.css";
 import event_data from "../data/event_data.json";
-import NewHeader from "../components/NewHeader";
 import Footer from "../components/Footer";
 import EventCards from "../components/EventCards";
 import { useState } from "react";
