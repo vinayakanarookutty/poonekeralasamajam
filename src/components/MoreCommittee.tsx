@@ -1,7 +1,7 @@
 import React from 'react';
 import BreadCrump from './ui/BreadCrump';
 import img1 from "../assets/img/committee/committee/Bmadhunair.jpg"
-
+import img2 from "../assets/img/committee/committee/MNNambiar.jpeg"
 interface MemberProps {
   imgSrc: string;
   name: string;
@@ -50,7 +50,7 @@ const MoreCommittee: React.FC = () => {
             delay={0}
           />
           <Member
-            imgSrc="src/assets/img/committee/committee/MNNambiar.jpeg"
+            imgSrc={img2}
             name="M. N. Nambiar"
             title="Treasurer"
             delay={0}
