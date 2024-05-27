@@ -5,8 +5,7 @@ import clb2Image from '../assets/img/gallery/clb2.jpg';
 import clb3Image from '../assets/img/gallery/clb3.jpg';
 import onamImage from '../assets/img/gallery/onam.jpg';
 import prize_disImage from '../assets/img/gallery/prize_dis.jpg';
-import { Breadcrumb } from "flowbite-react";
-import { HiHome } from "react-icons/hi";
+import BreadCrump from './ui/BreadCrump';
 // import Image from "../../assets/img/madras-high-court-handsketch-watercolor-600nw-2351270087.jpg"
 function MoreGallery() {
   const data = [
@@ -53,13 +52,10 @@ function MoreGallery() {
 
   return (
     <>
+    <div className="flex justify-start mt-5" style={{paddingLeft : "4.5%"}} >
+      <BreadCrump items={["Gallery","More-Gallery"]} />
+    </div>
     <div className='absolute mt-5 ml-10'>
-      <Breadcrumb aria-label="Default breadcrumb example">
-      <Breadcrumb.Item href="#" icon={HiHome}>
-        Home
-      </Breadcrumb.Item>
-      <Breadcrumb.Item href="#">Gallery</Breadcrumb.Item>
-      </Breadcrumb>
     </div>
       <div  className="grid  py-10 min-h-screen place-items-center w-screen overflow-x-hidden relative">
         {/* header  */}
