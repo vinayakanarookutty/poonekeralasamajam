@@ -1,7 +1,6 @@
 import React from 'react'
 import NotificationTable from '../components/NotificationTable';
-import NewHeader from '../components/NewHeader';
-
+import BreadCrump from '../components/ui/BreadCrump';
 function Noti() {
   const data = [
   {
@@ -58,10 +57,11 @@ function Noti() {
 
   return (
     <div className='h-screen'>
-      <NewHeader/>
+      
           <div  style={{ backgroundImage: `url(${Image})`,marginTop:"2%" }} className="section-title">
           <h2>Notifications</h2>
-          <p>
+          <BreadCrump items={["Notification"]} />
+          <p className='mt-3'>
             PKS is a powerhouse in sports and philanthropy. They host events like
             the Ball Badminton Tournament and support International Women's Day with
             aid for the needy. During crises, they step up, providing substantial

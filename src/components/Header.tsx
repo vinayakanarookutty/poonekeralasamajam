@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react";
 import pksLogo from "../assets/img/pks_logo.png";
 import HamburgerIcon from "./Hamburger";
 import { useCycle, motion } from "framer-motion";
-import FlashNews from "./FlashNews";
 
 interface NavLink {
     url: string;
@@ -16,9 +15,7 @@ const navLinks: NavLink[] = [
     { url: "#services", text: "Activities" },
     { url: "#portfolio", text: "Gallery" },
     { url: "#testimonials", text: "PKS Committee" },
-
     { url: "/noti", text: "Notification" },
-
     { url: "/events", text: "Events" },
     { url: "#contact", text: "Contact" },
 ];

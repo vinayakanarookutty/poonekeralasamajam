@@ -1,7 +1,7 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import TimeLineItem from './TimeLineItems';
-import { Navigation, Pagination, Autoplay } from 'swiper/modules';
+import {  Pagination, Autoplay } from 'swiper/modules';
 
 // Import Swiper styles
 import 'swiper/css';
@@ -107,7 +107,7 @@ const About = () => {
                 </div>
             </div>
             <div className="text-right">
-          <Link to="/history" className="btn btn-primary">See More</Link>
+          <Link to="/history" className="px-4 py-2 bg-blue-400 text-white rounded hover:bg-blue-600 ">See More</Link>
         </div>
         </section>
     );

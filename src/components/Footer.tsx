@@ -1,4 +1,3 @@
-import React from 'react';
 import "../css/home.css"; // Assuming you have a CSS file for additional styles
 
 const Footer = () => {
@@ -16,7 +15,7 @@ const Footer = () => {
                   Pune, Maharashtra<br /><br />
                   <strong>Phone:</strong>
                   <span style={{ fontFamily: 'sans-serif' }}> 9822061992, 982221700, 9850403055</span><br />
-                  <strong>Email:</strong> poonakeraleeyasamaj@example.com<br />
+                  <strong>Email:</strong> poonakeralasamaj@gmail.com<br />
                 </p>
               </address>
               <div className="social-links mt-3">
@@ -44,7 +43,7 @@ const Footer = () => {
                   width="100%"
                   height="200"
                   style={{ border: 0 }}
-                  allowFullScreen=""
+            
                   loading="lazy"
                   title="Pune Location"
                 ></iframe>

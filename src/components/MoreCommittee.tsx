@@ -1,5 +1,6 @@
 import React from 'react';
 import BreadCrump from './ui/BreadCrump';
+import img1 from "../assets/img/committee/committee/Bmadhunair.jpg"
 
 interface MemberProps {
   imgSrc: string;
@@ -43,7 +44,7 @@ const MoreCommittee: React.FC = () => {
         </div>
         <div className="row lg:pl-[10%] sm:pl-[25%]">
           <Member
-            imgSrc="src/assets/img/committee/committee/Bmadhunair.jpg"
+            imgSrc={img1}
             name="B. Madhu Nair"
             title="President"
             delay={0}

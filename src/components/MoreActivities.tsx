@@ -3,8 +3,8 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { Link } from 'react-router-dom';
 import BreadCrump from './ui/BreadCrump';
-// import NewHeader from './NewHeader';
-import Image from "../assets/img/madras-high-court-handsketch-watercolor-600nw-2351270087.jpg"
+
+
 
 function MoreActivities() {
   useEffect(() => {
@@ -18,7 +18,7 @@ function MoreActivities() {
       </div>
       <section id="services" className="services">
         <div className="container">
-          <div style={{ backgroundImage: `url(${Image})`,backgroundPosition:"top",opacity:".9"}}   className="section-title">
+          <div   className="section-title">
             <h2 style={{fontWeight:"700"}}>Activities</h2>
             <p style={{fontWeight:"700"}}>
               PKS is a powerhouse in sports and philanthropy. They host events like

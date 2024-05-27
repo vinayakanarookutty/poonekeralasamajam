@@ -1,9 +1,7 @@
 import { motion } from "framer-motion";
 import "../css/home.css";
-
 import BgCarousel from "./BgCarousel";
-import arrow from "../assets/img/down-arrow.png";
-import FlashNews from "./FlashNews";
+
 
 function Welcome() {
     return (
@@ -28,7 +26,7 @@ function Welcome() {
                     <h1>Welcome to PKS</h1>
                     <h2 className="md:text-3xl" style={{fontSize:"18px",paddingLeft:"0.5%",textTransform:"uppercase",marginTop:"0.5%"}}>Where Pune Meets Kerala : Poona Keraleeya Samaj </h2>
                     <h2 style={{maxWidth:"50%", boxShadow:"50%",textShadow:"50%" }}>A Charitable Social Organisation since 1944.</h2>
-                    <button style={{fontWeight:"600"}} className="btnfirst text-#0d3c5c ">CONTACT US</button>
+                    <a href="#contact"><button style={{fontWeight:"600"}}  className="btnfirst text-#0d3c5c ">CONTACT US</button></a>
                     {/* <a href="#history" className="btn-get-started scrollto mt-3">
                         <img
                             className="invert  w-6 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"

@@ -11,9 +11,10 @@ import BreadCrump from './ui/BreadCrump';
 function HistoryTimeLine() {
 
   return (
-    <div className='history_background max-w-screen overflow-hidden'>
+    <div className=' max-w-screen overflow-hidden'>
       <div className="container_history">
-        <h2>History Timeline</h2>
+        <h2>Notifications</h2>
+        <BreadCrump items={["History-Timelline"]} />
         <p className='mt-5'>
           In pre-Independence days, the population of Pune (then known as Poona) was hardly 2 to 3 lakhs including a few thousands of Malayalees, mainly bachelors,  employed at different Central  Government establishments and  residing at different parts of Pune (Poona). If there was a  concentration (if at all it can be  called a concentration) of a few hundreds of Malayalees, it was at  places like Rasta Peth and Kirkee  (now known as Khadki). The  reason for this concentration of  Malayalees at these places was  that there were a few lodge-cum- eateries run by Malayalees  providing food and shared accommodation at an affordable  cost of less than Rs.50/- per  month/per person.
         </p>
