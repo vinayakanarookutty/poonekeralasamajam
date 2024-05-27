@@ -57,7 +57,7 @@ function Portfolio() {
         <div className="section-title" data-aos="fade-up" data-aos-delay="100">
           <h2 className="text-2xl font-bold">Gallery</h2>
           <p>
-            PKS has always championed sports, hosting diverse competitions like the annual Ball Badminton Tournament...
+          Welcome to the Poona Keraleeya Samaj Gallery! Discover the vibrant culture of Keralites in Pune through photos of our art exhibitions, traditional dance and music performances, spirited sports events, and joyous celebrations like Onam, Vishu, and Christmas. Experience the unity and richness of our community captured in these memorable moments.
           </p>
         </div>
 
