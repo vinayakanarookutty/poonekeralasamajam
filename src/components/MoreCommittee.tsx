@@ -1,4 +1,5 @@
 import React from 'react';
+import BreadCrump from './ui/BreadCrump';
 
 interface MemberProps {
   imgSrc: string;
@@ -31,6 +32,10 @@ const Member: React.FC<MemberProps> = ({ imgSrc, name, title, delay }) => {
 
 const MoreCommittee: React.FC = () => {
   return (
+    <>
+    <div className="flex justify-start pt-5 "style={{paddingLeft : "10%"}}>
+      <BreadCrump items={["Committee"]} />
+    </div>
     <section id="team" className="team">
       <div className="container ">
         <div className="section-title" data-aos="fade-in" data-aos-delay="100">
@@ -166,6 +171,7 @@ const MoreCommittee: React.FC = () => {
         </div>
       </div>
     </section>
+    </>
   );
 };
 

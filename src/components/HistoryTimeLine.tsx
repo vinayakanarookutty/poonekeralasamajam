@@ -6,11 +6,15 @@ import pooneHistory3 from "../assets/img/History/poonemhistory2.jpg"
 import pooneHistory4 from "../assets/img/History/annualday2008.jpg"
 import pooneHistory5 from "../assets/img/pks_bckgrnd.jpg"
 import pooneHistory6 from "../assets/img/History/womensday2023.jpg"
+import BreadCrump from './ui/BreadCrump';
 
 function HistoryTimeLine() {
   
   return (
     <div className='history_background'>
+      <div className='flex justify-start pt-5' style={{paddingLeft :"17%",}}>
+        <BreadCrump items={["History"]} />
+      </div>
     <div className="container_history">
            <h2>History Timeline</h2>   
            <p>

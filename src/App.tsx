@@ -18,11 +18,11 @@ function App() {
             errorElement: <ErrorPage />,
         },
         {
-            path: "/more",
+            path: "/more-activities",
             element: <MoreActivities />,
         },
         {
-            path: "/gallery",
+            path: "/more-gallery",
             element: <MoreGallery />,
         },
         {
@@ -38,7 +38,7 @@ function App() {
             element: <HistoryTimeLine />,
         },
         {
-            path: "/BetweenGallery",
+            path: "/gallery",
             element: <BetweenGallery />,
         },
         {
