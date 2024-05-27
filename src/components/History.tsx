@@ -69,14 +69,14 @@ const About = () => {
     }, [])
 
     return (
-        <section id='history' className='h-auto'>
+        <section id='history' className='h-auto '>
             <div className='relative w-full' data-carousel="static">
                 <div className="history section-title ml-1 md:px-20 lg:px-32 xl:px-40" data-aos="fade-in" data-aos-delay="100">
                     <h2>The History Of Poona Keraleeya Samaj</h2>
                     <p>In pre-Independence days, Pune's population, then called Poona, was around 2 to 3 lakhs, with a small number of Malayalees, mainly bachelors, employed in various Central Government establishments. They lived in areas like Rasta Peth and Kirkee due to affordable lodge-cum-eateries run by Malayalees, offering shared accommodation and meals for less than Rs. 50 per month. Many sent money orders back home to Kerala, supporting their families with their meager salaries. Entertainment or social gatherings were limited due to financial constraints. A few Malayalees conceived the idea of a Malayalee association, leading to the establishment of the 'Poona Keraleeya Samaj' around 1930 </p>
                 </div>
                 {/* timeline  */}
-                <div className='grid place-items-center'>
+                <div className='grid place-items-center w-screen'>
                     <div className='timeline-container px-2 sm:h-15 '>
                         <Swiper
                             slidesPerView={1}
@@ -88,11 +88,8 @@ const About = () => {
                             }}
                             mousewheel={true}
                             keyboard={true}
-                            pagination={{
-                                type: 'progressbar',
-                            }}
                             navigation={timelineNavigation}
-                            modules={[Pagination, Navigation,Autoplay]}
+                            modules={[Pagination, Autoplay]}
                             className="mySwiper xl:px-20 w-[90%]"
                         >
                             {timelineItems.map((item, index) => (

@@ -3,7 +3,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { Link } from 'react-router-dom';
 // import NewHeader from './NewHeader';
-
+import Image from "../assets/img/madras-high-court-handsketch-watercolor-600nw-2351270087.jpg"
 
 function MoreActivities() {
   useEffect(() => {
@@ -14,9 +14,9 @@ function MoreActivities() {
     <div style={{ backgroundColor: 'white', minHeight: '100vh', padding: '20px' }}>
       <section id="services" className="services">
         <div className="container">
-          <div  className="section-title">
-            <h2>Activities</h2>
-            <p>
+          <div style={{ backgroundImage: `url(${Image})`,backgroundPosition:"top",opacity:".9"}}   className="section-title">
+            <h2 style={{fontWeight:"700"}}>Activities</h2>
+            <p style={{fontWeight:"700"}}>
               PKS is a powerhouse in sports and philanthropy. They host events like
               the Ball Badminton Tournament and support International Women's Day with
               aid for the needy. During crises, they step up, providing substantial

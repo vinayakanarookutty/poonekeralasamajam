@@ -57,7 +57,7 @@ const Header: React.FC = () => {
                             alt="logo"
                             className="w-10 aspect-square"
                         />
-                        <h1 className="text-lg font-black text-white lg:text-2xl">
+                        <h1 className="text-lg font-black    text-white lg:text-xl">
                             POONA KERALEEYA SAMAJ
                         </h1>
                     </div>
