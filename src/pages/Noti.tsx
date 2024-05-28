@@ -1,4 +1,4 @@
-import NotificationTable from "../components/NotificationTable"
+
 import BreadCrump from '../components/ui/BreadCrump';
 function Noti() {
 //   const data = [

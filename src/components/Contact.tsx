@@ -1,14 +1,29 @@
 import React from 'react';
+import emailjs from 'emailjs-com';
 
 const Contact: React.FC = () => {
+
+  const sendEmail = (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_4l4gsrd', 'template_k7fus5w', e.currentTarget, 'L4k7RtH-tJjbjIeFH')
+      .then((result) => {
+          console.log(result.text);
+          alert('Your message has been sent. Thank you!');
+      }, (error) => {
+          console.log(error.text);
+          alert('There was an error sending your message. Please try again later.');
+      });
+
+    e.currentTarget.reset();
+  };
+
   return (
-    <section id="contact" className="contact section-bg ">
-      <div id='contact' className="container min-h-screen" data-aos="fade-up">
+    <section id="contact" className="contact section-bg">
+      <div className="container min-h-screen" data-aos="fade-up">
         <div className="section-title">
           <h2>Contact</h2>
-          <p>
-          Become a PKS Member today and help us in nurturing Kerala’s roots in Pune
-          </p>
+          <p>Become a PKS Member today and help us in nurturing Kerala’s roots in Pune</p>
         </div>
 
         <div className="row">
@@ -38,10 +53,8 @@ const Contact: React.FC = () => {
         </div>
 
         <div className="row">
-          
-
-          <div className="col-lg-12 ">
-            <form action="forms/contact.php" method="post" role="form" className="php-email-form">
+          <div className="col-lg-12">
+            <form onSubmit={sendEmail} className="php-email-form">
               <div className="row">
                 <div className="col-md-6 form-group">
                   <input
