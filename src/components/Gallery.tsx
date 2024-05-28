@@ -30,9 +30,7 @@ function Portfolio() {
     { src: clb2Image, category: "filter-card", title: "Card 2" },
     { src: clb3Image, category: "filter-web", title: "Web 2" },
     { src: onamImage, category: "filter-app", title: "App 3" },
-    { src: clb1Image, category: "filter-card", title: "Card 1" },
-    { src: prize_disImage, category: "filter-card", title: "Card 3" },
-    { src: clb1Image, category: "filter-web", title: "Web 3" },
+    
 
   ];
 
