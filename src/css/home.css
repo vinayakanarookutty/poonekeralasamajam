@@ -2038,9 +2038,13 @@ img23 {
   background: white;
   color: #2f4d5a;
   border-top: 4px solid #67b0d1;
+  border-left: 4px solid #67b0d1;
+  border-right: 4px solid #67b0d1;
+  border-bottom: 4px solid #67b0d1;
   text-align: center;
   padding: 30px 20px;
   margin-bottom: 30px;
+  margin-block-start: 20px;
 }
 
 #footer .footer-info h3 {
@@ -2078,17 +2082,28 @@ img23 {
   font-weight: 600;
   margin-bottom: 20px;
   color: #fff;
+  margin-left: 10px; 
+}
+
+#footer h4{
+  margin-top: 20px;
 }
 
 #footer .footer-links ul {
   list-style: none;
   padding: 0;
+  margin-left: 10px;
 }
 
 .location{
   font-size: 16px;
   font-weight: 500;
   color: white;
+
+}
+
+.location h4 {
+ margin-bottom: 10px;
 }
 
 #footer .footer-links ul li {
@@ -2113,7 +2128,7 @@ img23 {
 
 #footer .map-responsive {
   overflow: hidden;
-  padding-bottom: 56.25%;
+  padding-bottom: 58%;
   position: relative;
   height: 0;
 }
