@@ -143,6 +143,7 @@ const ActivitiesDetails: React.FC = () => {
 
               <b>Open Golf Championship :</b> In May 2023, the Samaj held an Open Golf Championship at a local golf course. The event attracted amateur golfers from across the city, providing a platform to showcase their skills. Winners were awarded trophies and exclusive golf equipment.
             </p>
+            
           </div>
         </div>
       </div>
