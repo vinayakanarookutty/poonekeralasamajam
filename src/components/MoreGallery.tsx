@@ -79,13 +79,13 @@ function MoreGallery() {
         </div>
 
         {/* images slider  */}
-        <div className="lg:absolute top-32 right-0 lg:grid-flow-row grid grid-flow-col auto-cols-max gap-3 pl-5 xl:pl-20 overflow-auto w-screen max-h-[80%]">
+        <div className="lg:absolute top-32 right-0 lg:grid-flow-row grid grid-flow-col auto-cols-max gap-3 pl-5 xl:pl-20 overflow-auto w-screen max-h-[80%] ">
           {data.map(({ imgelink }, index) => (
             <div key={index}>
               <img
                 onClick={() => setActive(imgelink)}
                 src={imgelink}
-                className="h-20 xl:h-28 max-w-full cursor-pointer rounded-lg object-cover object-center"
+                className="h-20 xl:h-28 max-w-full cursor-pointer rounded-lg object-cover object-center mb-8"
                 alt="gallery-image"
               />
             </div>
