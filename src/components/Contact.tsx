@@ -31,7 +31,7 @@ const Contact: React.FC = () => {
             <div className="info-box mb-4">
               <i className="bx bx-map"></i>
               <h3>Our Main Office Address</h3>
-              <p>356 Rasta Peth Pune 411011</p>
+              <p style={{fontFamily:"sans-serif"}}>356</p><p> Rasta Peth Pune 411011</p>
             </div>
           </div>
 
@@ -47,7 +47,7 @@ const Contact: React.FC = () => {
             <div className="info-box mb-4">
               <i className="bx bx-phone-call"></i>
               <h3>Call Us</h3>
-              <p>9822061992 9822271700</p>
+              <p style={{fontFamily:"sans-serif"}}>9822061992 9822271700</p>
             </div>
           </div>
         </div>
