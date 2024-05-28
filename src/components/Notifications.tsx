@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import BreadCrump from '../components/ui/BreadCrump'; // Adjust the path as necessary
 
 const NotificationUI: React.FC = () => {
   const [notifications, setNotifications] = useState([
@@ -68,6 +69,7 @@ const NotificationUI: React.FC = () => {
       <div className="container">
         <div className="section-title">
           <h2>Notifications</h2>
+          <BreadCrump items={['Notifications']} /> {/* Add BreadCrump here */}
           <input
             type="text"
             placeholder="Search notifications..."
@@ -79,7 +81,6 @@ const NotificationUI: React.FC = () => {
       </div>
       <div>
         <section className="section-50">
-        
           <div className="container">
             <h3 className="m-b-50 heading-line">Latest Notifications <i className="fa fa-bell text-muted"></i></h3>
             <div className="notification-ui_dd-content">

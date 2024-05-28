@@ -1,23 +1,4 @@
-<<<<<<< HEAD
-@import url(https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap);
 
-body {
-  font-family: "Roboto", sans-serif;
-  background: #EFF1F3;
-  min-height: 100vh;
-  position: relative;
-=======
-.notifications-container {
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    background: #e0fbfc;
-    @apply p-5 overflow-y-auto;
-    /* background-image: radial-gradient(circle, #80debb, #50cbc0, #16b6c3, #00a0c2, #0089ba); */
->>>>>>> e031d2f952d862a1d4b219fc238de95cd2b2a898
-}
 
 a {
   text-decoration: none;
