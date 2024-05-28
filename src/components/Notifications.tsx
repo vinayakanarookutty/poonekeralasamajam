@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 
 const NotificationUI: React.FC = () => {
-  const [notifications, setNotifications] = useState([
+  
+  const [notifications] = useState([
     {
         id: 1,
         title: "Annual General Meeting",
@@ -63,6 +64,9 @@ const NotificationUI: React.FC = () => {
     notification.description.toLowerCase().includes(searchTerm.toLowerCase())
   );
 
+  
+  
+
   return (
     <section id="notification" className="notifications">
       <div className="container">
@@ -80,11 +84,11 @@ const NotificationUI: React.FC = () => {
       <div>
         <section className="section-50">
         
-          <div className="container">
+          <div className="containerp-3">
             <h3 className="m-b-50 heading-line">Latest Notifications <i className="fa fa-bell text-muted"></i></h3>
             <div className="notification-ui_dd-content">
               {filteredNotifications.map(notification => (
-                <div key={notification.id} className={`notification-list ${notification.read ? 'notification-list--read' : 'notification-list--unread'}`}>
+                <div key={notification.id} className={`notification-list ${notification? 'notification-list--read' : 'notification-list--unread'}`}>
                   <div className="notification-list_content">
                     <div className="notification-list_detail">
                       <p>{notification.title}</p>
