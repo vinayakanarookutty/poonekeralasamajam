@@ -20,7 +20,7 @@ import img17 from "../assets/img/c_members/Anil-George.jpg"
 import img18 from "../assets/img/committee/committee/PreetaNair_.jpg"
 import img19 from "../assets/img/committee/committee/KurianThomas.jpg"
 import img20 from "../assets/img/committee/committee/mohandasnair_.jpg"
-
+import img21 from "../assets/img/committee/committee/PDavis.jpg"
 
 interface MemberProps {
   imgSrc: string;
@@ -184,7 +184,7 @@ const MoreCommittee: React.FC = () => {
             delay={300}
           />
           <Member
-            imgSrc="src/assets/img/committee/committee/PDavis.jpg"
+            imgSrc={img21}
             name="P. Davis"
             title="Executive Committee Member"
             delay={300}
