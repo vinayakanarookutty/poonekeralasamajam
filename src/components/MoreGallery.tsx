@@ -65,18 +65,7 @@ function MoreGallery() {
           <h2 className="text-2xl font-bold">Gallery</h2>
           {/* search  */}
     
-          <form className=' w-[350px] focus-within:ring-2 ring-sky-400 h-min bg-slate-300 grid grid-cols-[1fr,1rem] rounded-full pr-5'>
-              {/* serch input  */}
-              <input className="focus:outline-none bg-transparent w-full py-3 pr-3 pl-5 text-sm" placeholder="Search Mockups, Logos..." required />
-              {/* serch button  */}
-              <button type='submit'>
-                <div className="">
-                  <svg className="w-4 h-4 text-black " aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 20">
-                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z" />
-                  </svg>
-                </div>
-              </button>
-          </form>
+         
         
         </div>
 
@@ -90,13 +79,13 @@ function MoreGallery() {
         </div>
 
         {/* images slider  */}
-        <div className="lg:absolute top-32 right-0 lg:grid-flow-row grid grid-flow-col auto-cols-max gap-3 pl-5 xl:pl-20 overflow-auto w-screen max-h-[80%]">
+        <div className="lg:absolute top-32 right-0 lg:grid-flow-row grid grid-flow-col auto-cols-max gap-3 pl-5 xl:pl-20 overflow-auto w-screen max-h-[80%] ">
           {data.map(({ imgelink }, index) => (
             <div key={index}>
               <img
                 onClick={() => setActive(imgelink)}
                 src={imgelink}
-                className="h-20 xl:h-28 max-w-full cursor-pointer rounded-lg object-cover object-center"
+                className="h-20 xl:h-28 max-w-full cursor-pointer rounded-lg object-cover object-center mb-8"
                 alt="gallery-image"
               />
             </div>
