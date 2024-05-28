@@ -30,6 +30,7 @@ const Header: React.FC = () => {
         setNotificationState(!notificationState);
         console.log("Notification link clicked!", notificationState);
     };
+
     useEffect(() => {
         const handleScroll = () => {
             const scrolled = window.scrollY > 0;
@@ -45,39 +46,47 @@ const Header: React.FC = () => {
 
     return (
         <>
-            <motion.header className={`${isScrolled ? 'bg-[#3088bae5]' : 'bg-transparent'} transition-all duration-500 fixed top-0 left-0 w-screen z-50 flex justify-between items-center py-3 px-5 xl:justify-center xl:gap-x-[20%] pt-10 `}>
+            <motion.header className={`${isScrolled ? 'bg-[#3088bae5]' : 'bg-transparent'} transition-all duration-500 fixed top-0 left-0 w-screen z-50 flex justify-between items-center py-3 px-5 xl:justify-center xl:gap-x-[20%]`}>
                 {/* left */}
-                <div>
+                <div className="flex gap-3 items-center">
                     {/* logo */}
-                    <div className="flex gap-3 items-center">
-                        <img
-                            src={pksLogo}
-                            alt="logo"
-                            className="w-10 aspect-square"
-                        />
-                        <h1 className="text-lg font-black    text-white lg:text-xl">
-                            POONA KERALEEYA SAMAJ
-                        </h1>
-                    </div>
+                    <img
+                        src={pksLogo}
+                        alt="logo"
+                        className="w-10 aspect-square"
+                    />
+                    <h1 className="text-lg font-black text-white lg:text-xl">
+                        POONA KERALEEYA SAMAJ
+                    </h1>
                 </div>
                 {/* right */}
                 <div>
                     {/* desktop nav */}
                     <nav className="hidden lg:flex gap-x-3">
-                        {navLinks.map((link) => (
-                            <a
-                                onClick={
-                                    link.text === "Notification"
-                                        ? handleNotificationClick
-                                        : undefined
-                                }
-                                key={link.url}
-                                className=" text-white font-bold hover:bg-[#b8f6ff2c] py-2 px-3 h-min text-nowrap grid place-items-center"
-                                href={link.url}
-                            >
-                                {link.text}
-                            </a>
-                        ))}
+                        {navLinks.map((link) =>
+                            link.url.startsWith("#") ? (
+                                <a
+                                    key={link.url}
+                                    className="text-white font-bold hover:bg-[#b8f6ff2c] py-2 px-3 h-min text-nowrap grid place-items-center"
+                                    href={link.url}
+                                >
+                                    {link.text}
+                                </a>
+                            ) : (
+                                <Link
+                                    key={link.url}
+                                    to={link.url}
+                                    className="text-white font-bold hover:bg-[#b8f6ff2c] py-2 px-3 h-min text-nowrap grid place-items-center"
+                                    onClick={
+                                        link.text === "Notification"
+                                            ? handleNotificationClick
+                                            : undefined
+                                    }
+                                >
+                                    {link.text}
+                                </Link>
+                            )
+                        )}
                     </nav>
 
                     {/* hamburger icon */}
@@ -111,24 +120,31 @@ const Header: React.FC = () => {
                                           transition: { duration: 0.2 },
                                       }
                             }
-                            className={`bg-white w-full h-[85%] mt-20 rounded-md py-5 md:py-10 lg:bg-transparent`}
+                            className="bg-white w-full h-[85%] mt-20 rounded-md py-5 md:py-10 overflow-y-auto"
                         >
                             {/* links */}
-                            <div className="grid">
-                                {navLinks.map((link) => (
-                                    <Link to={link.url}>
-                                    <motion.a
-                                        onClick={() => toggleOpen()}
-                                        key={link.url}
-                                        initial={{ opacity: 0, y: 100 }}
-                                        whileInView={{ opacity: 1, y: 0 }}
-                                        className="font-semibold hover:text-sky-400 p-4 hover:bg-[#0000001a] w-full"
-                                        href={link.url}
-                                    >
-                                        {link.text}
-                                    </motion.a>
-                                    </Link>
-                                ))}
+                            <div className="grid gap-2">
+                                {navLinks.map((link) =>
+                                    link.url.startsWith("#") ? (
+                                        <a
+                                            key={link.url}
+                                            href={link.url}
+                                            onClick={() => toggleOpen()}
+                                            className="font-semibold text-center text-lg py-4 px-5 text-gray-700 hover:text-sky-400 hover:bg-[#0000001a] rounded-md"
+                                        >
+                                            {link.text}
+                                        </a>
+                                    ) : (
+                                        <Link
+                                            key={link.url}
+                                            to={link.url}
+                                            onClick={() => toggleOpen()}
+                                            className="font-semibold text-center text-lg py-4 px-5 text-gray-700 hover:text-sky-400 hover:bg-[#0000001a] rounded-md"
+                                        >
+                                            {link.text}
+                                        </Link>
+                                    )
+                                )}
                             </div>
                         </motion.div>
                     </motion.div>
