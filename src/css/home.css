@@ -20,6 +20,16 @@
 } */
 /* events.css */
 /* BetweenGallery Start */
+
+.bullet {
+  display: inline-block;
+  width: 8px; /* Adjust size as needed */
+  height: 8px; /* Adjust size as needed */
+  border-radius: 50%; /* To make it round */
+  background-color: white ; /* Adjust color as needed */
+  margin-right: 5px; /* Adjust spacing as needed */
+}
+
 .notification-cards {
   margin-bottom: 20px;
 }
