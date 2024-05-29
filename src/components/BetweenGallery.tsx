@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState ,useEffect} from 'react';
 import 'swiper/css';
 import "../css/notification.css";
 import ThumbnailCard from './ThumbnailCard';
@@ -98,7 +98,9 @@ const initialCardData: Card[] = [
 
 const BetweenGallery: React.FC = () => {
   const [selectedCard, setSelectedCard] = useState<string | null>(null);
-
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   const handleCardClick = (card: Card) => {
     if (card.subCards && card.subCards.length > 0) {
       setSelectedCard(card.name === selectedCard ? null : card.name);

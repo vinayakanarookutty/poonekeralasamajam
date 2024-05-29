@@ -23,7 +23,7 @@ function Events() {
                     <p>Events </p>
                     <TextInput
                         className="event-search"
-                        placeholder="Search for Events"
+                        placeholder="Search"
                         onChange={(e) => setSearch(e.target.value)}
                     />
                 </div>
@@ -31,7 +31,7 @@ function Events() {
                 <div className="event-contents">
                     {upcomming.length >= 0 ? (
                         <div className="event-upcomming">
-                            <p> Upcomming Events</p>
+                            <p> Upcoming Events</p>
 
                             <div className="event-cards">
                                 {upcomming.map((items) => (

@@ -1,4 +1,4 @@
-import React from 'react';
+import React,{useEffect} from 'react';
 import clb1Image from '../assets/img/gallery/clb1.jpg';
 import clbImage from '../assets/img/gallery/clb.jpg';
 import clb2Image from '../assets/img/gallery/clb2.jpg';
@@ -8,6 +8,9 @@ import prize_disImage from '../assets/img/gallery/prize_dis.jpg';
 import BreadCrump from './ui/BreadCrump';
 // import Image from "../../assets/img/madras-high-court-handsketch-watercolor-600nw-2351270087.jpg"
 function MoreGallery() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   const data = [
     {
       imgelink: clb1Image,

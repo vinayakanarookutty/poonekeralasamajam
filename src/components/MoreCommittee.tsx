@@ -1,4 +1,4 @@
-import React from 'react';
+import React,{useEffect} from 'react';
 import BreadCrump from './ui/BreadCrump';
 import img1 from "../assets/img/committee/committee/Bmadhunair.jpg"
 import img2 from "../assets/img/committee/committee/Gopall.jpg"
@@ -30,6 +30,9 @@ interface MemberProps {
 }
 
 const Member: React.FC<MemberProps> = ({ imgSrc, name, title, delay }) => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div className="col-lg-4 col-md-6">
       <div className="member" data-aos="fade-up" data-aos-delay={delay}>

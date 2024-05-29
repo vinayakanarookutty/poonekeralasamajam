@@ -7,7 +7,9 @@ import BreadCrump from './ui/BreadCrump';
 function MoreActivities() {
   useEffect(() => {
     AOS.init(); 
+    window.scrollTo(0, 0);
   }, []);
+  
 
   // Define an array to hold activity data
   const activities = [

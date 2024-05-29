@@ -6,8 +6,13 @@ import pooneHistory4 from "../assets/img/History/annualday2008.jpg"
 import pooneHistory5 from "../assets/img/pks_bckgrnd.jpg"
 import pooneHistory6 from "../assets/img/History/womensday2023.jpg"
 import BreadCrump from './ui/BreadCrump';
-
+import {  useEffect } from "react";
 function HistoryTimeLine() {
+// Scroll to the top when the component mounts
+useEffect(() => {
+  window.scrollTo(0, 0);
+}, []);
+
 
   return (
     <div className=' max-w-screen overflow-hidden'>
