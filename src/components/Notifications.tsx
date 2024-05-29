@@ -1,7 +1,9 @@
-import React, { useState } from 'react';
+import React, { useState,useEffect } from 'react';
 import BreadCrump from './ui/BreadCrump';
 const NotificationUI: React.FC = () => {
-  
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   const [notifications] = useState([
     {
         id: 1,
