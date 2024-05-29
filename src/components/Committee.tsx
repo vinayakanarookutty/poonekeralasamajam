@@ -164,6 +164,7 @@ function Testimonials() {
   ];
 
   return (
+    <>
     <section id="testimonials" className="testimonials section-bg mt-5 max-h-screen ">
       <div className="container">
         <div className="section-title" data-aos="fade-up" data-aos-delay="100">
@@ -200,10 +201,12 @@ function Testimonials() {
         </Swiper>
 
       </div>
-      <div className="text-right pl-5">
-          <Link to="/committee" className="btn btn-primary ">View details</Link>
-      </div>
+      
     </section>
+    <div className="text-right">
+    <Link to="/committee" className="btn btn-primary text-xs py-1 px-2">See More</Link>
+</div>
+    </>
   );
 }
 

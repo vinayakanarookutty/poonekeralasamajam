@@ -125,13 +125,13 @@ const BetweenGallery: React.FC = () => {
   };
 
   return (
-    <div className="bg-white min-h-screen p-5 ">
+    <div className="bg-white min-h-screen p-5  ">
       <div className="flex justify-start mt-5 pl-7">
         <BreadCrump items={["Gallery"]} />
       </div>
       <section className="notifications-container bg-white">
         <h2 className="bgallerytitle text-center text-2xl md:text-4xl lg:text-5xl">Welcome to PKS Gallery</h2>
-        <div className="flex justify-center items-center">
+        <div className="flex justify-center items-center mt-10">
           <div className="notification-content grid gap-4 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
             {selectedCard ? renderNestedCards() : renderCards(initialCardData)}
           </div>

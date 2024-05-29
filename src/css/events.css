@@ -82,7 +82,7 @@
 }
 
 .notification-content:hover .notification-cards:not(:hover) {
-    opacity: 0.4;
+   
     transition: 1s;
 }
 

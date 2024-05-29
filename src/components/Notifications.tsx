@@ -72,8 +72,9 @@ const NotificationUI: React.FC = () => {
   return (
     <section id="notification" className="notifications">
       <div className="container">
-        <div className="section-title">
-        <BreadCrump items={["Notifications"]} />
+      <BreadCrump items={["Notifications"]} />
+        <div className="section-title mt-3">
+       
           <h2>Notifications</h2>
           <input
             type="text"
