@@ -8,7 +8,7 @@ const Footer = () => {
           <div className="row">
             <div className="col-lg-4 col-md-6 footer-info">
               <h3>POONA KERALEEYA SAMAJ</h3>
-              <p className="pb-3"><em>Unifying Kerala, Enriching Community</em></p>
+              <p className="pb-3"></p>
               <address>
                 <p>
                   Rasta Peth <br />

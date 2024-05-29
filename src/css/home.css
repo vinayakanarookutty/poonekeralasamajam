@@ -1521,13 +1521,13 @@ img23 {
 --------------------------------------------------------------*/
 .team .member {
   text-align: center;
-  margin-bottom: 80px;
+  margin-bottom: 150px;
   position: relative;
 }
 
 .team .member .pic {
   overflow: hidden;
-  height: 200px;
+  height: 220px;
   aspect-ratio: 1/1;
   border-radius: 7px;
 }
@@ -1535,7 +1535,7 @@ img23 {
 .team .member .member-info {
   position: absolute;
   left: 50%;
-  bottom: -2rem;
+  bottom: -5rem;
   transform: translateX(-50%);
   background: #ffffff;
   padding: 20px 0;
@@ -1548,7 +1548,7 @@ img23 {
 }
 
 .team .member:hover .member-info {
-  max-height: 300px;
+  max-height: 100px;
 }
 
 .team .member h4 {

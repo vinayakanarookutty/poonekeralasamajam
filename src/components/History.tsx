@@ -107,7 +107,7 @@ const About = () => {
                 </div>
             </div>
             <div className="text-right">
-          <Link to="/history" className="px-4 py-2 bg-blue-400 text-white rounded hover:bg-blue-600 ">See More</Link>
+          <Link to="/history" className="btn btn-primary">See More</Link>
         </div>
         </section>
     );
