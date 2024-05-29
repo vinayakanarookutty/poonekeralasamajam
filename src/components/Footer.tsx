@@ -1,4 +1,4 @@
-import "../css/home.css"; // Assuming you have a CSS file for additional styles
+import "../css/home.css"; 
 
 const Footer = () => {
   return (
@@ -26,13 +26,14 @@ const Footer = () => {
             <div className="col-lg-4 col-md-6 footer-links">
               <h4>Quick Links</h4>
               <ul>
-                <li><i className="bx bx-chevron-right"></i> <a href="#home">Home</a></li>
-                <li><i className="bx bx-chevron-right"></i> <a href="#history">History</a></li>
-                <li><i className="bx bx-chevron-right"></i> <a href="#services">Activities</a></li>
-                <li><i className="bx bx-chevron-right"></i> <a href="#portfolio">Gallery</a></li>
-                <li><i className="bx bx-chevron-right"></i> <a href="#testimonials">Committee</a></li>
-                <li><i className="bx bx-chevron-right"></i> <a href="#contact">Contact</a></li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#history">History</a></li>
+                <li><a href="#services">Activities</a></li>
+                <li><a href="#portfolio">Gallery</a></li>
+                <li><a href="#testimonials">Committee</a></li>
+                <li><a href="#contact">Contact</a></li>
               </ul>
+
             </div>
 
             <div className="col-lg-4 col-md-12 location">
