@@ -204,7 +204,7 @@ function Testimonials() {
       
     </section>
     <div className="text-right">
-    <Link to="/committee" className="btn btn-primary text-xs py-1 px-2">See More</Link>
+    <Link to="/committee" className="btn btn-primary text-xs py-1 px-2 mr-5">See More</Link>
 </div>
     </>
   );
