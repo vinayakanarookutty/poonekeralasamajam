@@ -1,4 +1,4 @@
-import React from 'react';
+import React,{useEffect} from 'react';
 import BreadCrump from './ui/BreadCrump';
 import img1 from "../assets/img/committee/committee/Bmadhunair.jpg"
 import img2 from "../assets/img/committee/committee/Gopall.jpg"
@@ -20,7 +20,7 @@ import img17 from "../assets/img/c_members/Anil-George.jpg"
 import img18 from "../assets/img/committee/committee/PreetaNair_.jpg"
 import img19 from "../assets/img/committee/committee/KurianThomas.jpg"
 import img20 from "../assets/img/committee/committee/mohandasnair_.jpg"
-
+import img21 from "../assets/img/committee/committee/PDavis.jpg"
 
 interface MemberProps {
   imgSrc: string;
@@ -30,6 +30,9 @@ interface MemberProps {
 }
 
 const Member: React.FC<MemberProps> = ({ imgSrc, name, title, delay }) => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div className="col-lg-4 col-md-6">
       <div className="member" data-aos="fade-up" data-aos-delay={delay}>
@@ -184,7 +187,7 @@ const MoreCommittee: React.FC = () => {
             delay={300}
           />
           <Member
-            imgSrc="src/assets/img/committee/committee/PDavis.jpg"
+            imgSrc={img21}
             name="P. Davis"
             title="Executive Committee Member"
             delay={300}

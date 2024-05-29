@@ -2,14 +2,16 @@ import { TextInput } from "flowbite-react";
 import "../css/events.css";
 import event_data from "../data/event_data.json";
 import EventCards from "../components/EventCards";
-import { useState } from "react";
+import { useState,useEffect } from "react";
 import BreadCrump from "../components/ui/BreadCrump";
 
 function Events() {
     const [search, setSearch] = useState("");
     const upcomming = event_data.events.upcomming;
     const completed = event_data.events.upcomming;
-
+    useEffect(() => {
+        window.scrollTo(0, 0);
+      }, []);
     console.log(search);
 
     return (
@@ -23,7 +25,7 @@ function Events() {
                     <p>Events </p>
                     <TextInput
                         className="event-search"
-                        placeholder="Search for Events"
+                        placeholder="Search"
                         onChange={(e) => setSearch(e.target.value)}
                     />
                 </div>
@@ -31,7 +33,7 @@ function Events() {
                 <div className="event-contents">
                     {upcomming.length >= 0 ? (
                         <div className="event-upcomming">
-                            <p> Upcomming Events</p>
+                            <p> Upcoming Events</p>
 
                             <div className="event-cards">
                                 {upcomming.map((items) => (

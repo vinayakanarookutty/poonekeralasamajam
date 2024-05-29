@@ -24,17 +24,16 @@ const Footer = () => {
             </div>
 
             <div className="col-lg-4 col-md-6 footer-links">
-              <h4>Quick Links</h4>
-              <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#history">History</a></li>
-                <li><a href="#services">Activities</a></li>
-                <li><a href="#portfolio">Gallery</a></li>
-                <li><a href="#testimonials">Committee</a></li>
-                <li><a href="#contact">Contact</a></li>
-              </ul>
-
-            </div>
+    <h4>Quick Links</h4>
+    <ul>
+        <li><span className="bullet"></span> <a href="#home">Home</a></li>
+        <li><span className="bullet"></span> <a href="#history">History</a></li>
+        <li><span className="bullet"></span> <a href="#services">Activities</a></li>
+        <li><span className="bullet"></span> <a href="#portfolio">Gallery</a></li>
+        <li><span className="bullet"></span> <a href="#testimonials">Committee</a></li>
+        <li><span className="bullet"></span> <a href="#contact">Contact</a></li>
+    </ul>
+</div>
 
             <div className="col-lg-4 col-md-12 location">
               <h4>We're Here !</h4>

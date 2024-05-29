@@ -200,8 +200,8 @@ function Testimonials() {
         </Swiper>
 
       </div>
-      <div className="text-right">
-          <Link to="/committee" className="btn btn-primary">View details</Link>
+      <div className="text-right pl-5">
+          <Link to="/committee" className="btn btn-primary ">View details</Link>
       </div>
     </section>
   );

@@ -7,14 +7,15 @@ import ActivitiesDetails from "./components/ActivitiesDetails";
 import HistoryTimeLine from "./components/HistoryTimeLine";
 import BetweenGallery from "./components/BetweenGallery";
 import MoreCommittee from "./components/MoreCommittee";
-import Noti from "./pages/Noti";
+import Notifications from "./components/Notifications";
+
 import Events from "./pages/Events";
 
 function App() {
     const router = createBrowserRouter([
         {
             path: "/",
-            element: <Home />,
+            element: <Home/>,
             errorElement: <ErrorPage />,
         },
         {
@@ -46,8 +47,8 @@ function App() {
             element: <Events />,
         },
         {
-            path: "/noti",
-            element: <Noti />,
+            path: "/notification",
+            element: <Notifications/>,
         },
     ]);
 

@@ -5,42 +5,75 @@
     flex-direction: column;
     align-items: center;
     background: #e0fbfc;
+    @apply p-5 overflow-y-auto;
     /* background-image: radial-gradient(circle, #80debb, #50cbc0, #16b6c3, #00a0c2, #0089ba); */
 }
 
-.notification-heading {
-    background: url(../assets/img/section-title-bg.png) no-repeat;
-    background-position: center top;
-    display: flex;
-    justify-content: center;
-    justify-content: space-between;
-    align-items: center;
-    flex-direction: column;
+a {
+  text-decoration: none;
 }
 
-.notification-title {
-    font-size: 32px;
-    font-weight: 600;
-    color: #2f4d5a;
-    letter-spacing: 2.5px;
-    letter-spacing: 3.5px;
+
+.section-50 {
+  padding: 10px 0;
 }
 
-.notification-subheading {
-    max-width: 1200px;
-    margin-top: 20px;
+.m-b-50 {
+  margin-bottom: 10px;
 }
-.notification-content {
-    margin-top: 100px;
-    display: grid;
-    grid-template-columns: auto auto auto;
-    padding-bottom: 50px;
-    grid-row-gap: 50px;
+
+.dark-link {
+  color: #333;
+  text-decoration: none!important;
 }
-.notification-cards:hover {
-    cursor: pointer;
+
+.heading-line {
+  position: relative;
+  padding-bottom: 5px;
 }
-.notification-cards:hover {
-    scale: 1.1;
-    transition: 0.5s;
+
+.heading-line:after {
+  content: "";
+  height: 4px;
+  width: 75px;
+  background-color: #0355d0;
+  position: absolute;
+  bottom: 0;
+  left: 0;
 }
+
+.notification-ui_dd-content {
+  margin-bottom: 20px;
+}
+
+.notification-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 20px;
+  margin-bottom: 7px;
+  background: #fff;
+  -webkit-box-shadow: 0 3px 10px rgba(0, 0, 0, 0.06);
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.06);
+}
+
+
+
+.notification-list .notification-list_content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+
+
+.notification-list .notification-list_content .notification-list_detail p {
+  margin-bottom: 5px;
+  line-height: 1.2;
+}
+
+
+
