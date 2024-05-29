@@ -73,7 +73,7 @@ const NotificationUI: React.FC = () => {
     <section id="notification" className="notifications">
       <div className="container">
       <BreadCrump items={["Notifications"]} />
-        <div className="section-title mt-3">
+        <div className="section-title mt-3 ">
        
           <h2>Notifications</h2>
           <input
@@ -86,9 +86,9 @@ const NotificationUI: React.FC = () => {
         </div>
       </div>
       <div>
-        <section className="section-50">
+        <section className="section-50 ">
         
-          <div className="containerp-3">
+          <div className="containerp-3 p-10">
             <h3 className="m-b-50 heading-line">Latest Notifications <i className="fa fa-bell text-muted"></i></h3>
             <div className="notification-ui_dd-content">
               {filteredNotifications.map(notification => (
