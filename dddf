@@ -1,0 +1,563 @@
+[33mcommit 10341380bda2c840b16b0dea7da7a27cefb59ee1[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Vinayak S <vinayaksukhalal@gmail.com>
+Date:   Wed May 29 15:24:47 2024 +0530
+
+    app added
+
+[33mcommit f24a7dd825c8695fe314a8c258768a8922d52222[m
+Merge: e5e2783 caa97b1
+Author: Vinayak S <103236060+vinayakanarookutty@users.noreply.github.com>
+Date:   Wed May 29 15:21:02 2024 +0530
+
+    Merge pull request #42 from Ajithpmdwaraka/main
+    
+    conflict
+
+[33mcommit caa97b16f9601304a7ea951c7211e394e78bfc1f[m
+Merge: 6595e1e e5e2783
+Author: Ajith PM <ajithpmdwaraka@gmail.com>
+Date:   Wed May 29 15:18:12 2024 +0530
+
+    conflict
+
+[33mcommit 6595e1eabe9b11fd3091218af2fabd523c116216[m
+Author: Ajith PM <ajithpmdwaraka@gmail.com>
+Date:   Wed May 29 15:08:03 2024 +0530
+
+    idk
+
+[33mcommit e5e2783db07af692d1e1fee97a3187fcca0d5cf8[m
+Author: Vinayak S <vinayaksukhalal@gmail.com>
+Date:   Wed May 29 15:04:11 2024 +0530
+
+    app added
+
+[33mcommit 1084e1ab26064ec2fc88a3ba99a9e255f78fca5b[m
+Author: Vinayak S <vinayaksukhalal@gmail.com>
+Date:   Wed May 29 15:01:13 2024 +0530
+
+    app added
+
+[33mcommit 11d16c3f0cc3f1a2f9a85a2a1c7774ecf8f3a853[m
+Author: Ajith PM <ajithpmdwaraka@gmail.com>
+Date:   Wed May 29 13:22:23 2024 +0530
+
+    Committee and footer issue resolved
+
+[33mcommit c00530c354f69b865cfaa9fb797df98cdfdac75d[m
+Author: Ajith PM <ajithpmdwaraka@gmail.com>
+Date:   Wed May 29 09:19:34 2024 +0530
+
+    Footer Resolved
+
+[33mcommit e29cc819d05177d98ca236b87952c263efb2f887[m
+Author: Vinayak S <vinayaksukhalal@gmail.com>
+Date:   Tue May 28 23:36:00 2024 +0530
+
+    app added
+
+[33mcommit 3d9a1e3cbd48127636a4df5d807ae2a832fb3836[m
+Author: Vinayak S <vinayaksukhalal@gmail.com>
+Date:   Tue May 28 23:33:54 2024 +0530
+
+    app added
+
+[33mcommit 7df8a04bcbc62b9c50e9360e6ab50af624bc59c3[m
+Author: Vinayak S <vinayaksukhalal@gmail.com>
+Date:   Tue May 28 23:22:34 2024 +0530
+
+    app added
+
+[33mcommit 7d7e0e5362c395a5d6fc7bb7c288dd8006d4a74a[m
+Author: Vinayak S <vinayaksukhalal@gmail.com>
+Date:   Tue May 28 23:08:15 2024 +0530
+
+    app added
+
+[33mcommit 95012027d41a38dbed7bf3caffcfb00aa095403c[m
+Author: Vinayak S <vinayaksukhalal@gmail.com>
+Date:   Tue May 28 22:52:48 2024 +0530
+
+    app added
+
+[33mcommit 7126c6834514af99f8a2c26803244f6477fa728a[m
+Merge: cd4e634 877bb18
+Author: Vinayak S <vinayaksukhalal@gmail.com>
+Date:   Tue May 28 22:49:10 2024 +0530
+
+    Merge branch 'main' of https://github.com/vinayakanarookutty/poonekeralasamajam
+
+[33mcommit 877bb182f74bb9156668e7398a28fd371966bce2[m
+Merge: e031d2f 34e5758
+Author: Vinayak S <103236060+vinayakanarookutty@users.noreply.github.com>
+Date:   Tue May 28 22:49:02 2024 +0530
+
+    Merge pull request #38 from SreenandhaVR/main
+    
+    Notification Page Modification
+
+[33mcommit cd4e6346f8d07095c7e5b83dc9a66617ccaf6fe7[m
+Author: Vinayak S <vinayaksukhalal@gmail.com>
+Date:   Tue May 28 22:48:33 2024 +0530
+
+    app added
+
+[33mcommit 34e5758772a938159504bc50cd433934e1edd3eb[m
+Merge: d6be650 e031d2f
+Author: Sreenandha V R <sreenandhavr161@gmail.com>
+Date:   Tue May 28 22:46:37 2024 +0530
+
+    Notification Added
+
+[33mcommit d6be6507afd6da42b1b330a1f26218c799a9767e[m
+Author: Sreenandha V R <sreenandhavr161@gmail.com>
+Date:   Tue May 28 22:33:38 2024 +0530
+
+    Notification Page Added
+
+[33mcommit e031d2f952d862a1d4b219fc238de95cd2b2a898[m
+Author: Vinayak S <vinayaksukhalal@gmail.com>
+Date:   Tue May 28 22:32:13 2024 +0530
+
+    app added
+
+[33mcommit ceacb76483abb4ce63a67748fb19861f9b592cf5[m
+Author: Vinayak S <vinayaksukhalal@gmail.com>
+Date:   Tue May 28 22:21:49 2024 +0530
+
+    app added
+
+[33mcommit 9e6e17d000a54db1d04e70234fe03659cd4d954c[m
+Author: Vinayak S <vinayaksukhalal@gmail.com>
+Date:   Tue May 28 22:00:56 2024 +0530
+
+    app added
+
+[33mcommit ed77f04505601a181a940c7a5c947be7b6b16775[m
+Author: Vinayak S <vinayaksukhalal@gmail.com>
+Date:   Tue May 28 19:40:57 2024 +0530
+
+    app added
+
+[33mcommit 2fc8ea669f472cdb2786b202b03205ba825fe6a1[m
+Author: Vinayak S <vinayaksukhalal@gmail.com>
+Date:   Tue May 28 19:31:28 2024 +0530
+
+    app added
+
+[33mcommit e107088dd6f9cb5bb0d82b0a611e705b2b2c03c6[m
+Author: Vinayak S <vinayaksukhalal@gmail.com>
+Date:   Tue May 28 16:06:28 2024 +0530
+
+    app added
+
+[33mcommit 4cfe8750bf86940dd5aab73ce99c7716252188dd[m
+Author: Vinayak S <vinayaksukhalal@gmail.com>
+Date:   Tue May 28 11:30:50 2024 +0530
+
+    app added
+
+[33mcommit c1f50d27a2eb873a320a15ad90cda8ab0549c5c3[m
+Author: Vinayak S <vinayaksukhalal@gmail.com>
+Date:   Tue May 28 11:20:36 2024 +0530
+
+    app added
+
+[33mcommit 4eb92c04fed89f19aa919021f9b3b4c5358db585[m
+Merge: 2931a6c 2aea443
+Author: Vinayak S <vinayaksukhalal@gmail.com>
+Date:   Tue May 28 11:01:57 2024 +0530
+
+    Merge branch 'main' of https://github.com/vinayakanarookutty/poonekeralasamajam
+
+[33mcommit 2931a6c3d2b180c66120e77c4a3f59d0f88c4f3c[m
+Author: Vinayak S <vinayaksukhalal@gmail.com>
+Date:   Tue May 28 11:01:54 2024 +0530
+
+    app added
+
+[33mcommit 2aea443df064efc7555a43c60dd877bc80b9b912[m
+Merge: 15e670e 4132fe1
+Author: Vinayak S <103236060+vinayakanarookutty@users.noreply.github.com>
+Date:   Tue May 28 11:01:27 2024 +0530
+
+    Merge pull request #37 from Ajithpmdwaraka/main
+    
+    Committee correction
+
+[33mcommit 4132fe1a3faa407e364cca898eed2221daf6febd[m
+Author: Ajith PM <ajithpmdwaraka@gmail.com>
+Date:   Mon May 27 20:10:55 2024 +0530
+
+    Resolved footer and gallery issue
+
+[33mcommit 15e670eadf8952e7b5adfa4998b1048812d35148[m
+Author: Vinayak S <vinayaksukhalal@gmail.com>
+Date:   Mon May 27 19:36:22 2024 +0530
+
+    app added
+
+[33mcommit a809358e15a3cfaf2418ee81dedec78d3e7ccdc1[m
+Author: Vinayak S <vinayaksukhalal@gmail.com>
+Date:   Mon May 27 17:43:20 2024 +0530
+
+    app added
+
+[33mcommit f6cf8f1dc3cc91d61e5696c91842b5f0806639f6[m
+Author: Ajith PM <ajithpmdwaraka@gmail.com>
+Date:   Mon May 27 17:41:45 2024 +0530
+
+    Committee correction
+
+[33mcommit 2acbebfc0e999d5ce4c98ceb7bbe20774ed98bcc[m
+Author: Vinayak S <vinayaksukhalal@gmail.com>
+Date:   Mon May 27 17:33:19 2024 +0530
+
+    app added
+
+[33mcommit d0c2322d94a31b93fc3afbab47f1cfcb05cbbd6a[m
+Author: Vinayak S <vinayaksukhalal@gmail.com>
+Date:   Mon May 27 17:21:49 2024 +0530
+
+    app added
+
+[33mcommit c476ff668f4485ae4dd29e3dc5dcb1be37c3cd40[m
+Author: Vinayak S <vinayaksukhalal@gmail.com>
+Date:   Mon May 27 17:20:06 2024 +0530
+
+    app added
+
+[33mcommit f4cca94d036e2f5ed95f35d6cccb13f109c3ff11[m
+Merge: 1af6ba6 f63f2cf
+Author: Vinayak S <103236060+vinayakanarookutty@users.noreply.github.com>
+Date:   Mon May 27 16:40:39 2024 +0530
+
+    Merge pull request #36 from Ajithpmdwaraka/main
+    
+    Footer enhanced
+
+[33mcommit f63f2cf856c4952c1bad16e4d8f3f589a12f117c[m
+Author: Ajith PM <ajithpmdwaraka@gmail.com>
+Date:   Mon May 27 16:20:40 2024 +0530
+
+    Footer enhanced
+
+[33mcommit 1af6ba65fa3431d1487ecab9933d02c90cbdc1a6[m
+Author: Vinayak S <vinayaksukhalal@gmail.com>
+Date:   Mon May 27 15:40:24 2024 +0530
+
+    app added
+
+[33mcommit edefbc99c03f8285a8651dc56748e62837f9c976[m
+Merge: 73cb2f5 1641653
+Author: Vinayak S <vinayaksukhalal@gmail.com>
+Date:   Mon May 27 14:12:46 2024 +0530
+
+    Merge branch 'main' of https://github.com/vinayakanarookutty/poonekeralasamajam
+
+[33mcommit 73cb2f5f5498921d049f9da805d7b97be843b4e0[m
+Author: Vinayak S <vinayaksukhalal@gmail.com>
+Date:   Mon May 27 14:12:43 2024 +0530
+
+    app added
+
+[33mcommit 1641653bb7356b1988c8e076fb230c9f92273497[m
+Merge: 5b5bdef 2b314d7
+Author: Vinayak S <103236060+vinayakanarookutty@users.noreply.github.com>
+Date:   Mon May 27 14:12:27 2024 +0530
+
+    Merge pull request #35 from Allen-Josu/main
+    
+    Added Breadcrump to /src/components/ui/BreadCrump.tsx
+
+[33mcommit 2b314d777f1f41028a7ac02c4c22d3aa3f36ac87[m
+Author: Allen Joseph Joy <allenalackaparambil@gmail.com>
+Date:   Mon May 27 14:11:58 2024 +0530
+
+     Added BreadCrump to Every Page
+
+[33mcommit 52e6970102ba84673ba9204075a623f783bc199d[m
+Author: Allen Joseph Joy <allenalackaparambil@gmail.com>
+Date:   Mon May 27 13:36:58 2024 +0530
+
+    Added Breadcrump to /src/components/ui/BreadCrump.tsx
+
+[33mcommit 5b5bdef31b68d28d2eb2bbe5679cacb61b6af0c3[m
+Author: Vinayak S <vinayaksukhalal@gmail.com>
+Date:   Mon May 27 11:24:48 2024 +0530
+
+    app added
+
+[33mcommit db7ce828958a973e3a541d04e3b8b057c1d57855[m
+Merge: 11ede67 626fe18
+Author: Vinayak S <vinayaksukhalal@gmail.com>
+Date:   Sun May 26 23:12:56 2024 +0530
+
+    Merge branch 'main' of https://github.com/vinayakanarookutty/poonekeralasamajam
+
+[33mcommit 11ede67557d93335118c8f4046d99d374a0c9721[m
+Author: Vinayak S <vinayaksukhalal@gmail.com>
+Date:   Sun May 26 23:12:42 2024 +0530
+
+    app added
+
+[33mcommit 626fe18983cb7c5c0ac1cd29e44009405e66f47a[m
+Merge: 15dc002 48c67b3
+Author: Vinayak S <103236060+vinayakanarookutty@users.noreply.github.com>
+Date:   Sun May 26 23:12:13 2024 +0530
+
+    Merge pull request #33 from Suhana-DBC/main
+    
+    new commit
+
+[33mcommit 48c67b38db7b29eb0e4f84ac4255e039949738d5[m
+Merge: 5bacfd4 15dc002
+Author: Suhana-DBC <109392894+Suhana-DBC@users.noreply.github.com>
+Date:   Sun May 26 23:10:35 2024 +0530
+
+    Merge branch 'vinayakanarookutty:main' into main
+
+[33mcommit 5bacfd4fcf910b10d5c748a02356dc634c1358d2[m
+Merge: f88af63 bea1680
+Author: Suhana-DBC <suhuscornerzz@gmail.com>
+Date:   Sun May 26 23:09:02 2024 +0530
+
+    first commit
+
+[33mcommit f88af63b7d48c7bf780516efbadbf4b54e96d7fa[m
+Author: Suhana-DBC <suhuscornerzz@gmail.com>
+Date:   Sun May 26 23:04:20 2024 +0530
+
+    first commit
+
+[33mcommit 15dc0027f5aa9dad4bb0d4ffcaa7183b2a2cd7bb[m
+Merge: c70de38 bea1680
+Author: Vinayak S <vinayaksukhalal@gmail.com>
+Date:   Sun May 26 22:28:07 2024 +0530
+
+    Merge branch 'main' of https://github.com/vinayakanarookutty/poonekeralasamajam
+
+[33mcommit c70de382d5677d9f17b6e9c808bed4b74c6616ba[m
+Author: Vinayak S <vinayaksukhalal@gmail.com>
+Date:   Sun May 26 22:28:04 2024 +0530
+
+    app added
+
+[33mcommit bea1680ec6e5266dfcccf2c66dde1a8bf2d0068f[m
+Merge: bda9899 451d499
+Author: Vinayak S <103236060+vinayakanarookutty@users.noreply.github.com>
+Date:   Sun May 26 22:27:58 2024 +0530
+
+    Merge pull request #32 from Ajithpmdwaraka/main
+    
+    Removed Theme
+
+[33mcommit 451d499269eb5e4531480dcb873c37f64050dc69[m
+Author: Ajith PM <ajithpmdwaraka@gmail.com>
+Date:   Sun May 26 22:22:36 2024 +0530
+
+    Removed Them
+
+[33mcommit d229b7a0b9296501e582f875972c50a678d14038[m
+Merge: c9a5cec bda9899
+Author: Vinayak S <vinayaksukhalal@gmail.com>
+Date:   Sun May 26 22:00:53 2024 +0530
+
+    Merge branch 'main' of https://github.com/vinayakanarookutty/poonekeralasamajam
+
+[33mcommit c9a5cec07fd9b07f0644dcdd27893f37ef710e45[m
+Author: Vinayak S <vinayaksukhalal@gmail.com>
+Date:   Sun May 26 22:00:48 2024 +0530
+
+    app added
+
+[33mcommit bda989916863b70fec18c5a430f50c43f689f0fb[m
+Merge: 21fd1c5 9434b70
+Author: Vinayak S <103236060+vinayakanarookutty@users.noreply.github.com>
+Date:   Sun May 26 22:00:39 2024 +0530
+
+    Merge pull request #31 from Ajithpmdwaraka/main
+    
+    See More Theme has been Added
+
+[33mcommit 9434b703dc836685af942e3096d8d415edb67c37[m
+Author: Ajith PM <ajithpmdwaraka@gmail.com>
+Date:   Sun May 26 20:14:18 2024 +0530
+
+    Theme Added
+
+[33mcommit 898a6f5d582995b607a13b9405a555c9699b6ba3[m
+Author: Ajith PM <ajithpmdwaraka@gmail.com>
+Date:   Sun May 26 19:29:31 2024 +0530
+
+    See more Theme has been added
+
+[33mcommit 87ab2d05cefe1ae13fffea2f05def34d73cfc936[m
+Merge: 6d19c93 21fd1c5
+Author: Ajithpmdwaraka <123002172+Ajithpmdwaraka@users.noreply.github.com>
+Date:   Sun May 26 16:17:42 2024 +0530
+
+    Merge branch 'vinayakanarookutty:main' into main
+
+[33mcommit 21fd1c539df95457ca9afbb65347bc89f48d0fd6[m
+Author: Vinayak S <vinayaksukhalal@gmail.com>
+Date:   Sun May 26 15:40:51 2024 +0530
+
+    app added
+
+[33mcommit 6d19c93e7bf69ce3ce1b20415d001d0a7b8a3c6b[m
+Merge: 05588e8 33a089d
+Author: Ajithpmdwaraka <123002172+Ajithpmdwaraka@users.noreply.github.com>
+Date:   Sun May 26 15:33:11 2024 +0530
+
+    Merge branch 'vinayakanarookutty:main' into main
+
+[33mcommit 33a089d50b9467896eba2fa151d3823c5543ee04[m
+Author: Vinayak S <vinayaksukhalal@gmail.com>
+Date:   Sun May 26 15:27:00 2024 +0530
+
+    app added
+
+[33mcommit 05588e8558cb9ecf95d4f43c93303d6ef36fc21a[m
+Merge: 4cbb452 5706210
+Author: Ajithpmdwaraka <123002172+Ajithpmdwaraka@users.noreply.github.com>
+Date:   Sun May 26 15:05:53 2024 +0530
+
+    Merge branch 'vinayakanarookutty:main' into main
+
+[33mcommit 81e768f285ecf95d2d6adf3f0ae2d37bfaf27a17[m
+Merge: 61cdd45 5706210
+Author: Vinayak S <vinayaksukhalal@gmail.com>
+Date:   Sun May 26 08:50:12 2024 +0530
+
+    Merge branch 'main' of https://github.com/vinayakanarookutty/poonekeralasamajam
+
+[33mcommit 61cdd458e31feacee604fe582a10bb3718c11647[m
+Author: Vinayak S <vinayaksukhalal@gmail.com>
+Date:   Sun May 26 08:50:01 2024 +0530
+
+    app added
+
+[33mcommit 5706210f4418e1d5872c3236f14d3f078eb2de66[m
+Merge: f38d1a2 f79ca7a
+Author: Vinayak S <103236060+vinayakanarookutty@users.noreply.github.com>
+Date:   Sun May 26 08:49:32 2024 +0530
+
+    Merge pull request #30 from Allen-Josu/main
+    
+    Hero Component Added
+
+[33mcommit f79ca7ac158ea66429c989d796bdfcae7588587e[m
+Author: Allen Joseph Joy <allenalackaparambil@gmail.com>
+Date:   Sun May 26 01:19:33 2024 +0530
+
+    Hero Component Added
+
+[33mcommit 4970f11770918c03c7ba66502c326f9b501e9346[m
+Merge: b29e7d7 f38d1a2
+Author: Allen Joseph Joy <allenalackaparambil@gmail.com>
+Date:   Sun May 26 01:16:23 2024 +0530
+
+    HEro
+
+[33mcommit b29e7d74bcf8e2154de170a6d0a320ca0a567580[m
+Author: Allen Joseph Joy <allenalackaparambil@gmail.com>
+Date:   Sun May 26 01:12:44 2024 +0530
+
+    Hero Component Added
+
+[33mcommit 4cbb452937dd662a8e97c9da4ba95e69bd03ce9c[m
+Author: Ajith PM <ajithpmdwaraka@gmail.com>
+Date:   Sat May 25 23:23:28 2024 +0530
+
+    Committee Member Properly arranged
+
+[33mcommit f38d1a2e966fcf279ef4bd5c807c5ede58e9497b[m
+Merge: d8b6fd1 a915251
+Author: Vinayak S <103236060+vinayakanarookutty@users.noreply.github.com>
+Date:   Sat May 25 21:04:06 2024 +0530
+
+    Merge pull request #28 from Allen-Josu/main
+    
+    Events
+
+[33mcommit a915251adb1b104e2abe379380c75b395995430b[m
+Merge: bd70e8c d8b6fd1
+Author: Allen Joseph Joy <allenalackaparambil@gmail.com>
+Date:   Sat May 25 20:58:35 2024 +0530
+
+    Completed Events 100 %
+
+[33mcommit bd70e8c171c443105cdfcf709380045265a32934[m
+Author: Allen Joseph Joy <allenalackaparambil@gmail.com>
+Date:   Sat May 25 20:42:33 2024 +0530
+
+    Stacking
+
+[33mcommit d8b6fd1444cc3715a1ab8f80dc1982591cef3c21[m
+Author: Vinayak S <vinayaksukhalal@gmail.com>
+Date:   Sat May 25 20:35:42 2024 +0530
+
+    Added
+
+[33mcommit dca2ceaf62704532b10ae646416757f33b46a45e[m
+Author: Vinayak S <vinayaksukhalal@gmail.com>
+Date:   Sat May 25 20:32:51 2024 +0530
+
+    Added
+
+[33mcommit c055111a003955679963bc643cf53b0f00bc0d48[m
+Merge: 48be871 7d43b1f
+Author: Vinayak S <vinayaksukhalal@gmail.com>
+Date:   Sat May 25 20:32:46 2024 +0530
+
+    Merge branch 'main' of https://github.com/vinayakanarookutty/poonekeralasamajam
+
+[33mcommit 7d43b1f06d211dbeed38ca3b5388d284a198a63d[m
+Merge: 6390a09 306031a
+Author: Vinayak S <103236060+vinayakanarookutty@users.noreply.github.com>
+Date:   Sat May 25 20:32:19 2024 +0530
+
+    Merge pull request #27 from Allen-Josu/main
+    
+    Events
+
+[33mcommit 48be87105c04e9ff221bb3a5cf25aee29d0d0afc[m
+Author: Vinayak S <vinayaksukhalal@gmail.com>
+Date:   Sat May 25 20:24:19 2024 +0530
+
+    Added
+
+[33mcommit 306031ab28652b43c93cb2d1626fb810e98bf7d4[m
+Author: Allen Joseph Joy <allenalackaparambil@gmail.com>
+Date:   Sat May 25 17:00:06 2024 +0530
+
+     Events
+
+[33mcommit 702b66a74aee337555fbc7e2aa39a0e7e7fa90c6[m
+Merge: a3d6841 6390a09
+Author: Allen Joseph Joy <allenalackaparambil@gmail.com>
+Date:   Sat May 25 15:11:15 2024 +0530
+
+    Merge branch 'main' of https://github.com/Allen-Josu/poonekeralasamajam
+
+[33mcommit a3d6841d784dfcda0c20089662881a0e8d21704c[m
+Author: Allen Joseph Joy <allenalackaparambil@gmail.com>
+Date:   Sat May 25 15:10:32 2024 +0530
+
+    Notifications
+
+[33mcommit 6390a0970515e957863a88137e7b6941e64d5265[m
+Merge: 585fef2 24534fc
+Author: Vinayak S <103236060+vinayakanarookutty@users.noreply.github.com>
+Date:   Fri May 24 12:37:59 2024 +0530
+
+    Merge pull request #26 from SreenandhaVR/main
+    
+    Flash news Added
+
+[33mcommit 24534fcafe62d36407fa3f38193d31701603d436[m
+Author: Sreenandha V R <sreenandhavr161@gmail.com>
+Date:   Fri May 24 12:36:20 2024 +0530
+
+    Flash news Added
