@@ -30,9 +30,7 @@
   margin-right: 5px; /* Adjust spacing as needed */
 }
 
-.notification-cards {
-  margin-bottom: 20px;
-}
+
 
 .no-underline {
   text-decoration: none;
@@ -56,7 +54,7 @@
 .section-title h2 {
   color: #333; /* Darker color for contrast */
   text-align: center;
-  margin-bottom: 20px;
+  
 }
 
 .notification-content {
@@ -744,7 +742,7 @@
 }
 
 section:not(#hero) {
-  padding: 60px 0;
+  padding: 0px 0;
   overflow: hidden;
 }
 
@@ -754,14 +752,14 @@ section:not(#hero) {
 
 .section-title {
   text-align: center;
-  padding-bottom: 30px;
+  
 }
 
 .section-title h2 {
   font-size: 32px;
   font-weight: bold;
   position: relative;
-  margin-bottom: 30px;
+  
   color: #2f4d5a;
   z-index: 2;
 }
