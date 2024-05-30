@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import "../css/home.css"; // Assume that the CSS styles are moved to App.css
-import Image from "../assets/img/gallery/clb2.jpg";
 import Image2 from "../assets/img/gallery/clb3.jpg";
 
 const ActivitiesDetails: React.FC = () => {
