@@ -1,4 +1,13 @@
-
+.notifications-container {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background: #e0fbfc;
+    @apply p-5 overflow-y-auto;
+    /* background-image: radial-gradient(circle, #80debb, #50cbc0, #16b6c3, #00a0c2, #0089ba); */
+}
 
 a {
   text-decoration: none;
@@ -10,7 +19,7 @@ a {
 }
 
 .m-b-50 {
-  margin-bottom: 10px;
+
 }
 
 .dark-link {

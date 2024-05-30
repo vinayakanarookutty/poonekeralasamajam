@@ -6,14 +6,21 @@ import pooneHistory4 from "../assets/img/History/annualday2008.jpg"
 import pooneHistory5 from "../assets/img/pks_bckgrnd.jpg"
 import pooneHistory6 from "../assets/img/History/womensday2023.jpg"
 import BreadCrump from './ui/BreadCrump';
-
+import {  useEffect } from "react";
 function HistoryTimeLine() {
+// Scroll to the top when the component mounts
+useEffect(() => {
+  window.scrollTo(0, 0);
+}, []);
+
 
   return (
     <div className=' max-w-screen overflow-hidden'>
+       
       <div className="container_history">
-        <h2>History</h2>
-        <BreadCrump items={["History-Timelline"]} />
+      <BreadCrump items={["History-Timeline"]} />
+        <h2 className="mt-5">History</h2>
+      
         <p className='mt-5'>
           In pre-Independence days, the population of Pune (then known as Poona) was hardly 2 to 3 lakhs including a few thousands of Malayalees, mainly bachelors,  employed at different Central  Government establishments and  residing at different parts of Pune (Poona). If there was a  concentration (if at all it can be  called a concentration) of a few hundreds of Malayalees, it was at  places like Rasta Peth and Kirkee  (now known as Khadki). The  reason for this concentration of  Malayalees at these places was  that there were a few lodge-cum- eateries run by Malayalees  providing food and shared accommodation at an affordable  cost of less than Rs.50/- per  month/per person.
         </p>
@@ -55,6 +62,7 @@ function HistoryTimeLine() {
             <div className='background w-full h-full absolute top-0 left-0 rounded-[10px] z-10' ></div>
             <div className='z-20 relative'>
               <h2> Event Felicitation of Padmashree Mohanlal</h2>
+              <p>2002</p>
               <p>The Poona Keraleeya Samaj organized a grand felicitation event to honor the renowned actor Padmashree Mohanlal.
                 This celebration recognized Mohanlal's outstanding contributions to Indian cinema and his exceptional talent.
                 The event was a significant occasion for the Malayalee community in Pune, providing an opportunity to celebrate
@@ -74,7 +82,7 @@ function HistoryTimeLine() {
             <div className='background w-full h-full absolute top-0 left-0 rounded-[10px] z-10' ></div>
             <div className='z-20 relative'>
               <h2> Onam Celebration</h2>
-              <small>2007</small>
+              <p>2007</p>
               <p>The Poona Keraleeya Samaj organized a vibrant Onam celebration, bringing together the Malayalee community
                 in Pune for a day of cultural festivity and joy. The event featured traditional Onam rituals,
                 a grand feast (Onam Sadhya), and a variety of cultural performances including music, dance,
@@ -97,7 +105,7 @@ function HistoryTimeLine() {
             <div className='background w-full h-full absolute top-0 left-0 rounded-[10px] z-10' ></div>
             <div className='z-20 relative'>
               <h2> 45th Anniversary Day And Onam Celebration</h2>
-              <small>2008</small>
+              <p>2008</p>
               <p>The Poona Keraleeya Samaj hosted a grand event combining their Annual Day and Onam celebration,
                 emphasizing both the community’s achievements and cultural heritage.
                 The Annual Day segment recognized notable contributions from members,
@@ -121,7 +129,7 @@ function HistoryTimeLine() {
             <div className='background w-full h-full absolute top-0 left-0 rounded-[10px] z-10' ></div>
             <div className='relative z-20'>
               <h2> 46th Anniversary Day And Onam Celebration</h2>
-              <small>2022</small>
+              <p>2022</p>
               <p>The Poona Keraleeya Samaj's Annual Day and Onam celebration was a grand affair,
                 marked by the presence of distinguished guests, including cine artist Arjun Radhakrishnan
                 and Health Minister Shailaja. The Annual Day segment honored the community's achievements
@@ -143,7 +151,7 @@ function HistoryTimeLine() {
             <div className='background w-full h-full absolute top-0 left-0 rounded-[10px] z-10' ></div>
             <div className='relative z-20'>
               <h2> Womens Day Celebration</h2>
-              <small>2023</small>
+              <p>2023</p>
               <p>The Poona Keraleeya Samaj organized a special Women's Day celebration, graced by the
                 esteemed presence of cine artist Sreelatha Namboothiri. The event highlighted the empowerment
                 and achievements of women within the community through inspiring speeches and cultural performances.

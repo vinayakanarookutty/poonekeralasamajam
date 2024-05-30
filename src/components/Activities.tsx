@@ -56,9 +56,7 @@ const Services = () => {
           ))}
         </div>
         <div className="text-right">
-          <Link to="/more-activities" className="btn btn-primary">
-            See More
-          </Link>
+          <Link to="/more-activities" className="btn btn-primary text-xs py-1 px-2 mt-5">See More</Link>
         </div>
       </div>
     </section>

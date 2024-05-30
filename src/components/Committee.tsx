@@ -2,14 +2,9 @@ import "../css/home.css";
 import PCMemberCard from "./PCMemberCard";
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Link } from 'react-router-dom';
-
-// Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/pagination';
-
 import { Pagination, Autoplay } from 'swiper/modules';
-
-// Import images
 import BmadhunairImage from '../assets/img/committee/committee/Bmadhunair.jpg';
 import MNNambiarImage from '../assets/img/committee/committee/MNNambiar.jpeg';
 import VijyImage from '../assets/img/committee/committee/vjy.jpg';
@@ -164,6 +159,7 @@ function Testimonials() {
   ];
 
   return (
+    <>
     <section id="testimonials" className="testimonials section-bg mt-5 max-h-screen ">
       <div className="container">
         <div className="section-title" data-aos="fade-up" data-aos-delay="100">
@@ -200,10 +196,12 @@ function Testimonials() {
         </Swiper>
 
       </div>
-      <div className="text-right">
-          <Link to="/committee" className="btn btn-primary">View details</Link>
-      </div>
+      
     </section>
+    <div className="text-right">
+    <Link to="/committee" className="btn btn-primary text-xs py-1 px-2 mr-5">See More</Link>
+</div>
+    </>
   );
 }
 
