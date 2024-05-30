@@ -187,8 +187,11 @@
 }
 
 .process-wrapper {
-  margin: auto;
-  max-width: 1080px;
+  margin: 0 auto;
+  max-width: 1350px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 #progress-bar-container {
@@ -224,7 +227,7 @@
 #progress-bar-container li:hover:before {
   border: solid 2px #fff;
 
-  background: linear-gradient(to right, #e91e63 0%, #fff 100%);
+  background: linear-gradient(to right, #0b2bcb 0%, #fff 100%);
 }
 
 #progress-bar-container li {
@@ -304,8 +307,8 @@
 }
 
 #progress-content-section {
-  width: 90%;
-  margin: auto;
+  width: 60%;
+  margin-left: -10px;
   background: #f3f3f3;
   border-radius: 4px;
 }
@@ -317,15 +320,18 @@
 
 #progress-content-section .section-content h2 {
   font-size: 17px;
-  text-transform: uppercase;
-  color: #333;
+  color: #1508ad;
   letter-spacing: 1px;
+  padding-bottom: 10px;
 }
 
 #progress-content-section .section-content p {
   font-size: 16px;
   line-height: 1.8em;
-  color: #777;
+  color: #000000;
+  text-align: justify;
+  margin-bottom: 10px;
+  
 }
 
 #progress-content-section .section-content {
@@ -350,6 +356,38 @@
     transform: translateY(0px);
     opacity: 1;
   }
+}
+.content-and-image {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  margin-top: 20px;
+  width: 100%;
+}
+
+#progress-content-section {
+  /* flex: 1; */
+  padding-right: 20px;
+  position: fixed;
+}
+
+.section-content {
+  display: none;
+}
+
+.section-content.active {
+  display: block;
+}
+
+#image-box {
+  flex: 0 0 300px;
+}
+
+.activity-image {
+  width: 40%;
+  height: 379px;
+  border-radius: 2px;
+  margin-left: 930px;
 }
 
 #header .logo h1 {

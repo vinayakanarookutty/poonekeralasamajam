@@ -76,6 +76,7 @@ const NotificationUI: React.FC = () => {
         <div className="section-title mt-3 ">
        
           <h2>Notifications</h2>
+          <BreadCrump items={['Notifications']} /> {/* Add BreadCrump here */}
           <input
             type="text"
             placeholder="Search notifications..."
