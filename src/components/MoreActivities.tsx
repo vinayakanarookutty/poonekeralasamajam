@@ -31,6 +31,7 @@ function MoreActivities() {
       link: "/activities",
       buttonText: "See more",
     },
+    
     // Add more activities here
   ];
 
