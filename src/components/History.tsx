@@ -69,7 +69,7 @@ const About = () => {
     }, [])
 
     return (
-        <section id='history' className='h-auto '>
+        <section id='history' className='h-auto pt-5'>
             <div className='relative w-full' data-carousel="static">
                 <div className="history section-title ml-1 md:px-20 lg:px-32 xl:px-40" data-aos="fade-in" data-aos-delay="100">
                     <h2>The History Of Poona Keraleeya Samaj</h2>
