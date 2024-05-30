@@ -20,16 +20,16 @@ function MoreActivities() {
         link: "/activities"
     },
     {
-        title: "Women's Days",
-        description: "During its International Women’s Day Celebration every year in March, it has been helping the poor with clothes and other needy items, besides wheelchairs to the ‘divyang’ persons.",
-        link: "/activities",
-        buttonText: "See more",
+      title: "Women's Days",
+      description: "During its International Women’s Day Celebration every year in March, it has been helping the poor with clothes and other needy items, besides wheelchairs to the ‘divyang’ persons.",
+      link: "/WomensActivities",
+      buttonText: "See more",
     },
     {
-        title: "Philanthropic Activities",
-        description: "PKS is a leading force in philanthropy, offering substantial aid during crises. It provided Rs 5 lakhs in support to Kerala during the 2018 and 2019 floods, and during the challenging Covid-19 pandemic. It also extended significant assistance during earthquakes in Gujarat and Latur (Maharashtra). Additionally, PKS supplied hundreds of tankers of drinking water to drought-affected villages in Maharashtra.",
-        link: "/activities",
-        buttonText: "See more",
+      title: "Philanthropic Activities",
+      description: "PKS is a leading force in philanthropy, offering substantial aid during crises. It provided Rs 5 lakhs in support to Kerala during the 2018 and 2019 floods, and during the challenging Covid-19 pandemic. It also extended significant assistance during earthquakes in Gujarat and Latur (Maharashtra). Additionally, PKS supplied hundreds of tankers of drinking water to drought-affected villages in Maharashtra.",
+      link: "/PhilanthropicActivities",
+      buttonText: "See more",
     },
     {
         title: "Cultural Events",

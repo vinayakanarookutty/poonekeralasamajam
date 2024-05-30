@@ -12,10 +12,10 @@ function Services() {
   return (
     <section id="services" className="services" >
       
-      <div className="container">
+      <div className="container mt-5">
         <div className="section-title" >
           <h2>Activities</h2>
-          <p>PKS is a powerhouse in sports and philanthropy. They host events like the Ball Badminton Tournament and support International Women's Day with aid for the needy. During crises, they step up, providing substantial help during floods, earthquakes, and the Covid-19 pandemic. Their ongoing support for medical and educational needs showcases their commitment to making a difference in people's lives.</p>
+          <p className='pt-3'>PKS is a powerhouse in sports and philanthropy. They host events like the Ball Badminton Tournament and support International Women's Day with aid for the needy. During crises, they step up, providing substantial help during floods, earthquakes, and the Covid-19 pandemic. Their ongoing support for medical and educational needs showcases their commitment to making a difference in people's lives.</p>
         </div>
         <div className="row">
           <div className="col-md-6 col-lg-3 d-flex align-items-stretch  mb-lg-0">
