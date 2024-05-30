@@ -6,7 +6,7 @@ import BreadCrump from './ui/BreadCrump';
 import img1 from "../assets/img/gallery/prize_dis.jpg";
 import img2 from "../assets/img/gallery/prize_dis.jpg";
 import img3 from "../assets/img/gallery/prize_dis.jpg";
-
+import { Button } from "flowbite-react";
 interface Card {
   name: string;
   description: string;
@@ -98,6 +98,7 @@ const initialCardData: Card[] = [
 
 const BetweenGallery: React.FC = () => {
   const [selectedCard, setSelectedCard] = useState<string | null>(null);
+  const [searchTerm, setSearchTerm] = useState<string>('');
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
@@ -107,6 +108,21 @@ const BetweenGallery: React.FC = () => {
     } else {
       window.location.href = card.href;
     }
+  };
+
+  const handleSearchChange = (event: React.ChangeEvent<HTMLInputElement>) => {
+    setSearchTerm(event.target.value);
+  };
+
+  const filterCards = (cards: Card[]) => {
+    return cards.filter(card => 
+      card.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
+      card.description.toLowerCase().includes(searchTerm.toLowerCase()) ||
+      (card.subCards && card.subCards.some(subCard => 
+        subCard.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
+        subCard.description.toLowerCase().includes(searchTerm.toLowerCase())
+      ))
+    );
   };
 
   const renderCards = (cards: Card[]) => {
@@ -121,9 +137,9 @@ const BetweenGallery: React.FC = () => {
 
   const renderNestedCards = () => {
     const card = initialCardData.find(card => card.name === selectedCard);
-    return card?.subCards ? renderCards(card.subCards) : null;
+    return card?.subCards ? renderCards(filterCards(card.subCards)) : null;
   };
-
+  const filteredCards = filterCards(initialCardData);
   return (
     <div className="bg-white min-h-screen p-5  ">
       <div className="flex justify-start mt-5 pl-7">
@@ -131,9 +147,20 @@ const BetweenGallery: React.FC = () => {
       </div>
       <section className="notifications-container bg-white">
         <h2 className="bgallerytitle text-center text-2xl md:text-4xl lg:text-5xl">Welcome to PKS Gallery</h2>
+        <div  style={{display:'flex', gap:'10px',padding:"2%"}}>
+      
+        <input 
+            className='searchitem p-2 border rounded w-full' 
+            type="text" 
+            placeholder="Search..." 
+            value={searchTerm}
+            onChange={handleSearchChange}
+          />
+        <Button color="gray">Search</Button>
+        </div>
         <div className="flex justify-center items-center mt-10">
           <div className="notification-content grid gap-4 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
-            {selectedCard ? renderNestedCards() : renderCards(initialCardData)}
+            {selectedCard ? renderNestedCards() : renderCards(filteredCards)}
           </div>
         </div>
       </section>

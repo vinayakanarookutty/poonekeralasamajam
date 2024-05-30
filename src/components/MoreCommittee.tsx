@@ -65,7 +65,7 @@ const MoreCommittee: React.FC = () => {
         <div className="section-title" data-aos="fade-in" data-aos-delay="100">
           <h2>Committee Members</h2>
         </div>
-        <div className="row lg:pl-[10%] sm:pl-[25%]">
+        <div className="row lg:pl-[10%] sm:pl-[25%] mt-5">
           <Member
             imgSrc={img1}
             name="B. Madhu Nair"
