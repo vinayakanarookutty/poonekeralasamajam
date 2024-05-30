@@ -18,7 +18,7 @@ useEffect(() => {
     <div className=' max-w-screen overflow-hidden'>
        
       <div className="container_history">
-      <BreadCrump items={["History-Timelline"]} />
+      <BreadCrump items={["History-Timeline"]} />
         <h2 className="mt-5">History</h2>
       
         <p className='mt-5'>
