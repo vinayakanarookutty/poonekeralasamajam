@@ -62,6 +62,7 @@ useEffect(() => {
             <div className='background w-full h-full absolute top-0 left-0 rounded-[10px] z-10' ></div>
             <div className='z-20 relative'>
               <h2> Event Felicitation of Padmashree Mohanlal</h2>
+              <p>2002</p>
               <p>The Poona Keraleeya Samaj organized a grand felicitation event to honor the renowned actor Padmashree Mohanlal.
                 This celebration recognized Mohanlal's outstanding contributions to Indian cinema and his exceptional talent.
                 The event was a significant occasion for the Malayalee community in Pune, providing an opportunity to celebrate
@@ -81,7 +82,7 @@ useEffect(() => {
             <div className='background w-full h-full absolute top-0 left-0 rounded-[10px] z-10' ></div>
             <div className='z-20 relative'>
               <h2> Onam Celebration</h2>
-              <small>2007</small>
+              <p>2007</p>
               <p>The Poona Keraleeya Samaj organized a vibrant Onam celebration, bringing together the Malayalee community
                 in Pune for a day of cultural festivity and joy. The event featured traditional Onam rituals,
                 a grand feast (Onam Sadhya), and a variety of cultural performances including music, dance,
@@ -104,7 +105,7 @@ useEffect(() => {
             <div className='background w-full h-full absolute top-0 left-0 rounded-[10px] z-10' ></div>
             <div className='z-20 relative'>
               <h2> 45th Anniversary Day And Onam Celebration</h2>
-              <small>2008</small>
+              <p>2008</p>
               <p>The Poona Keraleeya Samaj hosted a grand event combining their Annual Day and Onam celebration,
                 emphasizing both the community’s achievements and cultural heritage.
                 The Annual Day segment recognized notable contributions from members,
@@ -128,7 +129,7 @@ useEffect(() => {
             <div className='background w-full h-full absolute top-0 left-0 rounded-[10px] z-10' ></div>
             <div className='relative z-20'>
               <h2> 46th Anniversary Day And Onam Celebration</h2>
-              <small>2022</small>
+              <p>2022</p>
               <p>The Poona Keraleeya Samaj's Annual Day and Onam celebration was a grand affair,
                 marked by the presence of distinguished guests, including cine artist Arjun Radhakrishnan
                 and Health Minister Shailaja. The Annual Day segment honored the community's achievements
@@ -150,7 +151,7 @@ useEffect(() => {
             <div className='background w-full h-full absolute top-0 left-0 rounded-[10px] z-10' ></div>
             <div className='relative z-20'>
               <h2> Womens Day Celebration</h2>
-              <small>2023</small>
+              <p>2023</p>
               <p>The Poona Keraleeya Samaj organized a special Women's Day celebration, graced by the
                 esteemed presence of cine artist Sreelatha Namboothiri. The event highlighted the empowerment
                 and achievements of women within the community through inspiring speeches and cultural performances.
