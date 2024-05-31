@@ -71,7 +71,7 @@ const ActivitiesDetails: React.FC = () => {
           </div>
         </div>
 
-        <div className="content-and-image">
+        <div className="content-and-image pl-10 ">
           <div id="progress-content-section">
             <div
               className={`section-content discovery ${
@@ -153,13 +153,7 @@ const ActivitiesDetails: React.FC = () => {
             </div>
           </div>
 
-          <div id="image-box">
-            <img
-              src={Image2}
-              alt={`${activeStep}`}
-              className="activity-image"
-            />
-          </div>
+         
         </div>
       </div>
     </div>
