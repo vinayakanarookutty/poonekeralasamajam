@@ -32,7 +32,7 @@ function MoreActivities() {
     {
         title: "Cultural Events",
         description: "PKS regularly organizes cultural events to celebrate the rich heritage and traditions of our community. Annual festivals, music concerts, dance performances, and art exhibitions are some of the highlights.",
-        link: "/activities?head=Culturals",
+        link: "/activities?head=Cultural",
         buttonText: "See more",
     },
     
