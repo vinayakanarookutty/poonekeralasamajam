@@ -1,18 +1,23 @@
 import React, { useState } from "react";
 import "../css/home.css"; // Assume that the CSS styles are moved to App.css
-import Image2 from "../assets/img/gallery/clb3.jpg";
+import { useLocation } from 'react-router-dom';
 
+const useQuery = () => {
+  return new URLSearchParams(useLocation().search);
+};
 const ActivitiesDetails: React.FC = () => {
   const [activeStep, setActiveStep] = useState<string>("step05");
 
   const handleStepClick = (step: string) => {
     setActiveStep(step);
   };
-
+  const query = useQuery();
+  const head = query.get('head');
   return (
     <div>
+      
       <h1 className="text-gray-800 font-bold mt-[125px] text-center uppercase tracking-[4px] leading-[23px] text -4xl">
-        Sports
+       {head}
       </h1>
       <br />
 

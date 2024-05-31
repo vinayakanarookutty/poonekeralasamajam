@@ -22,11 +22,11 @@ const Contact: React.FC = () => {
     <section id="contact" className="contact section-bg">
       <div className="container min-h-screen" data-aos="fade-up">
         <div className="section-title">
-          <h2>Contact</h2>
-          <p>Become a PKS Member today and help us in nurturing Kerala’s roots in Pune</p>
+          <h2 className='mt-5'>Contact</h2>
+          <p className='mt-4'>Become a PKS Member today and help us in nurturing Kerala’s roots in Pune</p>
         </div>
 
-        <div className="row">
+        <div className="row mt-5">
           <div className="col-lg-6">
             <div className="info-box mb-4">
               <i className="bx bx-map"></i>
