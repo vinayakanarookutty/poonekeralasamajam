@@ -71,24 +71,26 @@ const NotificationUI: React.FC = () => {
 
   return (
     <section id="notification" className="notifications">
-      <div className="container">
-        <div className="section-title">
-        <BreadCrump items={["Notifications"]} />
+      <div className="p-4">
+      <BreadCrump items={["Notifications"]} />
+        <div className="section-title mt-3 ">
+       
           <h2>Notifications</h2>
+         
           <input
             type="text"
             placeholder="Search notifications..."
             value={searchTerm}
             onChange={handleSearchChange}
-            style={{ width: '100%', padding: '10px', marginTop: '10px', marginBottom: '20px' }}
+            style={{ width: '100%', padding: '15px', marginTop: '10px' }}
           />
         </div>
       </div>
       <div>
-        <section className="section-50">
+        <section className="section-50 p-3">
         
-          <div className="containerp-3">
-            <h3 className="m-b-50 heading-line">Latest Notifications <i className="fa fa-bell text-muted"></i></h3>
+          <div className="pl-5">
+            <h3 className=" heading-line">Latest Notifications <i className="fa fa-bell text-muted"></i></h3>
             <div className="notification-ui_dd-content">
               {filteredNotifications.map(notification => (
                 <div key={notification.id} className={`notification-list ${notification? 'notification-list--read' : 'notification-list--unread'}`}>

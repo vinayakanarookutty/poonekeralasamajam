@@ -50,15 +50,15 @@ function Portfolio() {
 
   return (
     <section id="portfolio" className="portfolio mt-4">
-      <div className="container">
+      <div className="container mt-3">
         <div className="section-title" data-aos="fade-up" data-aos-delay="100">
           <h2 className="text-2xl font-bold">Gallery</h2>
-          <p>
+          <p className='pt-3'>
           Welcome to the Poona Keraleeya Samaj Gallery! Discover the vibrant culture of Keralites in Pune through photos of our art exhibitions, traditional dance and music performances, spirited sports events, and joyous celebrations like Onam, Vishu, and Christmas. Experience the unity and richness of our community captured in these memorable moments.
           </p>
         </div>
 
-        <div className='w-full flex justify-center mb-10'>
+        <div className='w-full flex justify-center mb-10 mt-3'>
           <div className="row" data-aos="fade-up" data-aos-delay="200">
             <ul id="portfolio-flters" className="flex p-3 text-xs md:text-sm max-w-[400px] rounded-full">
               <li onClick={() => handleFilterClick("*")} className={`cursor-pointer px-3 py-2 ${activeFilter === "*" ? 'bg-blue-500 text-white' : 'bg-gray-200 text-gray-800'} mr-2 rounded-md`}>All</li>
@@ -88,7 +88,7 @@ function Portfolio() {
           ))}
         </div>
         <div className="text-right">
-          <Link to="/gallery" className="btn btn-primary">See More</Link>
+          <Link to="/gallery" className="btn btn-primary text-xs py-1 px-2 ">See More</Link>
         </div>
       </div>
     </section>

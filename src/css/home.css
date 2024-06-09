@@ -30,9 +30,7 @@
   margin-right: 5px; /* Adjust spacing as needed */
 }
 
-.notification-cards {
-  margin-bottom: 20px;
-}
+
 
 .no-underline {
   text-decoration: none;
@@ -57,7 +55,7 @@
 .section-title h2 {
   color: #333; /* Darker color for contrast */
   text-align: center;
-  margin-bottom: 20px;
+  
 }
 
 .notification-content {
@@ -197,8 +195,11 @@
 }
 
 .process-wrapper {
-  margin: auto;
-  max-width: 1080px;
+  margin: 0 auto;
+  max-width: 1350px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 #progress-bar-container {
@@ -234,7 +235,7 @@
 #progress-bar-container li:hover:before {
   border: solid 2px #fff;
 
-  background: linear-gradient(to right, #e91e63 0%, #fff 100%);
+  background: linear-gradient(to right, #0b2bcb 0%, #fff 100%);
 }
 
 #progress-bar-container li {
@@ -314,8 +315,8 @@
 }
 
 #progress-content-section {
-  width: 90%;
-  margin: auto;
+  width: 80%;
+
   background: #f3f3f3;
   border-radius: 4px;
 }
@@ -327,15 +328,18 @@
 
 #progress-content-section .section-content h2 {
   font-size: 17px;
-  text-transform: uppercase;
-  color: #333;
+  color: #1508ad;
   letter-spacing: 1px;
+  padding-bottom: 10px;
 }
 
 #progress-content-section .section-content p {
   font-size: 16px;
   line-height: 1.8em;
-  color: #777;
+  color: #000000;
+  text-align: justify;
+  margin-bottom: 10px;
+  
 }
 
 #progress-content-section .section-content {
@@ -360,6 +364,39 @@
     transform: translateY(0px);
     opacity: 1;
   }
+}
+.content-and-image {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  margin-top: 20px;
+  width: 100%;
+}
+
+#progress-content-section {
+  /* flex: 1; */
+  padding-right: 20px;
+  position: fixed;
+}
+
+.section-content {
+  display: none;
+}
+
+.section-content.active {
+  display: block;
+}
+
+#image-box {
+  flex: 0 0 300px;
+  display: none;
+}
+
+.activity-image {
+  width: 40%;
+  height: 379px;
+  border-radius: 2px;
+  margin-left: 930px;
 }
 
 #header .logo h1 {
@@ -752,7 +789,7 @@
 }
 
 section:not(#hero) {
-  padding: 60px 0;
+  padding: 0px 0;
   overflow: hidden;
 }
 
@@ -762,14 +799,14 @@ section:not(#hero) {
 
 .section-title {
   text-align: center;
-  padding-bottom: 30px;
+  
 }
 
 .section-title h2 {
   font-size: 32px;
   font-weight: bold;
   position: relative;
-  margin-bottom: 30px;
+  
   color: #2f4d5a;
   z-index: 2;
 }
@@ -1605,6 +1642,7 @@ img23 {
   margin: 0 2px;
 }
 
+
 @media (max-width: 992px) {
   .team .member {
     margin-bottom: 110px;
@@ -1986,7 +2024,7 @@ img23 {
 }
 
 .text-box h2 {
-  color: #0d3c5c;
+  color: #65dfe3;
   font-size: 30px;
   font-weight: 600;
 }
@@ -2166,5 +2204,55 @@ img23 {
       border-left: 0;
       left: -12px;
   }
-  
+  .text-box small {
+    margin-bottom: 10px;
+  }
+  .right-container {
+    left: 50px;
+  }
+
+  .left-container {
+    left: 50px;
+  }
+
+  .left-container img {
+    left: -40px;
+  }
+
+  .right-container img {
+    left: -40px;
+  }
+
+  .right-container-arrow {
+    border-right: 15px solid #0d3c5c;
+    border-left: 0;
+    left: -17px;
+  }
+
+  .left-container-arrow {
+    border-right: 15px solid #0d3c5c;
+    border-left: 0;
+    left: -12px;
+  }
+}
+
+@media screen and (max-width : 425px) {
+
+  .container_history p{
+    margin: 0;
+    padding: 0;
+  }
+
+  .container_history {
+    padding: 3rem 2.5rem;
+
+  }
+
+  .text-box {
+    height: auto;
+  }
+}
+
+.text-box .background{
+  background: #3088bae5;
 }

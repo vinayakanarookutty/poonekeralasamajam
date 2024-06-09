@@ -69,7 +69,7 @@ const About = () => {
     }, [])
 
     return (
-        <section id='history' className='h-auto '>
+        <section id='history' className='h-auto pt-5'>
             <div className='relative w-full' data-carousel="static">
                 <div className="history section-title ml-1 md:px-20 lg:px-32 xl:px-40" data-aos="fade-in" data-aos-delay="100">
                     <h2>The History Of Poona Keraleeya Samaj</h2>
@@ -107,7 +107,7 @@ const About = () => {
                 </div>
             </div>
             <div className="text-right">
-          <Link to="/history" className="btn btn-primary">See More</Link>
+          <Link to="/history" className="btn btn-primary mr-5 text-xs py-1 px-2">See More</Link>
         </div>
         </section>
     );
