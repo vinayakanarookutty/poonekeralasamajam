@@ -100,6 +100,7 @@ const initialCardData: Card[] = [
         imgSrc: img3,
         href: "/moregallery"
       },
+    
       {
         name: "Festival",
         description: "Cultural festivals.",
