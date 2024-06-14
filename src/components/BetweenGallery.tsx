@@ -69,12 +69,6 @@ const initialCardData: Card[] = [
         href: "/moregallery"
       },
       {
-        name: "Basketball",
-        description: "All about basketball.",
-        imgSrc: img2,
-        href: "/moregallery"
-      },
-      {
         name: "Cricket",
         description: "All about basketball.",
         imgSrc: img2,
