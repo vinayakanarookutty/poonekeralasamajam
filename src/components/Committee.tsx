@@ -11,7 +11,7 @@ import VijyImage from '../assets/img/committee/committee/vjy.jpg';
 import GopallImage from '../assets/img/committee/committee/Gopall.jpg';
 import Jagdish_PoduvalImage from '../assets/img/committee/committee/Jagdish_Poduval.jpg';
 import SureshnImage from '../assets/img/committee/committee/sureshn.jpg';
-import SomImage from '../assets/img/committee/committee/som.jpg';
+import Soman from '../assets/img/committee/somanpillai.jpeg';
 import Anil_GeorgeImage from '../assets/img/c_members/Anil-George.jpg';
 import Vijayamnair_2Image from '../assets/img/c_members/vijayamnair-2.jpg';
 import SarasammaImage from '../assets/img/c_members/sarasamma-1.jpg';
@@ -54,7 +54,7 @@ function Testimonials() {
       phone: '9373318875',
     },
     {
-      image: SomImage,
+      image: Soman,
       name: "C. Soman",
       position: "Joint Secretary",
       phone: '9850972250',

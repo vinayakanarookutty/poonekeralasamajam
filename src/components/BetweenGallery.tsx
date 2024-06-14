@@ -6,6 +6,8 @@ import BreadCrump from './ui/BreadCrump';
 import img1 from "../assets/img/gallery/prize_dis.jpg";
 import img2 from "../assets/img/gallery/prize_dis.jpg";
 import img3 from "../assets/img/gallery/prize_dis.jpg";
+import onam from "../assets/img/Events/onam3.jpg";
+import thiru from "../assets/img/gallery/Thiru1.jpg"
 import { Button } from "flowbite-react";
 interface Card {
   name: string;
@@ -81,9 +83,15 @@ const initialCardData: Card[] = [
     href: "/moregallery",
     subCards: [
       {
-        name: "Festival",
-        description: "Cultural festivals.",
-        imgSrc: img3,
+        name: "Onam Celebration",
+        description: "Grand parades.",
+        imgSrc: onam,
+        href: "/moregallery"
+      },
+      {
+        name: "Thiruvathira Celebration",
+        description: "Grand parades.",
+        imgSrc: thiru,
         href: "/moregallery"
       },
       {
@@ -91,7 +99,14 @@ const initialCardData: Card[] = [
         description: "Grand parades.",
         imgSrc: img3,
         href: "/moregallery"
-      }
+      },
+    
+      {
+        name: "Festival",
+        description: "Cultural festivals.",
+        imgSrc: img3,
+        href: "/moregallery"
+      },
     ]
   },
 ];
