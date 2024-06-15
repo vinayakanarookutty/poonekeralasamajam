@@ -8,7 +8,7 @@ import BreadCrump from "../components/ui/BreadCrump";
 function Events() {
     const [search, setSearch] = useState("");
     const upcomming = event_data.events.upcomming;
-    const completed = event_data.events.upcomming;
+    const completed = event_data.events.completed;
     useEffect(() => {
         window.scrollTo(0, 0);
       }, []);

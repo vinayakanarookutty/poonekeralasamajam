@@ -7,9 +7,9 @@ import clb2Image from '../assets/img/gallery/clb2.jpg';
 import clb3Image from '../assets/img/gallery/clb3.jpg';
 import onamImage from '../assets/img/gallery/onam.jpg';
 import thiru1 from '../assets/img/gallery/thiru.jpg';
-import onam1 from '../assets/img/Events/onam4.jpg';
-import onam2 from '../assets/img/Events/onam2.jpg';
-import thiru2 from '../assets/img/gallery/Thiru5.jpg';
+import onam1 from '../assets/img/gallery/onam3.jpg'
+import onam2 from '../assets/img/gallery/onam.jpg';
+import thiru2 from '../assets/img/gallery/Thiru1.jpg';
 
 
 
