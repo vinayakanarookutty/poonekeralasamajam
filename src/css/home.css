@@ -1595,7 +1595,7 @@ img23 {
 }
 
 .team .member:hover .member-info {
-  max-height: 170px;
+  max-height: 100px;
 }
 
 .team .member h4 {
