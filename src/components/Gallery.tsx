@@ -5,11 +5,11 @@ import clb1Image from '../assets/img/gallery/clb1.jpg';
 import clbImage from '../assets/img/gallery/clb.jpg';
 import clb2Image from '../assets/img/gallery/clb2.jpg';
 import clb3Image from '../assets/img/gallery/clb3.jpg';
-import onamImage from '../assets/img/gallery/onam.jpg';
 import thiru1 from '../assets/img/gallery/thiru.jpg';
-import onam1 from '../assets/img/gallery/onam3.jpg'
 import onam2 from '../assets/img/gallery/onam.jpg';
 import thiru2 from '../assets/img/gallery/Thiru1.jpg';
+import img1 from '../assets/img/Events/onam3.jpg';
+import img2 from '../assets/img/gallery/Thiru17.jpg';
 
 
 
@@ -34,8 +34,8 @@ function Portfolio() {
     { src: thiru1, category: "filter-app", title: "App 2" },
     { src: clb2Image, category: "filter-card", title: "Card 2" },
     { src: clb3Image, category: "filter-web", title: "Web 2" },
-    { src: onamImage, category: "filter-app", title: "App 3" },
-    { src: onam1, category: "filter-web", title: "App 3" },
+    { src: img1, category: "filter-app", title: "App 3" },
+    { src: img2, category: "filter-web", title: "App 3" },
     { src: onam2, category: "filter-web", title: "App 3" },
     { src: thiru2, category: "filter-web", title: "App 3" }
   ];

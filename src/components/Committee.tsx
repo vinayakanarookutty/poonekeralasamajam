@@ -12,20 +12,20 @@ import GopallImage from '../assets/img/committee/committee/Gopall.jpg';
 import Jagdish_PoduvalImage from '../assets/img/committee/committee/Jagdish_Poduval.jpg';
 import SureshnImage from '../assets/img/committee/committee/sureshn.jpg';
 import Soman from '../assets/img/committee/somanpillai.jpeg';
-import Anil_GeorgeImage from '../assets/img/c_members/Anil-George.jpg';
-import Vijayamnair_2Image from '../assets/img/c_members/vijayamnair-2.jpg';
-import SarasammaImage from '../assets/img/c_members/sarasamma-1.jpg';
-import VineetaNair from '../assets/img/committee/committee/VineetaNair.jpg';
-import PDavis from '../assets/img/committee/committee/PDavis.jpg';
-import VijayPoduval from '../assets/img/committee/committee/Vijay Poduval.jpg';
-import BRNair from '../assets/img/committee/committee/B.R.Nair.jpg';
-import KurianThomas from '../assets/img/committee/committee/KurianThomas.jpg';
-import VijayNair from '../assets/img/committee/committee/VijayNair.jpg';
-import SusheelaNair from '../assets/img/committee/committee/SusheelaNair.jpg';
-import SUMenon from '../assets/img/committee/committee/SUMenon_.jpg';
-import MaheshPoduval from '../assets/img/committee/committee/MaheshPoduval_.jpg';
-import PreetaNair from '../assets/img/committee/committee/PreetaNair_.jpg';
-import MohandasNair from '../assets/img/committee/committee/mohandasnair_.jpg';
+// import Anil_GeorgeImage from '../assets/img/c_members/Anil-George.jpg';
+// import Vijayamnair_2Image from '../assets/img/c_members/vijayamnair-2.jpg';
+// import SarasammaImage from '../assets/img/c_members/sarasamma-1.jpg';
+// import VineetaNair from '../assets/img/committee/committee/VineetaNair.jpg';
+// import PDavis from '../assets/img/committee/committee/PDavis.jpg';
+// import VijayPoduval from '../assets/img/committee/committee/Vijay Poduval.jpg';
+// import BRNair from '../assets/img/committee/committee/B.R.Nair.jpg';
+// import KurianThomas from '../assets/img/committee/committee/KurianThomas.jpg';
+// import VijayNair from '../assets/img/committee/committee/VijayNair.jpg';
+// import SusheelaNair from '../assets/img/committee/committee/SusheelaNair.jpg';
+// import SUMenon from '../assets/img/committee/committee/SUMenon_.jpg';
+// import MaheshPoduval from '../assets/img/committee/committee/MaheshPoduval_.jpg';
+// import PreetaNair from '../assets/img/committee/committee/PreetaNair_.jpg';
+// import MohandasNair from '../assets/img/committee/committee/mohandasnair_.jpg';
 
 function Testimonials() {
   const members = [
@@ -36,17 +36,17 @@ function Testimonials() {
       phone: '9822061992',
     },
     {
-      image: MNNambiarImage,
-      name: "M. N. Nambiar",
-      position: "Tresurer",
-      phone: '9850403055',
-    },
-    {
       image: GopallImage,
       name: "Gopalakrishnan Nair",
       position: "General Secretary",
       phone: '9822271700',
     },
+    {
+      image: MNNambiarImage,
+      name: "M. N. Nambiar",
+      position: "Treasurer",
+      phone: '9850403055',
+    },    
     {
       image: VijyImage,
       name: "K. Vijayakumar",
@@ -70,91 +70,91 @@ function Testimonials() {
       name: "Jagdish Poduval",
       position: "Joint Treasurer",
       phone: '9960266271',
-    },
-    {
-      image: SarasammaImage,
-      name: "Sarasamma Vijaykumar",
-      position: "General Clutural Committee Convener",
-      phone: '',
-    },
-    {
-      image: BRNair,
-      name: "B. R. Nair",
-      position: "Arts Committee Convener",
-      phone: '',
-    },
-    {
-      image: SusheelaNair,
-      name: "Susheela Nair",
-      position: "Social Welfare Convener",
-      phone: '',
-    },
-    {
-      image: SUMenon,
-      name: "S. U. Menon  ",
-      position: "P R O",
-      phone: '',
-    },
-    {
-      image: MaheshPoduval,
-      name: "Mahesh Poduval",
-      position: "Sports Committee Convener",
-      phone: '',
-    },
-    {
-      image: VijayNair,
-      name: "Vijay Nair",
-      position: "Youth Wing Convener",
-      phone: '',
-    },
-    {
-      image: VineetaNair,
-      name: "Vineeta A. Nair",
-      position: "Ladies Wing Convener",
-      phone: '',
-    },
-    {
-      image: VijayPoduval,
-      name: "Vijay Poduval",
-      position: "Executive Committee Member",
-      phone: '',
-    },
-    {
-      image: Vijayamnair_2Image,
-      name: "Vijayam A. Nair",
-      position: "Executive Committee Member",
-      phone: '',
-    },
-    {
-      image: Anil_GeorgeImage,
-      name: "Anil George",
-      position: "Executive Committee Member",
-      phone: '',
-    },
-    {
-      image: PreetaNair,
-      name: "Preeta  Nair",
-      position: "Executive Committee Member",
-      phone: '',
-    },
-    {
-      image: KurianThomas,
-      name: "Kurian Thomas(Prince)",
-      position: "Executive Committee Member",
-      phone: '',
-    },
-    {
-      image: MohandasNair,
-      name: "Mohandas Nair",
-      position: "Executive Committee Member",
-      phone: '',
-    },
-    {
-      image: PDavis,
-      name: "P. D. Davis",
-      position: "Executive Committee Member",
-      phone: '',
     }
+    // {
+    //   image: SarasammaImage,
+    //   name: "Sarasamma Vijaykumar",
+    //   position: "General Clutural Committee Convener",
+    //   phone: '',
+    // },
+    // {
+    //   image: BRNair,
+    //   name: "B. R. Nair",
+    //   position: "Arts Committee Convener",
+    //   phone: '',
+    // },
+    // {
+    //   image: SusheelaNair,
+    //   name: "Susheela Nair",
+    //   position: "Social Welfare Convener",
+    //   phone: '',
+    // },
+    // {
+    //   image: SUMenon,
+    //   name: "S. U. Menon  ",
+    //   position: "P R O",
+    //   phone: '',
+    // },
+    // {
+    //   image: MaheshPoduval,
+    //   name: "Mahesh Poduval",
+    //   position: "Sports Committee Convener",
+    //   phone: '',
+    // },
+    // {
+    //   image: VijayNair,
+    //   name: "Vijay Nair",
+    //   position: "Youth Wing Convener",
+    //   phone: '',
+    // },
+    // {
+    //   image: VineetaNair,
+    //   name: "Vineeta A. Nair",
+    //   position: "Ladies Wing Convener",
+    //   phone: '',
+    // },
+    // {
+    //   image: VijayPoduval,
+    //   name: "Vijay Poduval",
+    //   position: "Executive Committee Member",
+    //   phone: '',
+    // },
+    // {
+    //   image: Vijayamnair_2Image,
+    //   name: "Vijayam A. Nair",
+    //   position: "Executive Committee Member",
+    //   phone: '',
+    // },
+    // {
+    //   image: Anil_GeorgeImage,
+    //   name: "Anil George",
+    //   position: "Executive Committee Member",
+    //   phone: '',
+    // },
+    // {
+    //   image: PreetaNair,
+    //   name: "Preeta  Nair",
+    //   position: "Executive Committee Member",
+    //   phone: '',
+    // },
+    // {
+    //   image: KurianThomas,
+    //   name: "Kurian Thomas(Prince)",
+    //   position: "Executive Committee Member",
+    //   phone: '',
+    // },
+    // {
+    //   image: MohandasNair,
+    //   name: "Mohandas Nair",
+    //   position: "Executive Committee Member",
+    //   phone: '',
+    // },
+    // {
+    //   image: PDavis,
+    //   name: "P. D. Davis",
+    //   position: "Executive Committee Member",
+    //   phone: '',
+    // }
 
   ];
 
